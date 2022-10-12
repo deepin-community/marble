@@ -1,0 +1,16 @@
+usr/share/applications/marble_geojson.desktop
+usr/share/config.kcfg/marble.kcfg
+usr/share/doc/HTML/*/marble/
+usr/share/knsrcfiles/marble.knsrc
+usr/share/kservices5/marble_thumbnail_geojson.desktop
+usr/share/kservices5/marble_thumbnail_gpx.desktop
+usr/share/kservices5/marble_thumbnail_kml.desktop
+usr/share/kservices5/marble_thumbnail_osm.desktop
+usr/share/kservices5/marble_thumbnail_shp.desktop
+usr/share/kxmlgui5/marble/marble_part.rc
+usr/share/kxmlgui5/marble/marbleui.rc
+usr/share/locale/*/LC_MESSAGES/marble.mo
+usr/share/locale/*/LC_MESSAGES/plasma_applet_org.kde.plasma.worldclock.mo
+usr/share/locale/*/LC_MESSAGES/plasma_runner_marble.mo
+usr/share/locale/*/LC_MESSAGES/plasma_wallpaper_org.kde.plasma.worldmap.mo
+usr/share/mime/packages/geo.xml

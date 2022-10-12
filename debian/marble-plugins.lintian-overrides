@@ -1,0 +1,4 @@
+marble-plugins: lacks-ldconfig-trigger usr/lib/*/libmarbledeclarative.so
+marble-plugins: shared-library-lacks-version usr/lib/*/libmarbledeclarative.so libmarbledeclarative.so
+marble-plugins: package-name-doesnt-match-sonames libmarbledeclarative
+marble-plugins: no-symbols-control-file usr/lib/*/libmarbledeclarative.so

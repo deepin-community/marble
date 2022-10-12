@@ -1,0 +1,39 @@
+#!/usr/bin/make -f
+
+libpkgs_gen_strict_local_shlibs = $(libpkgs_all_packages)
+include /usr/share/pkg-kde-tools/qt-kde-team/3/library-packages.mk
+include /usr/share/dpkg/architecture.mk
+
+ifeq ($(DEB_BUILD_GNU_TYPE),$(DEB_HOST_GNU_TYPE))
+  QMAKE = qmake
+else
+  QMAKE = $(DEB_HOST_GNU_TYPE)-qmake
+endif
+
+%:
+	dh $@ --with kf5,pkgkde_symbolshelper
+
+override_dh_auto_configure:
+	dh_auto_configure -Skf5 -- -DWITH_DESIGNER_PLUGIN=ON \
+				 -DWITH_KF5=TRUE \
+				 -DMARBLE_INSTALL_ANDROID_APPS=ON \
+				 -DQT_PLUGINS_DIR="$(shell $(QMAKE) -qt=5 -query QT_INSTALL_PLUGINS)" \
+				 -DBUILD_TOUCH=ON \
+				 -DBUILD_MARBLE_TESTS=FALSE \
+				 $(conf_args)
+
+execute_after_dh_auto_install:
+	# remove extra license files
+	rm -f debian/tmp/usr/share/marble/data/LICENSE.txt
+	rm -rf debian/tmp/usr/share/marble/data/licenses/
+
+override_dh_auto_test:
+	# Disable the auto tests at build time
+	:
+
+override_dh_clean:
+	dh_clean -Xdata/mwdbii/PISLAND.PNT.orig -Xdata/mwdbii/PLAKE.PNT.orig
+
+override_dh_gencontrol-arch: libpkgs_gen_strict_local_shlibs
+	dh_sameversiondep -a
+	dh_gencontrol -a

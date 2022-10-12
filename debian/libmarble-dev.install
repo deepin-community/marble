@@ -1,0 +1,7 @@
+usr/include/marble/
+usr/lib/*/cmake/Marble/
+usr/lib/*/libmarblewidget-qt5.so
+usr/lib/*/qt5/mkspecs/modules/qt_Marble.pri
+usr/lib/*/qt5/plugins/designer/LatLonEditPlugin.so
+usr/lib/*/qt5/plugins/designer/MarbleNavigatorPlugin.so
+usr/lib/*/qt5/plugins/designer/MarbleWidgetPlugin.so

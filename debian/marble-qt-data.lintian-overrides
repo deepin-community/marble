@@ -1,0 +1,4 @@
+# upstream installation path
+marble-qt-data: repeated-path-segment
+# data files
+marble-qt-data: package-contains-documentation-outside-usr-share-doc usr/share/marble/data/*

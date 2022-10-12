@@ -1,0 +1,2942 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: marble
+Source: https://invent.kde.org/education/marble
+Comment: This package was developed for Ubuntu by the Kubuntu Developers and
+ modified to be included in Debian. See below the copyright holders for debian/*
+ files.
+Upstream-Contact: kde-devel@kde.org
+
+Files: *
+Copyright: 2012, Ander Pijoan <ander.pijoan@deusto.es>
+           2011, Anders Lund <anders@alweb.dk>
+           2010-2012, Bernhard Beschow <bbeschow@cs.tu-berlin.de>
+           2007-2009, David Roberts <dvdr18@gmail.com>
+           1991-1999, Free Software Foundation, Inc
+           2011-2014, Friedrich W. H. Kossebau <kossebau@kde.org>
+           2008, Henry de Valence <hdevalence@gmail.com>
+           2009, Jens-Michael Hoffmann <jensmh@gmx.de>
+           2009-2010, Jens-Michael Hoffmann <jmho@c-xx.com>
+           2009, Simon Edwards
+           2008-2009, Simon Edwards <simon@simonzone.com>
+           2009-2010, Thibaut GRIDEL <tgridel@free.fr>
+           2011, Bernhard Beschow <bbeschow@cs.tu-berlin.de>
+           2011, Daniel Marth <danielmarth@gmx.at>
+           2010, Dennis Nienhüser <nienhueser@kde.org>
+           1991-1999, Free Software Foundation, Inc
+           1995-2013, Jean-loup Gailly <jloup@gzip.org>
+           2012, Mohammed Nafees <nafees.technocool@gmail.com>
+           2007, Tim Sutton
+License: LGPL-2.1+
+
+Files: data/ciasource/cia2kml.py
+       data/lang/download-translations.bash
+       data/lang/merge_ts_po.cpp
+       data/lang/routing-instructions_i18n.bash
+       data/maps/earth/bluemarble/bluemarble.dgml
+       data/maps/earth/citylights/citylights.dgml
+       data/maps/earth/plain/plain.dgml
+       data/maps/earth/political/political.dgml
+       data/maps/earth/precip-dec/precip-dec.dgml
+       data/maps/earth/precip-july/precip-july.dgml
+       data/maps/earth/schagen1689/schagen1689.dgml
+       data/maps/earth/srtm/srtm.dgml
+       data/maps/earth/srtm2/srtm2.dgml
+       data/maps/earth/temp-dec/temp-dec.dgml
+       data/maps/earth/temp-july/temp-july.dgml
+       data/maps/sky/nightsky/nightsky.dgml
+       examples/cpp/animation-video/main.cpp
+       examples/cpp/basic-routing/main.cpp
+       examples/cpp/custom-layers/main.cpp
+       examples/cpp/geopainter/main.cpp
+       examples/cpp/hello-marble/main.cpp
+       examples/cpp/kml-inspector/main.cpp
+       examples/cpp/map-controls/main.cpp
+       examples/cpp/map-properties/main.cpp
+       examples/cpp/marble-game/ClickOnThat.cpp
+       examples/cpp/marble-game/ClickOnThat.h
+       examples/cpp/marble-game/ClickOnThat.qml
+       examples/cpp/marble-game/CountryByFlag.cpp
+       examples/cpp/marble-game/CountryByFlag.h
+       examples/cpp/marble-game/CountryByFlag.qml
+       examples/cpp/marble-game/CountryByShape.cpp
+       examples/cpp/marble-game/CountryByShape.h
+       examples/cpp/marble-game/CountryByShape.qml
+       examples/cpp/marble-game/CustomButton.qml
+       examples/cpp/marble-game/CustomRadioButton.qml
+       examples/cpp/marble-game/GameMainWindow.cpp
+       examples/cpp/marble-game/GameMainWindow.h
+       examples/cpp/marble-game/GameOptions.qml
+       examples/cpp/marble-game/GamesView.qml
+       examples/cpp/marble-game/InitialMenu.qml
+       examples/cpp/marble-game/Window.qml
+       examples/cpp/marble-game/gamemain.cpp
+       examples/cpp/marbleQuick2/main.cpp
+       examples/cpp/reverse-geocoding/main.cpp
+       examples/cpp/search/main.cpp
+       examples/cpp/squad-interpolation/squad-interpolation.cpp
+       examples/cpp/squad-interpolation/squad-interpolation.h
+       examples/cpp/tour-preview/tour-preview.cpp
+       examples/cpp/vehicletracking/vehicletracking.cpp
+       examples/cpp/vehicletracking/vehicletracking.h
+       examples/qml/cloud-sync/Button.qml
+       examples/qml/cloud-sync/InputField.qml
+       examples/qml/cloud-sync/cloudsync.qml
+       examples/qml/data-layers/DynamicLayer.qml
+       examples/qml/data-layers/EarthquakesModel.qml
+       examples/qml/data-layers/SevenWondersOfTheAncientWorldModel.qml
+       examples/qml/data-layers/StaticLayer.qml
+       examples/qml/explore/FloatButton.qml
+       examples/qml/explore/explore.qml
+       examples/qml/google-search/Button.qml
+       examples/qml/google-search/google-search.qml
+       examples/qml/position-tracking/Toggle.qml
+       examples/qml/position-tracking/position-tracking.qml
+       examples/qml/where-is-that/FloatButton.qml
+       examples/qml/where-is-that/where-is-that.qml
+       src/apps/behaim/Legend.qml
+       src/apps/behaim/MainScreen.qml
+       src/apps/behaim/create-apk.py
+       src/apps/behaim/main.cpp
+       src/apps/marble-kde/KdeMainWindow.cpp
+       src/apps/marble-kde/KdeMainWindow.h
+       src/apps/marble-kde/kdemain.cpp
+       src/apps/marble-kde/marble_part.cpp
+       src/apps/marble-kde/marble_part.h
+       src/apps/marble-maps/BoxedText.qml
+       src/apps/marble-maps/CircularButton.qml
+       src/apps/marble-maps/Completion.qml
+       src/apps/marble-maps/DeveloperDialog.qml
+       src/apps/marble-maps/FlatButton.qml
+       src/apps/marble-maps/FloatingMenuButton.qml
+       src/apps/marble-maps/ImageButton.qml
+       src/apps/marble-maps/MainScreen.qml
+       src/apps/marble-maps/MarbleMaps.cpp
+       src/apps/marble-maps/MarbleMaps.h
+       src/apps/marble-maps/NavigationInfoBar.qml
+       src/apps/marble-maps/NavigationManager.qml
+       src/apps/marble-maps/PlacemarkDialog.qml
+       src/apps/marble-maps/PositionButton.qml
+       src/apps/marble-maps/PositionMarker.qml
+       src/apps/marble-maps/ProfileSelectorMenu.qml
+       src/apps/marble-maps/RouteEditor.qml
+       src/apps/marble-maps/RouteProfileRadioButton.qml
+       src/apps/marble-maps/RoutingManager.qml
+       src/apps/marble-maps/ScrollBar.qml
+       src/apps/marble-maps/Search.qml
+       src/apps/marble-maps/SearchField.qml
+       src/apps/marble-maps/SearchResults.qml
+       src/apps/marble-maps/TextToSpeechClient.cpp
+       src/apps/marble-maps/TextToSpeechClient.h
+       src/apps/marble-maps/Waypoint.qml
+       src/apps/marble-maps/WaypointImage.qml
+       src/apps/marble-maps/create-apk.py
+       src/apps/marble-maps/main.cpp
+       src/apps/marble-maps/package/src/org/kde/marble/maps/TextToSpeechClient.java
+       src/apps/marble-qt/QtMainWindow.cpp
+       src/apps/marble-qt/QtMainWindow.h
+       src/apps/marble-qt/qtmain.cpp
+       src/apps/marble-ui/ControlView.cpp
+       src/apps/marble-ui/ControlView.h
+       src/apps/marble-ui/MarbleTest.cpp
+       src/apps/marble-ui/MarbleTest.h
+       src/lib/astro/astr2lib.cpp
+       src/lib/astro/astr2lib.h
+       src/lib/astro/astrolib.cpp
+       src/lib/astro/astrolib.h
+       src/lib/astro/attlib.cpp
+       src/lib/astro/attlib.h
+       src/lib/astro/eclsolar.cpp
+       src/lib/astro/eclsolar.h
+       src/lib/astro/planetarySats.cpp
+       src/lib/astro/planetarySats.h
+       src/lib/astro/solarsystem.cpp
+       src/lib/astro/solarsystem.h
+       src/lib/marble/AbstractDataPlugin.cpp
+       src/lib/marble/AbstractDataPlugin.h
+       src/lib/marble/AbstractDataPluginItem.cpp
+       src/lib/marble/AbstractDataPluginItem.h
+       src/lib/marble/AbstractDataPluginModel.cpp
+       src/lib/marble/AbstractDataPluginModel.h
+       src/lib/marble/AbstractFloatItem.cpp
+       src/lib/marble/AbstractFloatItem.h
+       src/lib/marble/AbstractWorkerThread.cpp
+       src/lib/marble/AbstractWorkerThread.h
+       src/lib/marble/AddLinkDialog.cpp
+       src/lib/marble/AddLinkDialog.h
+       src/lib/marble/AnimatedUpdateTrack.cpp
+       src/lib/marble/AnimatedUpdateTrack.h
+       src/lib/marble/AutoNavigation.cpp
+       src/lib/marble/AutoNavigation.h
+       src/lib/marble/BookmarkManager.cpp
+       src/lib/marble/BookmarkManager.h
+       src/lib/marble/BookmarkManagerDialog.cpp
+       src/lib/marble/BookmarkManagerDialog.h
+       src/lib/marble/BookmarkManager_p.h
+       src/lib/marble/BranchFilterProxyModel.cpp
+       src/lib/marble/BranchFilterProxyModel.h
+       src/lib/marble/CacheStoragePolicy.cpp
+       src/lib/marble/CacheStoragePolicy.h
+       src/lib/marble/CelestialSortFilterProxyModel.cpp
+       src/lib/marble/CelestialSortFilterProxyModel.h
+       src/lib/marble/ClipPainter.cpp
+       src/lib/marble/ClipPainter.h
+       src/lib/marble/CurrentLocationWidget.cpp
+       src/lib/marble/CurrentLocationWidget.h
+       src/lib/marble/DataMigration.cpp
+       src/lib/marble/DataMigration.h
+       src/lib/marble/DeferredFlag.cpp
+       src/lib/marble/DeferredFlag.h
+       src/lib/marble/DialogConfigurationInterface.cpp
+       src/lib/marble/DialogConfigurationInterface.h
+       src/lib/marble/DiscCache.cpp
+       src/lib/marble/DiscCache.h
+       src/lib/marble/DownloadRegion.cpp
+       src/lib/marble/DownloadRegion.h
+       src/lib/marble/DownloadRegionDialog.cpp
+       src/lib/marble/EditBookmarkDialog.cpp
+       src/lib/marble/EditBookmarkDialog.h
+       src/lib/marble/EditPlacemarkDialog.cpp
+       src/lib/marble/EditPlacemarkDialog.h
+       src/lib/marble/ElevationModel.cpp
+       src/lib/marble/ElevationModel.h
+       src/lib/marble/EquirectScanlineTextureMapper.cpp
+       src/lib/marble/EquirectScanlineTextureMapper.h
+       src/lib/marble/ExternalEditorDialog.cpp
+       src/lib/marble/ExternalEditorDialog.h
+       src/lib/marble/FileLoader.cpp
+       src/lib/marble/FileLoader.h
+       src/lib/marble/FileManager.cpp
+       src/lib/marble/FileManager.h
+       src/lib/marble/FileStoragePolicy.cpp
+       src/lib/marble/FileStoragePolicy.h
+       src/lib/marble/FileStorageWatcher.cpp
+       src/lib/marble/FileStorageWatcher.h
+       src/lib/marble/FileViewWidget.cpp
+       src/lib/marble/FileViewWidget.h
+       src/lib/marble/FlyToEditWidget.cpp
+       src/lib/marble/FlyToEditWidget.h
+       src/lib/marble/FormattedTextWidget.cpp
+       src/lib/marble/FormattedTextWidget.h
+       src/lib/marble/GenericScanlineTextureMapper.cpp
+       src/lib/marble/GenericScanlineTextureMapper.h
+       src/lib/marble/GeoDataTreeModel.cpp
+       src/lib/marble/GeoDataTreeModel.h
+       src/lib/marble/GeoGraphicsScene.cpp
+       src/lib/marble/GeoGraphicsScene.h
+       src/lib/marble/GeoPainter.cpp
+       src/lib/marble/GeoPainter.h
+       src/lib/marble/GeoPainter_p.h
+       src/lib/marble/GeoUriParser.cpp
+       src/lib/marble/GeoUriParser.h
+       src/lib/marble/GoToDialog.cpp
+       src/lib/marble/GoToDialog.h
+       src/lib/marble/HttpDownloadManager.cpp
+       src/lib/marble/HttpDownloadManager.h
+       src/lib/marble/HttpJob.cpp
+       src/lib/marble/HttpJob.h
+       src/lib/marble/ImageF.cpp
+       src/lib/marble/ImageF.h
+       src/lib/marble/LatLonBoxWidget.h
+       src/lib/marble/LatLonEdit.cpp
+       src/lib/marble/LatLonEdit.h
+       src/lib/marble/LayerInterface.cpp
+       src/lib/marble/LayerInterface.h
+       src/lib/marble/LayerManager.cpp
+       src/lib/marble/LayerManager.h
+       src/lib/marble/LegendWidget.cpp
+       src/lib/marble/LegendWidget.h
+       src/lib/marble/MapThemeDownloadDialog.cpp
+       src/lib/marble/MapThemeDownloadDialog.h
+       src/lib/marble/MapThemeManager.cpp
+       src/lib/marble/MapThemeManager.h
+       src/lib/marble/MapThemeSortFilterProxyModel.cpp
+       src/lib/marble/MapThemeSortFilterProxyModel.h
+       src/lib/marble/MapViewItemDelegate.cpp
+       src/lib/marble/MapViewItemDelegate.h
+       src/lib/marble/MapViewWidget.cpp
+       src/lib/marble/MapViewWidget.h
+       src/lib/marble/MapWizard.cpp
+       src/lib/marble/MapWizard.h
+       src/lib/marble/MarbleAboutDialog.h
+       src/lib/marble/MarbleAbstractPresenter.cpp
+       src/lib/marble/MarbleAbstractPresenter.h
+       src/lib/marble/MarbleClock.cpp
+       src/lib/marble/MarbleClock.h
+       src/lib/marble/MarbleColors.cpp
+       src/lib/marble/MarbleColors.h
+       src/lib/marble/MarbleDBusInterface.h
+       src/lib/marble/MarbleDebug.cpp
+       src/lib/marble/MarbleDebug.h
+       src/lib/marble/MarbleDirs.cpp
+       src/lib/marble/MarbleDirs.h
+       src/lib/marble/MarbleGlobal.cpp
+       src/lib/marble/MarbleGlobal.h
+       src/lib/marble/MarbleGlobal_p.h
+       src/lib/marble/MarbleInputHandler.cpp
+       src/lib/marble/MarbleInputHandler.h
+       src/lib/marble/MarbleLegendBrowser.cpp
+       src/lib/marble/MarbleLegendBrowser.h
+       src/lib/marble/MarbleLineEdit.cpp
+       src/lib/marble/MarbleLineEdit.h
+       src/lib/marble/MarbleLocale.cpp
+       src/lib/marble/MarbleLocale.h
+       src/lib/marble/MarbleLocale_p.h
+       src/lib/marble/MarbleMap.cpp
+       src/lib/marble/MarbleMap.h
+       src/lib/marble/MarbleMath.h
+       src/lib/marble/MarbleModel.cpp
+       src/lib/marble/MarbleModel.h
+       src/lib/marble/MarbleNavigator.cpp
+       src/lib/marble/MarbleNavigator.h
+       src/lib/marble/MarblePhysics.cpp
+       src/lib/marble/MarblePhysics.h
+       src/lib/marble/MarblePlacemarkModel.cpp
+       src/lib/marble/MarblePlacemarkModel.h
+       src/lib/marble/MarblePlacemarkModel_P.h
+       src/lib/marble/MarblePluginSettingsWidget.cpp
+       src/lib/marble/MarblePluginSettingsWidget.h
+       src/lib/marble/MarbleWebView.cpp
+       src/lib/marble/MarbleWebView.h
+       src/lib/marble/MarbleWidget.cpp
+       src/lib/marble/MarbleWidget.h
+       src/lib/marble/MarbleWidgetInputHandler.cpp
+       src/lib/marble/MarbleWidgetInputHandler.h
+       src/lib/marble/MarbleWidgetPopupMenu.cpp
+       src/lib/marble/MarbleWidgetPopupMenu.h
+       src/lib/marble/MercatorScanlineTextureMapper.cpp
+       src/lib/marble/MercatorScanlineTextureMapper.h
+       src/lib/marble/MovieCapture.cpp
+       src/lib/marble/MovieCapture.h
+       src/lib/marble/MovieCaptureDialog.cpp
+       src/lib/marble/MovieCaptureDialog.h
+       src/lib/marble/NewBookmarkFolderDialog.cpp
+       src/lib/marble/NewBookmarkFolderDialog.h
+       src/lib/marble/NewstuffModel.cpp
+       src/lib/marble/NewstuffModel.h
+       src/lib/marble/NullMarbleWebView.cpp
+       src/lib/marble/NullMarbleWebView.h
+       src/lib/marble/NullTinyWebBrowser.cpp
+       src/lib/marble/NullTinyWebBrowser.h
+       src/lib/marble/ParseRunnerPlugin.cpp
+       src/lib/marble/ParseRunnerPlugin.h
+       src/lib/marble/ParsingRunner.cpp
+       src/lib/marble/ParsingRunner.h
+       src/lib/marble/ParsingRunnerManager.cpp
+       src/lib/marble/ParsingRunnerManager.h
+       src/lib/marble/PlacemarkEditHeader.cpp
+       src/lib/marble/PlacemarkEditHeader.h
+       src/lib/marble/PlacemarkLayout.cpp
+       src/lib/marble/PlacemarkLayout.h
+       src/lib/marble/PlacemarkPositionProviderPlugin.cpp
+       src/lib/marble/PlacemarkPositionProviderPlugin.h
+       src/lib/marble/Planet.cpp
+       src/lib/marble/Planet.h
+       src/lib/marble/PlanetFactory.cpp
+       src/lib/marble/PlanetFactory.h
+       src/lib/marble/PlaybackAnimatedUpdateItem.cpp
+       src/lib/marble/PlaybackAnimatedUpdateItem.h
+       src/lib/marble/PlaybackFlyToItem.cpp
+       src/lib/marble/PlaybackFlyToItem.h
+       src/lib/marble/PlaybackItem.cpp
+       src/lib/marble/PlaybackItem.h
+       src/lib/marble/PlaybackSoundCueItem.cpp
+       src/lib/marble/PlaybackSoundCueItem.h
+       src/lib/marble/PlaybackTourControlItem.cpp
+       src/lib/marble/PlaybackTourControlItem.h
+       src/lib/marble/PlaybackWaitItem.cpp
+       src/lib/marble/PlaybackWaitItem.h
+       src/lib/marble/PluginAboutDialog.cpp
+       src/lib/marble/PluginAboutDialog.h
+       src/lib/marble/PluginInterface.cpp
+       src/lib/marble/PluginInterface.h
+       src/lib/marble/PluginItemDelegate.cpp
+       src/lib/marble/PluginItemDelegate.h
+       src/lib/marble/PluginManager.cpp
+       src/lib/marble/PluginManager.h
+       src/lib/marble/PopupItem.cpp
+       src/lib/marble/PopupItem.h
+       src/lib/marble/PositionProviderPlugin.cpp
+       src/lib/marble/PositionProviderPlugin.h
+       src/lib/marble/PositionProviderPluginInterface.cpp
+       src/lib/marble/PositionProviderPluginInterface.h
+       src/lib/marble/PositionTracking.cpp
+       src/lib/marble/PositionTracking.h
+       src/lib/marble/PrintOptionsWidget.cpp
+       src/lib/marble/PrintOptionsWidget.h
+       src/lib/marble/QtMarbleConfigDialog.cpp
+       src/lib/marble/QtMarbleConfigDialog.h
+       src/lib/marble/Quaternion.cpp
+       src/lib/marble/Quaternion.h
+       src/lib/marble/RemoteIconLoader.cpp
+       src/lib/marble/RemoteIconLoader.h
+       src/lib/marble/RemoveItemEditWidget.cpp
+       src/lib/marble/RemoveItemEditWidget.h
+       src/lib/marble/RenderPlugin.cpp
+       src/lib/marble/RenderPlugin.h
+       src/lib/marble/RenderPluginInterface.cpp
+       src/lib/marble/RenderPluginInterface.h
+       src/lib/marble/RenderPluginModel.cpp
+       src/lib/marble/RenderPluginModel.h
+       src/lib/marble/RenderState.cpp
+       src/lib/marble/RenderState.h
+       src/lib/marble/ReverseGeocodingRunner.cpp
+       src/lib/marble/ReverseGeocodingRunner.h
+       src/lib/marble/ReverseGeocodingRunnerManager.cpp
+       src/lib/marble/ReverseGeocodingRunnerManager.h
+       src/lib/marble/ReverseGeocodingRunnerPlugin.cpp
+       src/lib/marble/ReverseGeocodingRunnerPlugin.h
+       src/lib/marble/RouteSimulationPositionProviderPlugin.cpp
+       src/lib/marble/RouteSimulationPositionProviderPlugin.h
+       src/lib/marble/RoutingRunner.cpp
+       src/lib/marble/RoutingRunner.h
+       src/lib/marble/RoutingRunnerManager.cpp
+       src/lib/marble/RoutingRunnerManager.h
+       src/lib/marble/RoutingRunnerPlugin.cpp
+       src/lib/marble/RoutingRunnerPlugin.h
+       src/lib/marble/RunnerTask.cpp
+       src/lib/marble/RunnerTask.h
+       src/lib/marble/ScanlineTextureMapperContext.cpp
+       src/lib/marble/ScanlineTextureMapperContext.h
+       src/lib/marble/SearchInputWidget.cpp
+       src/lib/marble/SearchInputWidget.h
+       src/lib/marble/SearchRunner.cpp
+       src/lib/marble/SearchRunner.h
+       src/lib/marble/SearchRunnerManager.cpp
+       src/lib/marble/SearchRunnerManager.h
+       src/lib/marble/SearchRunnerPlugin.cpp
+       src/lib/marble/SearchRunnerPlugin.h
+       src/lib/marble/SearchWidget.cpp
+       src/lib/marble/SearchWidget.h
+       src/lib/marble/SerialTrack.cpp
+       src/lib/marble/SerialTrack.h
+       src/lib/marble/ServerLayout.cpp
+       src/lib/marble/ServerLayout.h
+       src/lib/marble/SoundCueEditWidget.cpp
+       src/lib/marble/SoundCueEditWidget.h
+       src/lib/marble/SoundTrack.cpp
+       src/lib/marble/SoundTrack.h
+       src/lib/marble/SphericalScanlineTextureMapper.cpp
+       src/lib/marble/SphericalScanlineTextureMapper.h
+       src/lib/marble/StackedTile.cpp
+       src/lib/marble/StackedTile.h
+       src/lib/marble/StoragePolicy.cpp
+       src/lib/marble/StoragePolicy.h
+       src/lib/marble/SunControlWidget.cpp
+       src/lib/marble/SunControlWidget.h
+       src/lib/marble/TemplateDocument.cpp
+       src/lib/marble/TemplateDocument.h
+       src/lib/marble/TextureColorizer.cpp
+       src/lib/marble/TextureColorizer.h
+       src/lib/marble/TextureMapperInterface.cpp
+       src/lib/marble/TextureMapperInterface.h
+       src/lib/marble/TileCreator.cpp
+       src/lib/marble/TileCreator.h
+       src/lib/marble/TileCreatorDialog.cpp
+       src/lib/marble/TileCreatorDialog.h
+       src/lib/marble/TileId.cpp
+       src/lib/marble/TileId.h
+       src/lib/marble/TileScalingTextureMapper.cpp
+       src/lib/marble/TileScalingTextureMapper.h
+       src/lib/marble/TimeControlWidget.cpp
+       src/lib/marble/TimeControlWidget.h
+       src/lib/marble/TinyWebBrowser.cpp
+       src/lib/marble/TinyWebBrowser.h
+       src/lib/marble/TourCaptureDialog.cpp
+       src/lib/marble/TourCaptureDialog.h
+       src/lib/marble/TourControlEditWidget.cpp
+       src/lib/marble/TourControlEditWidget.h
+       src/lib/marble/TourItemDelegate.cpp
+       src/lib/marble/TourItemDelegate.h
+       src/lib/marble/TourPlayback.cpp
+       src/lib/marble/TourPlayback.h
+       src/lib/marble/TourWidget.cpp
+       src/lib/marble/TourWidget.h
+       src/lib/marble/TreeViewDecoratorModel.cpp
+       src/lib/marble/TreeViewDecoratorModel.h
+       src/lib/marble/VectorTileModel.cpp
+       src/lib/marble/VectorTileModel.h
+       src/lib/marble/ViewParams.cpp
+       src/lib/marble/ViewParams.h
+       src/lib/marble/ViewportParams.cpp
+       src/lib/marble/ViewportParams.h
+       src/lib/marble/VisiblePlacemark.cpp
+       src/lib/marble/VisiblePlacemark.h
+       src/lib/marble/WaitEditWidget.cpp
+       src/lib/marble/WaitEditWidget.h
+       src/lib/marble/cloudsync/BookmarkSyncManager.cpp
+       src/lib/marble/cloudsync/BookmarkSyncManager.h
+       src/lib/marble/cloudsync/CloudRouteModel.cpp
+       src/lib/marble/cloudsync/CloudRouteModel.h
+       src/lib/marble/cloudsync/CloudRoutesDialog.cpp
+       src/lib/marble/cloudsync/CloudRoutesDialog.h
+       src/lib/marble/cloudsync/CloudSyncManager.cpp
+       src/lib/marble/cloudsync/CloudSyncManager.h
+       src/lib/marble/cloudsync/ConflictDialog.cpp
+       src/lib/marble/cloudsync/ConflictDialog.h
+       src/lib/marble/cloudsync/MergeItem.cpp
+       src/lib/marble/cloudsync/MergeItem.h
+       src/lib/marble/cloudsync/OwncloudSyncBackend.cpp
+       src/lib/marble/cloudsync/OwncloudSyncBackend.h
+       src/lib/marble/cloudsync/RouteItem.cpp
+       src/lib/marble/cloudsync/RouteItem.h
+       src/lib/marble/cloudsync/RouteSyncManager.cpp
+       src/lib/marble/cloudsync/RouteSyncManager.h
+       src/lib/marble/declarative/Bookmarks.cpp
+       src/lib/marble/declarative/Bookmarks.h
+       src/lib/marble/declarative/CloudSync.cpp
+       src/lib/marble/declarative/CloudSync.h
+       src/lib/marble/declarative/Coordinate.cpp
+       src/lib/marble/declarative/Coordinate.h
+       src/lib/marble/declarative/DeclarativeDataPlugin.cpp
+       src/lib/marble/declarative/DeclarativeDataPlugin.h
+       src/lib/marble/declarative/DeclarativeDataPluginItem.cpp
+       src/lib/marble/declarative/DeclarativeDataPluginItem.h
+       src/lib/marble/declarative/DeclarativeDataPluginModel.cpp
+       src/lib/marble/declarative/DeclarativeDataPluginModel.h
+       src/lib/marble/declarative/DeclarativeMapThemeManager.cpp
+       src/lib/marble/declarative/DeclarativeMapThemeManager.h
+       src/lib/marble/declarative/MapThemeModel.cpp
+       src/lib/marble/declarative/MapThemeModel.h
+       src/lib/marble/declarative/MarbleDeclarativeObject.cpp
+       src/lib/marble/declarative/MarbleDeclarativeObject.h
+       src/lib/marble/declarative/MarbleDeclarativePlugin.cpp
+       src/lib/marble/declarative/MarbleDeclarativePlugin.h
+       src/lib/marble/declarative/MarbleDeclarativeWidget.cpp
+       src/lib/marble/declarative/MarbleDeclarativeWidget.h
+       src/lib/marble/declarative/MarbleQuickItem.cpp
+       src/lib/marble/declarative/MarbleQuickItem.h
+       src/lib/marble/declarative/Navigation.cpp
+       src/lib/marble/declarative/Navigation.h
+       src/lib/marble/declarative/OfflineDataModel.cpp
+       src/lib/marble/declarative/OfflineDataModel.h
+       src/lib/marble/declarative/Placemark.cpp
+       src/lib/marble/declarative/Placemark.h
+       src/lib/marble/declarative/PositionSource.cpp
+       src/lib/marble/declarative/PositionSource.h
+       src/lib/marble/declarative/RouteRequestModel.cpp
+       src/lib/marble/declarative/RouteRequestModel.h
+       src/lib/marble/declarative/Routing.cpp
+       src/lib/marble/declarative/Routing.h
+       src/lib/marble/declarative/Search.cpp
+       src/lib/marble/declarative/Search.h
+       src/lib/marble/declarative/SearchBackend.cpp
+       src/lib/marble/declarative/SearchBackend.h
+       src/lib/marble/declarative/Settings.cpp
+       src/lib/marble/declarative/Settings.h
+       src/lib/marble/declarative/Tracking.cpp
+       src/lib/marble/declarative/Tracking.h
+       src/lib/marble/declarative/marble_declarative_export.h
+       src/lib/marble/geodata/data/GeoDataAbstractView.cpp
+       src/lib/marble/geodata/data/GeoDataAbstractView.h
+       src/lib/marble/geodata/data/GeoDataAccuracy.cpp
+       src/lib/marble/geodata/data/GeoDataAccuracy.h
+       src/lib/marble/geodata/data/GeoDataAlias.cpp
+       src/lib/marble/geodata/data/GeoDataAlias.h
+       src/lib/marble/geodata/data/GeoDataAnimatedUpdate.cpp
+       src/lib/marble/geodata/data/GeoDataAnimatedUpdate.h
+       src/lib/marble/geodata/data/GeoDataBalloonStyle.cpp
+       src/lib/marble/geodata/data/GeoDataBalloonStyle.h
+       src/lib/marble/geodata/data/GeoDataCamera.cpp
+       src/lib/marble/geodata/data/GeoDataCamera.h
+       src/lib/marble/geodata/data/GeoDataCamera_p.h
+       src/lib/marble/geodata/data/GeoDataChange.cpp
+       src/lib/marble/geodata/data/GeoDataChange.h
+       src/lib/marble/geodata/data/GeoDataColorStyle.cpp
+       src/lib/marble/geodata/data/GeoDataColorStyle.h
+       src/lib/marble/geodata/data/GeoDataContainer.cpp
+       src/lib/marble/geodata/data/GeoDataContainer.h
+       src/lib/marble/geodata/data/GeoDataContainer_p.h
+       src/lib/marble/geodata/data/GeoDataCoordinates.cpp
+       src/lib/marble/geodata/data/GeoDataCoordinates.h
+       src/lib/marble/geodata/data/GeoDataCoordinates_p.h
+       src/lib/marble/geodata/data/GeoDataCreate.cpp
+       src/lib/marble/geodata/data/GeoDataCreate.h
+       src/lib/marble/geodata/data/GeoDataData.cpp
+       src/lib/marble/geodata/data/GeoDataData.h
+       src/lib/marble/geodata/data/GeoDataData_p.h
+       src/lib/marble/geodata/data/GeoDataDelete.cpp
+       src/lib/marble/geodata/data/GeoDataDelete.h
+       src/lib/marble/geodata/data/GeoDataDocument_p.h
+       src/lib/marble/geodata/data/GeoDataExtendedData.cpp
+       src/lib/marble/geodata/data/GeoDataExtendedData.h
+       src/lib/marble/geodata/data/GeoDataExtendedData_p.h
+       src/lib/marble/geodata/data/GeoDataFeature.cpp
+       src/lib/marble/geodata/data/GeoDataFeature.h
+       src/lib/marble/geodata/data/GeoDataFeature_p.h
+       src/lib/marble/geodata/data/GeoDataFlyTo.cpp
+       src/lib/marble/geodata/data/GeoDataFlyTo.h
+       src/lib/marble/geodata/data/GeoDataGeometry.cpp
+       src/lib/marble/geodata/data/GeoDataGeometry.h
+       src/lib/marble/geodata/data/GeoDataGeometry_p.h
+       src/lib/marble/geodata/data/GeoDataGroundOverlay.cpp
+       src/lib/marble/geodata/data/GeoDataGroundOverlay.h
+       src/lib/marble/geodata/data/GeoDataHotSpot.cpp
+       src/lib/marble/geodata/data/GeoDataHotSpot.h
+       src/lib/marble/geodata/data/GeoDataIconStyle.cpp
+       src/lib/marble/geodata/data/GeoDataIconStyle.h
+       src/lib/marble/geodata/data/GeoDataImagePyramid.cpp
+       src/lib/marble/geodata/data/GeoDataImagePyramid.h
+       src/lib/marble/geodata/data/GeoDataItemIcon.cpp
+       src/lib/marble/geodata/data/GeoDataItemIcon.h
+       src/lib/marble/geodata/data/GeoDataLabelStyle.cpp
+       src/lib/marble/geodata/data/GeoDataLabelStyle.h
+       src/lib/marble/geodata/data/GeoDataLatLonAltBox.cpp
+       src/lib/marble/geodata/data/GeoDataLatLonAltBox.h
+       src/lib/marble/geodata/data/GeoDataLatLonBox.cpp
+       src/lib/marble/geodata/data/GeoDataLatLonBox.h
+       src/lib/marble/geodata/data/GeoDataLatLonQuad.cpp
+       src/lib/marble/geodata/data/GeoDataLatLonQuad.h
+       src/lib/marble/geodata/data/GeoDataLineString.cpp
+       src/lib/marble/geodata/data/GeoDataLineString.h
+       src/lib/marble/geodata/data/GeoDataLineString_p.h
+       src/lib/marble/geodata/data/GeoDataLineStyle.cpp
+       src/lib/marble/geodata/data/GeoDataLineStyle.h
+       src/lib/marble/geodata/data/GeoDataLinearRing.cpp
+       src/lib/marble/geodata/data/GeoDataLinearRing.h
+       src/lib/marble/geodata/data/GeoDataLinearRing_p.h
+       src/lib/marble/geodata/data/GeoDataLink.cpp
+       src/lib/marble/geodata/data/GeoDataLink.h
+       src/lib/marble/geodata/data/GeoDataListStyle.cpp
+       src/lib/marble/geodata/data/GeoDataListStyle.h
+       src/lib/marble/geodata/data/GeoDataLocation.cpp
+       src/lib/marble/geodata/data/GeoDataLocation.h
+       src/lib/marble/geodata/data/GeoDataLod.cpp
+       src/lib/marble/geodata/data/GeoDataLod.h
+       src/lib/marble/geodata/data/GeoDataLod_p.h
+       src/lib/marble/geodata/data/GeoDataLookAt.cpp
+       src/lib/marble/geodata/data/GeoDataLookAt.h
+       src/lib/marble/geodata/data/GeoDataLookAt_p.h
+       src/lib/marble/geodata/data/GeoDataModel.cpp
+       src/lib/marble/geodata/data/GeoDataModel.h
+       src/lib/marble/geodata/data/GeoDataMultiGeometry.cpp
+       src/lib/marble/geodata/data/GeoDataMultiGeometry.h
+       src/lib/marble/geodata/data/GeoDataMultiGeometry_p.h
+       src/lib/marble/geodata/data/GeoDataMultiTrack.cpp
+       src/lib/marble/geodata/data/GeoDataMultiTrack.h
+       src/lib/marble/geodata/data/GeoDataMultiTrack_p.h
+       src/lib/marble/geodata/data/GeoDataNetworkLink.cpp
+       src/lib/marble/geodata/data/GeoDataNetworkLink.h
+       src/lib/marble/geodata/data/GeoDataNetworkLinkControl.cpp
+       src/lib/marble/geodata/data/GeoDataNetworkLinkControl.h
+       src/lib/marble/geodata/data/GeoDataObject.cpp
+       src/lib/marble/geodata/data/GeoDataObject.h
+       src/lib/marble/geodata/data/GeoDataOrientation.cpp
+       src/lib/marble/geodata/data/GeoDataOrientation.h
+       src/lib/marble/geodata/data/GeoDataOverlay.cpp
+       src/lib/marble/geodata/data/GeoDataOverlay.h
+       src/lib/marble/geodata/data/GeoDataPhotoOverlay.cpp
+       src/lib/marble/geodata/data/GeoDataPhotoOverlay.h
+       src/lib/marble/geodata/data/GeoDataPlacemark.cpp
+       src/lib/marble/geodata/data/GeoDataPlacemark.h
+       src/lib/marble/geodata/data/GeoDataPlacemark_p.h
+       src/lib/marble/geodata/data/GeoDataPlaylist.cpp
+       src/lib/marble/geodata/data/GeoDataPlaylist.h
+       src/lib/marble/geodata/data/GeoDataPoint.cpp
+       src/lib/marble/geodata/data/GeoDataPoint.h
+       src/lib/marble/geodata/data/GeoDataPoint_p.h
+       src/lib/marble/geodata/data/GeoDataPolyStyle.cpp
+       src/lib/marble/geodata/data/GeoDataPolyStyle.h
+       src/lib/marble/geodata/data/GeoDataPolygon.cpp
+       src/lib/marble/geodata/data/GeoDataPolygon.h
+       src/lib/marble/geodata/data/GeoDataPolygon_p.h
+       src/lib/marble/geodata/data/GeoDataRegion.cpp
+       src/lib/marble/geodata/data/GeoDataRegion.h
+       src/lib/marble/geodata/data/GeoDataRegion_p.h
+       src/lib/marble/geodata/data/GeoDataResourceMap.cpp
+       src/lib/marble/geodata/data/GeoDataResourceMap.h
+       src/lib/marble/geodata/data/GeoDataScale.cpp
+       src/lib/marble/geodata/data/GeoDataScale.h
+       src/lib/marble/geodata/data/GeoDataSchema.cpp
+       src/lib/marble/geodata/data/GeoDataSchema.h
+       src/lib/marble/geodata/data/GeoDataSchemaData.cpp
+       src/lib/marble/geodata/data/GeoDataSchemaData.h
+       src/lib/marble/geodata/data/GeoDataScreenOverlay.cpp
+       src/lib/marble/geodata/data/GeoDataSimpleArrayData.cpp
+       src/lib/marble/geodata/data/GeoDataSimpleArrayData.h
+       src/lib/marble/geodata/data/GeoDataSimpleData.cpp
+       src/lib/marble/geodata/data/GeoDataSimpleData.h
+       src/lib/marble/geodata/data/GeoDataSimpleField.cpp
+       src/lib/marble/geodata/data/GeoDataSimpleField.h
+       src/lib/marble/geodata/data/GeoDataSnippet.cpp
+       src/lib/marble/geodata/data/GeoDataSnippet.h
+       src/lib/marble/geodata/data/GeoDataSoundCue.cpp
+       src/lib/marble/geodata/data/GeoDataSoundCue.h
+       src/lib/marble/geodata/data/GeoDataStyle.cpp
+       src/lib/marble/geodata/data/GeoDataStyle.h
+       src/lib/marble/geodata/data/GeoDataStyleMap.cpp
+       src/lib/marble/geodata/data/GeoDataStyleMap.h
+       src/lib/marble/geodata/data/GeoDataStyleSelector.cpp
+       src/lib/marble/geodata/data/GeoDataStyleSelector.h
+       src/lib/marble/geodata/data/GeoDataTimePrimitive.cpp
+       src/lib/marble/geodata/data/GeoDataTimePrimitive.h
+       src/lib/marble/geodata/data/GeoDataTimePrimitive_p.h
+       src/lib/marble/geodata/data/GeoDataTimeSpan.cpp
+       src/lib/marble/geodata/data/GeoDataTimeSpan.h
+       src/lib/marble/geodata/data/GeoDataTimeSpan_p.h
+       src/lib/marble/geodata/data/GeoDataTimeStamp.cpp
+       src/lib/marble/geodata/data/GeoDataTimeStamp.h
+       src/lib/marble/geodata/data/GeoDataTimeStamp_p.h
+       src/lib/marble/geodata/data/GeoDataTour.cpp
+       src/lib/marble/geodata/data/GeoDataTour.h
+       src/lib/marble/geodata/data/GeoDataTourControl.cpp
+       src/lib/marble/geodata/data/GeoDataTourControl.h
+       src/lib/marble/geodata/data/GeoDataTourPrimitive.h
+       src/lib/marble/geodata/data/GeoDataTour_p.h
+       src/lib/marble/geodata/data/GeoDataTrack.cpp
+       src/lib/marble/geodata/data/GeoDataTrack.h
+       src/lib/marble/geodata/data/GeoDataUpdate.cpp
+       src/lib/marble/geodata/data/GeoDataUpdate.h
+       src/lib/marble/geodata/data/GeoDataVec2.cpp
+       src/lib/marble/geodata/data/GeoDataVec2.h
+       src/lib/marble/geodata/data/GeoDataViewVolume.cpp
+       src/lib/marble/geodata/data/GeoDataViewVolume.h
+       src/lib/marble/geodata/data/GeoDataWait.cpp
+       src/lib/marble/geodata/data/GeoDataWait.h
+       src/lib/marble/geodata/data/Serializable.h
+       src/lib/marble/geodata/geodata_export.h
+       src/lib/marble/geodata/graphicsitem/GeoLineStringGraphicsItem.cpp
+       src/lib/marble/geodata/graphicsitem/GeoLineStringGraphicsItem.h
+       src/lib/marble/geodata/graphicsitem/GeoPhotoGraphicsItem.cpp
+       src/lib/marble/geodata/graphicsitem/GeoPhotoGraphicsItem.h
+       src/lib/marble/geodata/graphicsitem/GeoPointGraphicsItem.cpp
+       src/lib/marble/geodata/graphicsitem/GeoPointGraphicsItem.h
+       src/lib/marble/geodata/graphicsitem/GeoPolygonGraphicsItem.cpp
+       src/lib/marble/geodata/graphicsitem/GeoPolygonGraphicsItem.h
+       src/lib/marble/geodata/graphicsitem/GeoTrackGraphicsItem.cpp
+       src/lib/marble/geodata/graphicsitem/GeoTrackGraphicsItem.h
+       src/lib/marble/geodata/graphicsitem/ScreenOverlayGraphicsItem.cpp
+       src/lib/marble/geodata/graphicsitem/ScreenOverlayGraphicsItem.h
+       src/lib/marble/geodata/handlers/dgml/DgmlLicenseTagHandler.cpp
+       src/lib/marble/geodata/handlers/dgml/DgmlLicenseTagHandler.h
+       src/lib/marble/geodata/handlers/dgml/DgmlTileSizeTagHandler.cpp
+       src/lib/marble/geodata/handlers/dgml/DgmlTileSizeTagHandler.h
+       src/lib/marble/geodata/handlers/dgml/DgmlVectortileTagHandler.cpp
+       src/lib/marble/geodata/handlers/dgml/DgmlVectortileTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlAliasTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlAliasTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlAltitudeTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlAltitudeTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlAnimatedUpdateTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlAnimatedUpdateTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlBalloonStyleTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlBalloonStyleTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlBalloonVisibilityTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlBalloonVisibilityTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlBeginTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlBeginTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlBgColorTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlBgColorTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlBottomFovTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlBottomFovTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlCameraTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlCameraTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlChangeTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlChangeTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlCookieTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlCookieTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlCreateTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlCreateTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlDataTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlDataTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlDeleteTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlDeleteTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlDisplayModeTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlDisplayModeTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlDisplayNameTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlDisplayNameTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlDurationTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlDurationTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlEastTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlEastTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlEndTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlEndTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlExpiresTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlExpiresTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlExtendedDataTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlExtendedDataTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlFlyToModeTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlFlyToModeTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlFlyToTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlFlyToTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlFlyToViewTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlFlyToViewTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlGridOriginTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlGridOriginTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlGroundOverlayTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlGroundOverlayTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlGxAltitudeModeTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlGxAltitudeModeTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlGxTimeSpanTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlGxTimeSpanTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlGxTimeStampTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlGxTimeStampTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlHttpQueryTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlHttpQueryTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlImagePyramidTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlImagePyramidTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlItemIconTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlItemIconTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlLatLonAltBoxTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlLatLonAltBoxTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlLatLonBoxTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlLatLonBoxTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlLatLonQuadTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlLatLonQuadTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlLatitudeTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlLatitudeTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlLeftFovTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlLeftFovTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlLinkDescriptionTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlLinkDescriptionTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlLinkNameTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlLinkNameTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlLinkSnippetTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlLinkSnippetTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlLinkTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlLinkTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlListItemTypeTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlListItemTypeTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlListStyleTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlListStyleTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlLocationTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlLocationTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlLodTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlLodTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlLongitudeTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlLongitudeTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlLookAtTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlLookAtTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlMaxAltitudeTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlMaxAltitudeTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlMaxFadeExtentTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlMaxFadeExtentTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlMaxHeightTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlMaxHeightTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlMaxLodPixelsTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlMaxLodPixelsTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlMaxSessionLengthTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlMaxSessionLengthTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlMaxWidthTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlMaxWidthTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlMemberTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlMemberTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlMessageTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlMessageTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlMinAltitudeTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlMinAltitudeTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlMinFadeExtentTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlMinFadeExtentTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlMinLodPixelsTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlMinLodPixelsTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlMinRefreshPeriodTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlMinRefreshPeriodTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlModelTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlModelTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlMultiTrackTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlMultiTrackTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlNdTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlNdTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlNearTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlNearTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlNetworkLinkControlTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlNetworkLinkControlTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlNetworkLinkTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlNetworkLinkTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlNorthTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlNorthTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlObjectTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlObjectTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlOrientationTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlOrientationTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlOsmPlacemarkDataTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlOsmPlacemarkDataTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlOverlayXYTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlOverlayXYTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlPhotoOverlayTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlPhotoOverlayTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlPlaylistTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlPlaylistTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlRefreshIntervalTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlRefreshIntervalTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlRefreshVisibilityTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlRefreshVisibilityTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlRegionTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlRegionTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlResourceMapTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlResourceMapTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlRightFovTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlRightFovTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlRollTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlRollTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlRotationTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlRotationTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlRotationXYTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlRotationXYTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlScaleTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlScaleTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlSchemaDataTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlSchemaDataTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlScreenOverlayTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlScreenOverlayTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlScreenXYTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlScreenXYTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlShapeTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlShapeTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlSimpleArrayDataTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlSimpleArrayDataTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlSimpleDataTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlSimpleDataTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlSizeTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlSizeTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlSnippetTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlSnippetTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlSoundCueTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlSoundCueTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlSourceHrefTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlSourceHrefTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlSouthTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlSouthTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlStateTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlStateTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlTagTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlTagTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlTargetHrefTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlTargetHrefTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlTextColorTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlTextColorTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlTextTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlTextTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlTileSizeTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlTileSizeTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlTiltTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlTiltTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlTimeSpanTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlTimeSpanTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlTimeStampTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlTimeStampTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlTopFovTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlTopFovTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlTourControlTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlTourControlTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlTourTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlTourTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlTrackTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlTrackTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlUpdateTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlUpdateTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlValueTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlValueTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlViewBoundScaleTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlViewBoundScaleTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlViewFormatTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlViewFormatTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlViewRefreshModeTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlViewRefreshModeTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlViewRefreshTimeTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlViewRefreshTimeTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlViewVolumeTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlViewVolumeTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlWaitTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlWaitTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlWestTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlWestTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlWhenTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlWhenTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlXTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlXTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlYTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlYTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlZTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlZTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmldelayedStartTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmldelayedStartTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmldrawOrderTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmldrawOrderTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlplayModeTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlplayModeTagHandler.h
+       src/lib/marble/geodata/parser/GeoSceneTypes.cpp
+       src/lib/marble/geodata/parser/GeoSceneTypes.h
+       src/lib/marble/geodata/scene/GeoSceneGeodata.cpp
+       src/lib/marble/geodata/scene/GeoSceneGeodata.h
+       src/lib/marble/geodata/scene/GeoSceneLicense.cpp
+       src/lib/marble/geodata/scene/GeoSceneLicense.h
+       src/lib/marble/geodata/scene/GeoSceneTextureTileDataset.cpp
+       src/lib/marble/geodata/scene/GeoSceneTextureTileDataset.h
+       src/lib/marble/geodata/scene/GeoSceneTileDataset.cpp
+       src/lib/marble/geodata/scene/GeoSceneTileDataset.h
+       src/lib/marble/geodata/scene/GeoSceneVectorTileDataset.cpp
+       src/lib/marble/geodata/scene/GeoSceneVectorTileDataset.h
+       src/lib/marble/geodata/writer/GeoTagWriter.cpp
+       src/lib/marble/geodata/writer/GeoTagWriter.h
+       src/lib/marble/geodata/writer/GeoWriter.cpp
+       src/lib/marble/geodata/writer/GeoWriter.h
+       src/lib/marble/geodata/writers/dgml/DgmlDocumentTagWriter.cpp
+       src/lib/marble/geodata/writers/dgml/DgmlDocumentTagWriter.h
+       src/lib/marble/geodata/writers/dgml/DgmlGeodataTagWriter.cpp
+       src/lib/marble/geodata/writers/dgml/DgmlGeodataTagWriter.h
+       src/lib/marble/geodata/writers/dgml/DgmlHeadTagWriter.cpp
+       src/lib/marble/geodata/writers/dgml/DgmlHeadTagWriter.h
+       src/lib/marble/geodata/writers/dgml/DgmlItemTagWriter.cpp
+       src/lib/marble/geodata/writers/dgml/DgmlItemTagWriter.h
+       src/lib/marble/geodata/writers/dgml/DgmlLayerTagWriter.cpp
+       src/lib/marble/geodata/writers/dgml/DgmlLayerTagWriter.h
+       src/lib/marble/geodata/writers/dgml/DgmlLegendTagWriter.cpp
+       src/lib/marble/geodata/writers/dgml/DgmlLegendTagWriter.h
+       src/lib/marble/geodata/writers/dgml/DgmlMapTagWriter.cpp
+       src/lib/marble/geodata/writers/dgml/DgmlMapTagWriter.h
+       src/lib/marble/geodata/writers/dgml/DgmlSectionTagWriter.cpp
+       src/lib/marble/geodata/writers/dgml/DgmlSectionTagWriter.h
+       src/lib/marble/geodata/writers/dgml/DgmlSettingsTagWriter.cpp
+       src/lib/marble/geodata/writers/dgml/DgmlSettingsTagWriter.h
+       src/lib/marble/geodata/writers/dgml/DgmlTagWriter.cpp
+       src/lib/marble/geodata/writers/dgml/DgmlTagWriter.h
+       src/lib/marble/geodata/writers/dgml/DgmlTextureTagWriter.cpp
+       src/lib/marble/geodata/writers/dgml/DgmlTextureTagWriter.h
+       src/lib/marble/geodata/writers/dgml/DgmlVectorTagWriter.cpp
+       src/lib/marble/geodata/writers/dgml/DgmlVectorTagWriter.h
+       src/lib/marble/geodata/writers/kml/KmlAnimatedUpdateTagWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlAnimatedUpdateTagWriter.h
+       src/lib/marble/geodata/writers/kml/KmlBalloonStyleTagWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlBalloonStyleTagWriter.h
+       src/lib/marble/geodata/writers/kml/KmlCameraTagWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlCameraTagWriter.h
+       src/lib/marble/geodata/writers/kml/KmlColorStyleTagWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlColorStyleTagWriter.h
+       src/lib/marble/geodata/writers/kml/KmlDataTagWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlDataTagWriter.h
+       src/lib/marble/geodata/writers/kml/KmlDocumentTagWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlDocumentTagWriter.h
+       src/lib/marble/geodata/writers/kml/KmlExtendedDataTagWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlExtendedDataTagWriter.h
+       src/lib/marble/geodata/writers/kml/KmlFeatureTagWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlFeatureTagWriter.h
+       src/lib/marble/geodata/writers/kml/KmlFlyToTagWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlFlyToTagWriter.h
+       src/lib/marble/geodata/writers/kml/KmlFolderTagWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlFolderTagWriter.h
+       src/lib/marble/geodata/writers/kml/KmlGroundOverlayWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlGroundOverlayWriter.h
+       src/lib/marble/geodata/writers/kml/KmlIconStyleTagWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlIconStyleTagWriter.h
+       src/lib/marble/geodata/writers/kml/KmlLabelStyleTagWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlLabelStyleTagWriter.h
+       src/lib/marble/geodata/writers/kml/KmlLatLonAltBoxWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlLatLonAltBoxWriter.h
+       src/lib/marble/geodata/writers/kml/KmlLatLonBoxWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlLatLonBoxWriter.h
+       src/lib/marble/geodata/writers/kml/KmlLatLonQuadWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlLatLonQuadWriter.h
+       src/lib/marble/geodata/writers/kml/KmlLineStringTagWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlLineStringTagWriter.h
+       src/lib/marble/geodata/writers/kml/KmlLineStyleTagWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlLineStyleTagWriter.h
+       src/lib/marble/geodata/writers/kml/KmlLinearRingTagWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlLinearRingTagWriter.h
+       src/lib/marble/geodata/writers/kml/KmlLinkTagWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlLinkTagWriter.h
+       src/lib/marble/geodata/writers/kml/KmlListStyleTagWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlListStyleTagWriter.h
+       src/lib/marble/geodata/writers/kml/KmlLodTagWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlLodTagWriter.h
+       src/lib/marble/geodata/writers/kml/KmlLookAtTagWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlLookAtTagWriter.h
+       src/lib/marble/geodata/writers/kml/KmlModelTagWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlModelTagWriter.h
+       src/lib/marble/geodata/writers/kml/KmlMultiGeometryTagWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlMultiGeometryTagWriter.h
+       src/lib/marble/geodata/writers/kml/KmlMultiTrackTagWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlMultiTrackTagWriter.h
+       src/lib/marble/geodata/writers/kml/KmlNetworkLinkControlTagWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlNetworkLinkControlTagWriter.h
+       src/lib/marble/geodata/writers/kml/KmlNetworkLinkTagWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlNetworkLinkTagWriter.h
+       src/lib/marble/geodata/writers/kml/KmlObjectTagWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlObjectTagWriter.h
+       src/lib/marble/geodata/writers/kml/KmlOsmPlacemarkDataTagWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlOsmPlacemarkDataTagWriter.h
+       src/lib/marble/geodata/writers/kml/KmlOverlayTagWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlOverlayTagWriter.h
+       src/lib/marble/geodata/writers/kml/KmlPhotoOverlayWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlPhotoOverlayWriter.h
+       src/lib/marble/geodata/writers/kml/KmlPlacemarkTagWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlPlacemarkTagWriter.h
+       src/lib/marble/geodata/writers/kml/KmlPlaylistTagWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlPlaylistTagWriter.h
+       src/lib/marble/geodata/writers/kml/KmlPointTagWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlPointTagWriter.h
+       src/lib/marble/geodata/writers/kml/KmlPolyStyleTagWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlPolyStyleTagWriter.h
+       src/lib/marble/geodata/writers/kml/KmlPolygonTagWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlPolygonTagWriter.h
+       src/lib/marble/geodata/writers/kml/KmlRegionTagWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlRegionTagWriter.h
+       src/lib/marble/geodata/writers/kml/KmlSchemaDataTagWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlSchemaDataTagWriter.h
+       src/lib/marble/geodata/writers/kml/KmlSchemaTagWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlSchemaTagWriter.h
+       src/lib/marble/geodata/writers/kml/KmlScreenOverlayWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlScreenOverlayWriter.h
+       src/lib/marble/geodata/writers/kml/KmlSimpleDataTagWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlSimpleDataTagWriter.h
+       src/lib/marble/geodata/writers/kml/KmlSimpleFieldTagWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlSimpleFieldTagWriter.h
+       src/lib/marble/geodata/writers/kml/KmlStyleMapTagWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlStyleMapTagWriter.h
+       src/lib/marble/geodata/writers/kml/KmlStyleTagWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlStyleTagWriter.h
+       src/lib/marble/geodata/writers/kml/KmlTagWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlTagWriter.h
+       src/lib/marble/geodata/writers/kml/KmlTimeSpanWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlTimeSpanWriter.h
+       src/lib/marble/geodata/writers/kml/KmlTimeStampTagWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlTimeStampTagWriter.h
+       src/lib/marble/geodata/writers/kml/KmlTourTagWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlTourTagWriter.h
+       src/lib/marble/geodata/writers/kml/KmlTrackWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlTrackWriter.h
+       src/lib/marble/geodata/writers/kml/KmlUpdateTagWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlUpdateTagWriter.h
+       src/lib/marble/graphicsview/AbstractMarbleGraphicsLayout.cpp
+       src/lib/marble/graphicsview/AbstractMarbleGraphicsLayout.h
+       src/lib/marble/graphicsview/BillboardGraphicsItem.cpp
+       src/lib/marble/graphicsview/BillboardGraphicsItem.h
+       src/lib/marble/graphicsview/FrameGraphicsItem.cpp
+       src/lib/marble/graphicsview/FrameGraphicsItem.h
+       src/lib/marble/graphicsview/FrameGraphicsItem_p.h
+       src/lib/marble/graphicsview/GeoGraphicsItem.cpp
+       src/lib/marble/graphicsview/GeoGraphicsItem.h
+       src/lib/marble/graphicsview/GeoGraphicsItem_p.h
+       src/lib/marble/graphicsview/LabelGraphicsItem.cpp
+       src/lib/marble/graphicsview/LabelGraphicsItem.h
+       src/lib/marble/graphicsview/LabelGraphicsItem_p.h
+       src/lib/marble/graphicsview/MarbleGraphicsGridLayout.cpp
+       src/lib/marble/graphicsview/MarbleGraphicsGridLayout.h
+       src/lib/marble/graphicsview/MarbleGraphicsItem.cpp
+       src/lib/marble/graphicsview/MarbleGraphicsItem.h
+       src/lib/marble/graphicsview/MarbleGraphicsItem_p.h
+       src/lib/marble/graphicsview/ScreenGraphicsItem.cpp
+       src/lib/marble/graphicsview/ScreenGraphicsItem.h
+       src/lib/marble/graphicsview/ScreenGraphicsItem_p.h
+       src/lib/marble/graphicsview/WidgetGraphicsItem.cpp
+       src/lib/marble/graphicsview/WidgetGraphicsItem.h
+       src/lib/marble/graphicsview/WidgetGraphicsItem_p.h
+       src/lib/marble/layers/FogLayer.cpp
+       src/lib/marble/layers/FogLayer.h
+       src/lib/marble/layers/FpsLayer.cpp
+       src/lib/marble/layers/FpsLayer.h
+       src/lib/marble/layers/GeometryLayer.cpp
+       src/lib/marble/layers/GeometryLayer.h
+       src/lib/marble/layers/GroundLayer.cpp
+       src/lib/marble/layers/GroundLayer.h
+       src/lib/marble/layers/MarbleSplashLayer.cpp
+       src/lib/marble/layers/MarbleSplashLayer.h
+       src/lib/marble/layers/PlacemarkLayer.cpp
+       src/lib/marble/layers/PlacemarkLayer.h
+       src/lib/marble/layers/PopupLayer.cpp
+       src/lib/marble/layers/PopupLayer.h
+       src/lib/marble/layers/TextureLayer.cpp
+       src/lib/marble/layers/TextureLayer.h
+       src/lib/marble/layers/VectorTileLayer.cpp
+       src/lib/marble/layers/VectorTileLayer.h
+       src/lib/marble/osm/OsmObjectManager.cpp
+       src/lib/marble/osm/OsmObjectManager.h
+       src/lib/marble/osm/OsmPlacemarkData.cpp
+       src/lib/marble/osm/OsmPlacemarkData.h
+       src/lib/marble/osm/OsmPresetLibrary.cpp
+       src/lib/marble/osm/OsmPresetLibrary.h
+       src/lib/marble/osm/OsmRelationEditorDialog.cpp
+       src/lib/marble/osm/OsmRelationEditorDialog.h
+       src/lib/marble/osm/OsmRelationManagerWidget.cpp
+       src/lib/marble/osm/OsmRelationManagerWidget.h
+       src/lib/marble/osm/OsmRelationManagerWidget_p.cpp
+       src/lib/marble/osm/OsmRelationManagerWidget_p.h
+       src/lib/marble/osm/OsmTagEditorWidget.cpp
+       src/lib/marble/osm/OsmTagEditorWidget.h
+       src/lib/marble/osm/OsmTagEditorWidget_p.cpp
+       src/lib/marble/osm/OsmTagEditorWidget_p.h
+       src/lib/marble/projections/AbstractProjection.cpp
+       src/lib/marble/projections/AbstractProjection.h
+       src/lib/marble/projections/AbstractProjection_p.h
+       src/lib/marble/projections/AzimuthalEquidistantProjection.cpp
+       src/lib/marble/projections/AzimuthalEquidistantProjection.h
+       src/lib/marble/projections/AzimuthalProjection.cpp
+       src/lib/marble/projections/AzimuthalProjection.h
+       src/lib/marble/projections/AzimuthalProjection_p.h
+       src/lib/marble/projections/CylindricalProjection.cpp
+       src/lib/marble/projections/CylindricalProjection.h
+       src/lib/marble/projections/CylindricalProjection_p.h
+       src/lib/marble/projections/EquirectProjection.cpp
+       src/lib/marble/projections/EquirectProjection.h
+       src/lib/marble/projections/GnomonicProjection.cpp
+       src/lib/marble/projections/GnomonicProjection.h
+       src/lib/marble/projections/LambertAzimuthalProjection.cpp
+       src/lib/marble/projections/LambertAzimuthalProjection.h
+       src/lib/marble/projections/MercatorProjection.cpp
+       src/lib/marble/projections/MercatorProjection.h
+       src/lib/marble/projections/SphericalProjection.cpp
+       src/lib/marble/projections/SphericalProjection.h
+       src/lib/marble/projections/StereographicProjection.cpp
+       src/lib/marble/projections/StereographicProjection.h
+       src/lib/marble/projections/VerticalPerspectiveProjection.cpp
+       src/lib/marble/projections/VerticalPerspectiveProjection.h
+       src/lib/marble/routing/AlternativeRoutesModel.cpp
+       src/lib/marble/routing/AlternativeRoutesModel.h
+       src/lib/marble/routing/Maneuver.cpp
+       src/lib/marble/routing/Maneuver.h
+       src/lib/marble/routing/Route.cpp
+       src/lib/marble/routing/Route.h
+       src/lib/marble/routing/RouteRequest.cpp
+       src/lib/marble/routing/RouteRequest.h
+       src/lib/marble/routing/RouteSegment.cpp
+       src/lib/marble/routing/RouteSegment.h
+       src/lib/marble/routing/RoutingInputWidget.cpp
+       src/lib/marble/routing/RoutingInputWidget.h
+       src/lib/marble/routing/RoutingLayer.cpp
+       src/lib/marble/routing/RoutingLayer.h
+       src/lib/marble/routing/RoutingManager.cpp
+       src/lib/marble/routing/RoutingManager.h
+       src/lib/marble/routing/RoutingModel.cpp
+       src/lib/marble/routing/RoutingModel.h
+       src/lib/marble/routing/RoutingProfile.cpp
+       src/lib/marble/routing/RoutingProfile.h
+       src/lib/marble/routing/RoutingProfileSettingsDialog.cpp
+       src/lib/marble/routing/RoutingProfileSettingsDialog.h
+       src/lib/marble/routing/RoutingProfilesModel.cpp
+       src/lib/marble/routing/RoutingProfilesModel.h
+       src/lib/marble/routing/RoutingProfilesWidget.cpp
+       src/lib/marble/routing/RoutingProfilesWidget.h
+       src/lib/marble/routing/RoutingWidget.cpp
+       src/lib/marble/routing/RoutingWidget.h
+       src/lib/marble/routing/SpeakersModel.cpp
+       src/lib/marble/routing/SpeakersModel.h
+       src/lib/marble/routing/VoiceNavigationModel.cpp
+       src/lib/marble/routing/VoiceNavigationModel.h
+       src/lib/marble/routing/instructions/InstructionTransformation.cpp
+       src/lib/marble/routing/instructions/InstructionTransformation.h
+       src/lib/marble/routing/instructions/RoutingInstruction.cpp
+       src/lib/marble/routing/instructions/RoutingInstruction.h
+       src/lib/marble/routing/instructions/RoutingPoint.cpp
+       src/lib/marble/routing/instructions/RoutingPoint.h
+       src/lib/marble/routing/instructions/RoutingWaypoint.cpp
+       src/lib/marble/routing/instructions/RoutingWaypoint.h
+       src/lib/marble/routing/instructions/WaypointParser.cpp
+       src/lib/marble/routing/instructions/WaypointParser.h
+       src/plasmarunner/plasma-runner-marble.desktop
+       src/plasmoid/plasma-applet-kworldclock.desktop
+       src/plugins/designer/latloneditwidget/LatLonEditPlugin.cpp
+       src/plugins/designer/latloneditwidget/LatLonEditPlugin.h
+       src/plugins/designer/marblewidget/MarbleWidgetPlugin.cpp
+       src/plugins/designer/marblewidget/MarbleWidgetPlugin.h
+       src/plugins/designer/navigator/MarbleNavigatorPlugin.cpp
+       src/plugins/designer/navigator/MarbleNavigatorPlugin.h
+       src/plugins/positionprovider/flightgear/FlightGearPositionProviderPlugin.cpp
+       src/plugins/positionprovider/flightgear/FlightGearPositionProviderPlugin.h
+       src/plugins/positionprovider/geoclue/GeoCluePositionProviderPlugin.cpp
+       src/plugins/positionprovider/geoclue/GeoCluePositionProviderPlugin.h
+       src/plugins/positionprovider/geoclue/GeoCute/Accuracy.cpp
+       src/plugins/positionprovider/geoclue/GeoCute/Accuracy.h
+       src/plugins/positionprovider/geoclue/GeoCute/AccuracyLevel.h
+       src/plugins/positionprovider/geoclue/GeoCute/MasterClient.cpp
+       src/plugins/positionprovider/geoclue/GeoCute/MasterClient.h
+       src/plugins/positionprovider/geoclue/GeoCute/MasterClient_p.h
+       src/plugins/positionprovider/geoclue/GeoCute/Position.h
+       src/plugins/positionprovider/geoclue/GeoCute/PositionProvider.cpp
+       src/plugins/positionprovider/geoclue/GeoCute/PositionProvider.h
+       src/plugins/positionprovider/geoclue/GeoCute/PositionProvider_p.h
+       src/plugins/positionprovider/geoclue/GeoCute/Provider.cpp
+       src/plugins/positionprovider/geoclue/GeoCute/Provider.h
+       src/plugins/positionprovider/geoclue/GeoCute/Provider_p.h
+       src/plugins/positionprovider/geoclue/GeoCute/SimpleDBusInterface.cpp
+       src/plugins/positionprovider/geoclue/GeoCute/SimpleDBusInterface.h
+       src/plugins/positionprovider/geoclue/GeoCute/Status.h
+       src/plugins/positionprovider/geoclue/GeoCute/Velocity.h
+       src/plugins/positionprovider/geoclue/GeoCute/VelocityProvider.cpp
+       src/plugins/positionprovider/geoclue/GeoCute/VelocityProvider.h
+       src/plugins/positionprovider/geoclue/GeoCute/VelocityProvider_p.h
+       src/plugins/positionprovider/gpsd/GpsdConnection.cpp
+       src/plugins/positionprovider/gpsd/GpsdConnection.h
+       src/plugins/positionprovider/gpsd/GpsdPositionProviderPlugin.cpp
+       src/plugins/positionprovider/gpsd/GpsdPositionProviderPlugin.h
+       src/plugins/positionprovider/gpsd/GpsdThread.cpp
+       src/plugins/positionprovider/gpsd/GpsdThread.h
+       src/plugins/positionprovider/maemo/MaemoPositionProviderPlugin.cpp
+       src/plugins/positionprovider/maemo/MaemoPositionProviderPlugin.h
+       src/plugins/positionprovider/qtpositioning/QtPositioningPositionProviderPlugin.cpp
+       src/plugins/positionprovider/qtpositioning/QtPositioningPositionProviderPlugin.h
+       src/plugins/positionprovider/wlocate/WlocatePositionProviderPlugin.cpp
+       src/plugins/positionprovider/wlocate/WlocatePositionProviderPlugin.h
+       src/plugins/render/annotate/AnnotatePlugin.cpp
+       src/plugins/render/annotate/AnnotatePlugin.h
+       src/plugins/render/annotate/AreaAnnotation.cpp
+       src/plugins/render/annotate/AreaAnnotation.h
+       src/plugins/render/annotate/EditGroundOverlayDialog.cpp
+       src/plugins/render/annotate/EditGroundOverlayDialog.h
+       src/plugins/render/annotate/EditPolygonDialog.cpp
+       src/plugins/render/annotate/EditPolygonDialog.h
+       src/plugins/render/annotate/EditPolylineDialog.cpp
+       src/plugins/render/annotate/EditPolylineDialog.h
+       src/plugins/render/annotate/GroundOverlayFrame.cpp
+       src/plugins/render/annotate/GroundOverlayFrame.h
+       src/plugins/render/annotate/MergingPolygonNodesAnimation.cpp
+       src/plugins/render/annotate/MergingPolygonNodesAnimation.h
+       src/plugins/render/annotate/MergingPolylineNodesAnimation.cpp
+       src/plugins/render/annotate/MergingPolylineNodesAnimation.h
+       src/plugins/render/annotate/NodeItemDelegate.cpp
+       src/plugins/render/annotate/NodeItemDelegate.h
+       src/plugins/render/annotate/NodeModel.cpp
+       src/plugins/render/annotate/NodeModel.h
+       src/plugins/render/annotate/PlacemarkTextAnnotation.cpp
+       src/plugins/render/annotate/PlacemarkTextAnnotation.h
+       src/plugins/render/annotate/PolylineAnnotation.cpp
+       src/plugins/render/annotate/PolylineAnnotation.h
+       src/plugins/render/annotate/PolylineNode.cpp
+       src/plugins/render/annotate/PolylineNode.h
+       src/plugins/render/annotate/SceneGraphicsItem.cpp
+       src/plugins/render/annotate/SceneGraphicsItem.h
+       src/plugins/render/annotate/SceneGraphicsTypes.cpp
+       src/plugins/render/annotate/SceneGraphicsTypes.h
+       src/plugins/render/aprs/AprsFile.cpp
+       src/plugins/render/aprs/AprsFile.h
+       src/plugins/render/aprs/AprsGatherGen.pl
+       src/plugins/render/aprs/AprsGatherer.cpp
+       src/plugins/render/aprs/AprsGatherer.h
+       src/plugins/render/aprs/AprsObject.cpp
+       src/plugins/render/aprs/AprsObject.h
+       src/plugins/render/aprs/AprsPlugin.cpp
+       src/plugins/render/aprs/AprsPlugin.h
+       src/plugins/render/aprs/AprsSource.cpp
+       src/plugins/render/aprs/AprsSource.h
+       src/plugins/render/aprs/AprsTCPIP.cpp
+       src/plugins/render/aprs/AprsTCPIP.h
+       src/plugins/render/aprs/AprsTTY.cpp
+       src/plugins/render/aprs/AprsTTY.h
+       src/plugins/render/aprs/GeoAprsCoordinates.cpp
+       src/plugins/render/aprs/GeoAprsCoordinates.h
+       src/plugins/render/atmosphere/AtmospherePlugin.cpp
+       src/plugins/render/atmosphere/AtmospherePlugin.h
+       src/plugins/render/compass/CompassFloatItem.cpp
+       src/plugins/render/compass/CompassFloatItem.h
+       src/plugins/render/crosshairs/CrosshairsPlugin.cpp
+       src/plugins/render/crosshairs/CrosshairsPlugin.h
+       src/plugins/render/earthquake/EarthquakeItem.cpp
+       src/plugins/render/earthquake/EarthquakeItem.h
+       src/plugins/render/earthquake/EarthquakeModel.cpp
+       src/plugins/render/earthquake/EarthquakeModel.h
+       src/plugins/render/earthquake/EarthquakePlugin.cpp
+       src/plugins/render/earthquake/EarthquakePlugin.h
+       src/plugins/render/eclipses/EclipsesBrowserDialog.cpp
+       src/plugins/render/eclipses/EclipsesBrowserDialog.h
+       src/plugins/render/eclipses/EclipsesItem.cpp
+       src/plugins/render/eclipses/EclipsesItem.h
+       src/plugins/render/eclipses/EclipsesModel.cpp
+       src/plugins/render/eclipses/EclipsesModel.h
+       src/plugins/render/eclipses/EclipsesPlugin.cpp
+       src/plugins/render/eclipses/EclipsesPlugin.h
+       src/plugins/render/elevationprofilefloatitem/ElevationProfileContextMenu.cpp
+       src/plugins/render/elevationprofilefloatitem/ElevationProfileContextMenu.h
+       src/plugins/render/elevationprofilefloatitem/ElevationProfileDataSource.cpp
+       src/plugins/render/elevationprofilefloatitem/ElevationProfileDataSource.h
+       src/plugins/render/elevationprofilefloatitem/ElevationProfileFloatItem.cpp
+       src/plugins/render/elevationprofilefloatitem/ElevationProfileFloatItem.h
+       src/plugins/render/elevationprofilefloatitem/ElevationProfilePlotAxis.cpp
+       src/plugins/render/elevationprofilefloatitem/ElevationProfilePlotAxis.h
+       src/plugins/render/elevationprofilemarker/ElevationProfileMarker.cpp
+       src/plugins/render/elevationprofilemarker/ElevationProfileMarker.h
+       src/plugins/render/fileview/FileViewFloatItem.cpp
+       src/plugins/render/fileview/FileViewFloatItem.h
+       src/plugins/render/foursquare/FoursquareItem.cpp
+       src/plugins/render/foursquare/FoursquareItem.h
+       src/plugins/render/foursquare/FoursquareModel.cpp
+       src/plugins/render/foursquare/FoursquareModel.h
+       src/plugins/render/foursquare/FoursquarePlugin.cpp
+       src/plugins/render/foursquare/FoursquarePlugin.h
+       src/plugins/render/gpsinfo/GpsInfo.cpp
+       src/plugins/render/gpsinfo/GpsInfo.h
+       src/plugins/render/graticule/GraticulePlugin.cpp
+       src/plugins/render/graticule/GraticulePlugin.h
+       src/plugins/render/inhibit-screensaver/InhibitScreensaverPlugin.cpp
+       src/plugins/render/inhibit-screensaver/InhibitScreensaverPlugin.h
+       src/plugins/render/license/License.cpp
+       src/plugins/render/license/License.h
+       src/plugins/render/mapscale/MapScaleFloatItem.cpp
+       src/plugins/render/mapscale/MapScaleFloatItem.h
+       src/plugins/render/measure/MeasureConfigDialog.cpp
+       src/plugins/render/measure/MeasureConfigDialog.h
+       src/plugins/render/measure/MeasureToolPlugin.cpp
+       src/plugins/render/measure/MeasureToolPlugin.h
+       src/plugins/render/navigation/ArrowDiscWidget.cpp
+       src/plugins/render/navigation/ArrowDiscWidget.h
+       src/plugins/render/navigation/NavigationButton.cpp
+       src/plugins/render/navigation/NavigationButton.h
+       src/plugins/render/navigation/NavigationFloatItem.cpp
+       src/plugins/render/navigation/NavigationFloatItem.h
+       src/plugins/render/navigation/NavigationSlider.cpp
+       src/plugins/render/navigation/NavigationSlider.h
+       src/plugins/render/opencaching/OpenCachingCache.cpp
+       src/plugins/render/opencaching/OpenCachingCache.h
+       src/plugins/render/opencaching/OpenCachingCacheDescription.cpp
+       src/plugins/render/opencaching/OpenCachingCacheDescription.h
+       src/plugins/render/opencaching/OpenCachingCacheLog.cpp
+       src/plugins/render/opencaching/OpenCachingCacheLog.h
+       src/plugins/render/opencaching/OpenCachingCacheLogEntry.cpp
+       src/plugins/render/opencaching/OpenCachingCacheLogEntry.h
+       src/plugins/render/opencaching/OpenCachingItem.cpp
+       src/plugins/render/opencaching/OpenCachingItem.h
+       src/plugins/render/opencaching/OpenCachingModel.cpp
+       src/plugins/render/opencaching/OpenCachingModel.h
+       src/plugins/render/opencaching/OpenCachingPlugin.cpp
+       src/plugins/render/opencaching/OpenCachingPlugin.h
+       src/plugins/render/opencachingcom/OpenCachingComItem.cpp
+       src/plugins/render/opencachingcom/OpenCachingComItem.h
+       src/plugins/render/opencachingcom/OpenCachingComModel.cpp
+       src/plugins/render/opencachingcom/OpenCachingComModel.h
+       src/plugins/render/opencachingcom/OpenCachingComPlugin.cpp
+       src/plugins/render/opencachingcom/OpenCachingComPlugin.h
+       src/plugins/render/opendesktop/OpenDesktopItem.cpp
+       src/plugins/render/opendesktop/OpenDesktopItem.h
+       src/plugins/render/opendesktop/OpenDesktopModel.cpp
+       src/plugins/render/opendesktop/OpenDesktopModel.h
+       src/plugins/render/opendesktop/OpenDesktopPlugin.cpp
+       src/plugins/render/opendesktop/OpenDesktopPlugin.h
+       src/plugins/render/overviewmap/OverviewMap.cpp
+       src/plugins/render/overviewmap/OverviewMap.h
+       src/plugins/render/panoramio/PanoramioItem.cpp
+       src/plugins/render/panoramio/PanoramioItem.h
+       src/plugins/render/panoramio/PanoramioModel.cpp
+       src/plugins/render/panoramio/PanoramioModel.h
+       src/plugins/render/panoramio/PanoramioParser.cpp
+       src/plugins/render/panoramio/PanoramioParser.h
+       src/plugins/render/panoramio/PanoramioPlugin.cpp
+       src/plugins/render/panoramio/PanoramioPlugin.h
+       src/plugins/render/photo/CoordinatesParser.cpp
+       src/plugins/render/photo/CoordinatesParser.h
+       src/plugins/render/photo/FlickrParser.cpp
+       src/plugins/render/photo/FlickrParser.h
+       src/plugins/render/photo/PhotoPlugin.h
+       src/plugins/render/photo/PhotoPluginItem.cpp
+       src/plugins/render/photo/PhotoPluginItem.h
+       src/plugins/render/photo/PhotoPluginModel.cpp
+       src/plugins/render/photo/PhotoPluginModel.h
+       src/plugins/render/positionmarker/PositionMarker.cpp
+       src/plugins/render/positionmarker/PositionMarker.h
+       src/plugins/render/postalcode/PostalCodeItem.cpp
+       src/plugins/render/postalcode/PostalCodeItem.h
+       src/plugins/render/postalcode/PostalCodeModel.cpp
+       src/plugins/render/postalcode/PostalCodeModel.h
+       src/plugins/render/postalcode/PostalCodePlugin.cpp
+       src/plugins/render/postalcode/PostalCodePlugin.h
+       src/plugins/render/progress/ProgressFloatItem.cpp
+       src/plugins/render/progress/ProgressFloatItem.h
+       src/plugins/render/routing/AudioOutput.cpp
+       src/plugins/render/routing/AudioOutput.h
+       src/plugins/render/routing/NullAudioOutput.cpp
+       src/plugins/render/routing/RoutingPlugin.cpp
+       src/plugins/render/routing/RoutingPlugin.h
+       src/plugins/render/satellites/SatellitesConfigAbstractItem.cpp
+       src/plugins/render/satellites/SatellitesConfigAbstractItem.h
+       src/plugins/render/satellites/SatellitesConfigDialog.cpp
+       src/plugins/render/satellites/SatellitesConfigDialog.h
+       src/plugins/render/satellites/SatellitesConfigLeafItem.cpp
+       src/plugins/render/satellites/SatellitesConfigLeafItem.h
+       src/plugins/render/satellites/SatellitesConfigModel.cpp
+       src/plugins/render/satellites/SatellitesConfigModel.h
+       src/plugins/render/satellites/SatellitesConfigNodeItem.cpp
+       src/plugins/render/satellites/SatellitesConfigNodeItem.h
+       src/plugins/render/satellites/SatellitesMSCItem.cpp
+       src/plugins/render/satellites/SatellitesMSCItem.h
+       src/plugins/render/satellites/SatellitesModel.cpp
+       src/plugins/render/satellites/SatellitesModel.h
+       src/plugins/render/satellites/SatellitesPlugin.cpp
+       src/plugins/render/satellites/SatellitesPlugin.h
+       src/plugins/render/satellites/SatellitesTLEItem.cpp
+       src/plugins/render/satellites/SatellitesTLEItem.h
+       src/plugins/render/satellites/TrackerPluginItem.cpp
+       src/plugins/render/satellites/TrackerPluginItem.h
+       src/plugins/render/satellites/TrackerPluginModel.cpp
+       src/plugins/render/satellites/TrackerPluginModel.h
+       src/plugins/render/speedometer/Speedometer.cpp
+       src/plugins/render/speedometer/Speedometer.h
+       src/plugins/render/stars/StarsPlugin.cpp
+       src/plugins/render/stars/StarsPlugin.h
+       src/plugins/render/sun/SunPlugin.cpp
+       src/plugins/render/sun/SunPlugin.h
+       src/plugins/render/test/TestPlugin.cpp
+       src/plugins/render/test/TestPlugin.h
+       src/plugins/render/twitter/jsonparser.cpp
+       src/plugins/render/twitter/jsonparser.h
+       src/plugins/render/twitter/twitterPlugin.cpp
+       src/plugins/render/twitter/twitterPlugin.h
+       src/plugins/render/weather/AbstractWeatherService.cpp
+       src/plugins/render/weather/AbstractWeatherService.h
+       src/plugins/render/weather/BBCItemGetter.cpp
+       src/plugins/render/weather/BBCItemGetter.h
+       src/plugins/render/weather/BBCParser.cpp
+       src/plugins/render/weather/BBCParser.h
+       src/plugins/render/weather/BBCStation.cpp
+       src/plugins/render/weather/BBCStation.h
+       src/plugins/render/weather/BBCWeatherItem.cpp
+       src/plugins/render/weather/BBCWeatherItem.h
+       src/plugins/render/weather/BBCWeatherService.cpp
+       src/plugins/render/weather/BBCWeatherService.h
+       src/plugins/render/weather/FakeWeatherItem.cpp
+       src/plugins/render/weather/FakeWeatherItem.h
+       src/plugins/render/weather/FakeWeatherService.cpp
+       src/plugins/render/weather/FakeWeatherService.h
+       src/plugins/render/weather/GeoNamesWeatherItem.cpp
+       src/plugins/render/weather/GeoNamesWeatherItem.h
+       src/plugins/render/weather/GeoNamesWeatherService.cpp
+       src/plugins/render/weather/GeoNamesWeatherService.h
+       src/plugins/render/weather/StationListParser.cpp
+       src/plugins/render/weather/StationListParser.h
+       src/plugins/render/weather/WeatherData.cpp
+       src/plugins/render/weather/WeatherData.h
+       src/plugins/render/weather/WeatherItem.cpp
+       src/plugins/render/weather/WeatherItem.h
+       src/plugins/render/weather/WeatherModel.cpp
+       src/plugins/render/weather/WeatherModel.h
+       src/plugins/render/weather/WeatherPlugin.cpp
+       src/plugins/render/weather/WeatherPlugin.h
+       src/plugins/render/weather/bbc-xml-generator.rb
+       src/plugins/render/weather/weatherGlobal.h
+       src/plugins/render/wikipedia/GeonamesParser.cpp
+       src/plugins/render/wikipedia/GeonamesParser.h
+       src/plugins/render/wikipedia/WikipediaItem.cpp
+       src/plugins/render/wikipedia/WikipediaItem.h
+       src/plugins/render/wikipedia/WikipediaModel.cpp
+       src/plugins/render/wikipedia/WikipediaModel.h
+       src/plugins/render/wikipedia/WikipediaPlugin.cpp
+       src/plugins/render/wikipedia/WikipediaPlugin.h
+       src/plugins/runner/cache/CachePlugin.cpp
+       src/plugins/runner/cache/CachePlugin.h
+       src/plugins/runner/cache/CacheRunner.cpp
+       src/plugins/runner/cache/CacheRunner.h
+       src/plugins/runner/cyclestreets/CycleStreetsPlugin.cpp
+       src/plugins/runner/cyclestreets/CycleStreetsPlugin.h
+       src/plugins/runner/cyclestreets/CycleStreetsRunner.cpp
+       src/plugins/runner/cyclestreets/CycleStreetsRunner.h
+       src/plugins/runner/gosmore-reversegeocoding/GosmoreReverseGeocodingPlugin.cpp
+       src/plugins/runner/gosmore-reversegeocoding/GosmoreReverseGeocodingPlugin.h
+       src/plugins/runner/gosmore-reversegeocoding/GosmoreReverseGeocodingRunner.cpp
+       src/plugins/runner/gosmore-reversegeocoding/GosmoreReverseGeocodingRunner.h
+       src/plugins/runner/gosmore-routing/GosmoreRoutingPlugin.cpp
+       src/plugins/runner/gosmore-routing/GosmoreRoutingPlugin.h
+       src/plugins/runner/gosmore-routing/GosmoreRoutingRunner.cpp
+       src/plugins/runner/gosmore-routing/GosmoreRoutingRunner.h
+       src/plugins/runner/gpsbabel/GpsbabelPlugin.cpp
+       src/plugins/runner/gpsbabel/GpsbabelPlugin.h
+       src/plugins/runner/gpsbabel/GpsbabelRunner.cpp
+       src/plugins/runner/gpsbabel/GpsbabelRunner.h
+       src/plugins/runner/gpx/GpxParser.cpp
+       src/plugins/runner/gpx/GpxParser.h
+       src/plugins/runner/gpx/GpxPlugin.cpp
+       src/plugins/runner/gpx/GpxPlugin.h
+       src/plugins/runner/gpx/GpxRunner.cpp
+       src/plugins/runner/gpx/GpxRunner.h
+       src/plugins/runner/gpx/handlers/GPXTrackPointExtensionTagHandler.cpp
+       src/plugins/runner/gpx/handlers/GPXTrackPointExtensionTagHandler.h
+       src/plugins/runner/gpx/handlers/GPXcmtTagHandler.cpp
+       src/plugins/runner/gpx/handlers/GPXcmtTagHandler.h
+       src/plugins/runner/gpx/handlers/GPXdescTagHandler.cpp
+       src/plugins/runner/gpx/handlers/GPXdescTagHandler.h
+       src/plugins/runner/gpx/handlers/GPXeleTagHandler.cpp
+       src/plugins/runner/gpx/handlers/GPXeleTagHandler.h
+       src/plugins/runner/gpx/handlers/GPXextensionsTagHandler.cpp
+       src/plugins/runner/gpx/handlers/GPXextensionsTagHandler.h
+       src/plugins/runner/gpx/handlers/GPXhrTagHandler.cpp
+       src/plugins/runner/gpx/handlers/GPXhrTagHandler.h
+       src/plugins/runner/gpx/handlers/GPXlinkTagHandler.cpp
+       src/plugins/runner/gpx/handlers/GPXlinkTagHandler.h
+       src/plugins/runner/gpx/handlers/GPXtimeTagHandler.cpp
+       src/plugins/runner/gpx/handlers/GPXtimeTagHandler.h
+       src/plugins/runner/gpx/handlers/GPXtypeTagHandler.cpp
+       src/plugins/runner/gpx/handlers/GPXtypeTagHandler.h
+       src/plugins/runner/gpx/handlers/GPXurlTagHandler.cpp
+       src/plugins/runner/gpx/handlers/GPXurlTagHandler.h
+       src/plugins/runner/gpx/handlers/GPXurlnameTagHandler.cpp
+       src/plugins/runner/gpx/handlers/GPXurlnameTagHandler.h
+       src/plugins/runner/gpx/tests/TestTrack.cpp
+       src/plugins/runner/hostip/HostipPlugin.cpp
+       src/plugins/runner/hostip/HostipPlugin.h
+       src/plugins/runner/hostip/HostipRunner.cpp
+       src/plugins/runner/hostip/HostipRunner.h
+       src/plugins/runner/json/JsonParser.cpp
+       src/plugins/runner/json/JsonParser.h
+       src/plugins/runner/json/JsonPlugin.cpp
+       src/plugins/runner/json/JsonPlugin.h
+       src/plugins/runner/json/JsonRunner.cpp
+       src/plugins/runner/json/JsonRunner.h
+       src/plugins/runner/kml/KmlDocument.cpp
+       src/plugins/runner/kml/KmlDocument.h
+       src/plugins/runner/kml/KmlParser.cpp
+       src/plugins/runner/kml/KmlParser.h
+       src/plugins/runner/kml/KmlPlugin.cpp
+       src/plugins/runner/kml/KmlPlugin.h
+       src/plugins/runner/kml/KmlRunner.cpp
+       src/plugins/runner/kml/KmlRunner.h
+       src/plugins/runner/kml/KmzHandler.cpp
+       src/plugins/runner/kml/KmzHandler.h
+       src/plugins/runner/latlon/LatLonPlugin.cpp
+       src/plugins/runner/latlon/LatLonPlugin.h
+       src/plugins/runner/latlon/LatLonRunner.cpp
+       src/plugins/runner/latlon/LatLonRunner.h
+       src/plugins/runner/local-osm-search/DatabaseQuery.cpp
+       src/plugins/runner/local-osm-search/DatabaseQuery.h
+       src/plugins/runner/local-osm-search/LocalOsmSearchPlugin.cpp
+       src/plugins/runner/local-osm-search/LocalOsmSearchPlugin.h
+       src/plugins/runner/local-osm-search/LocalOsmSearchRunner.cpp
+       src/plugins/runner/local-osm-search/LocalOsmSearchRunner.h
+       src/plugins/runner/local-osm-search/OsmDatabase.cpp
+       src/plugins/runner/local-osm-search/OsmDatabase.h
+       src/plugins/runner/local-osm-search/OsmPlacemark.cpp
+       src/plugins/runner/local-osm-search/OsmPlacemark.h
+       src/plugins/runner/localdatabase/LocalDatabasePlugin.cpp
+       src/plugins/runner/localdatabase/LocalDatabasePlugin.h
+       src/plugins/runner/localdatabase/LocalDatabaseRunner.cpp
+       src/plugins/runner/localdatabase/LocalDatabaseRunner.h
+       src/plugins/runner/log/LogPlugin.cpp
+       src/plugins/runner/log/LogPlugin.h
+       src/plugins/runner/log/LogRunner.cpp
+       src/plugins/runner/log/LogRunner.h
+       src/plugins/runner/mapquest/MapQuestPlugin.cpp
+       src/plugins/runner/mapquest/MapQuestPlugin.h
+       src/plugins/runner/mapquest/MapQuestRunner.cpp
+       src/plugins/runner/mapquest/MapQuestRunner.h
+       src/plugins/runner/monav/MonavConfigWidget.cpp
+       src/plugins/runner/monav/MonavConfigWidget.h
+       src/plugins/runner/monav/MonavMap.cpp
+       src/plugins/runner/monav/MonavMap.h
+       src/plugins/runner/monav/MonavMapsModel.cpp
+       src/plugins/runner/monav/MonavMapsModel.h
+       src/plugins/runner/monav/MonavPlugin.cpp
+       src/plugins/runner/monav/MonavPlugin.h
+       src/plugins/runner/monav/MonavRunner.cpp
+       src/plugins/runner/monav/MonavRunner.h
+       src/plugins/runner/nominatim-reversegeocoding/NominatimReverseGeocodingPlugin.cpp
+       src/plugins/runner/nominatim-reversegeocoding/NominatimReverseGeocodingPlugin.h
+       src/plugins/runner/nominatim-reversegeocoding/OsmNominatimReverseGeocodingRunner.cpp
+       src/plugins/runner/nominatim-reversegeocoding/OsmNominatimReverseGeocodingRunner.h
+       src/plugins/runner/nominatim-search/NominatimSearchPlugin.cpp
+       src/plugins/runner/nominatim-search/NominatimSearchPlugin.h
+       src/plugins/runner/nominatim-search/OsmNominatimSearchRunner.cpp
+       src/plugins/runner/nominatim-search/OsmNominatimSearchRunner.h
+       src/plugins/runner/open-source-routing-machine/OSRMPlugin.cpp
+       src/plugins/runner/open-source-routing-machine/OSRMPlugin.h
+       src/plugins/runner/open-source-routing-machine/OSRMRunner.cpp
+       src/plugins/runner/open-source-routing-machine/OSRMRunner.h
+       src/plugins/runner/openlocation-code-search/OpenLocationCodeSearchPlugin.cpp
+       src/plugins/runner/openlocation-code-search/OpenLocationCodeSearchPlugin.h
+       src/plugins/runner/openlocation-code-search/OpenLocationCodeSearchRunner.cpp
+       src/plugins/runner/openlocation-code-search/OpenLocationCodeSearchRunner.h
+       src/plugins/runner/openrouteservice/OpenRouteServicePlugin.cpp
+       src/plugins/runner/openrouteservice/OpenRouteServicePlugin.h
+       src/plugins/runner/openrouteservice/OpenRouteServiceRunner.cpp
+       src/plugins/runner/openrouteservice/OpenRouteServiceRunner.h
+       src/plugins/runner/osm/OsmElementDictionary.cpp
+       src/plugins/runner/osm/OsmElementDictionary.h
+       src/plugins/runner/osm/OsmNode.cpp
+       src/plugins/runner/osm/OsmNode.h
+       src/plugins/runner/osm/OsmParser.cpp
+       src/plugins/runner/osm/OsmParser.h
+       src/plugins/runner/osm/OsmPlugin.cpp
+       src/plugins/runner/osm/OsmPlugin.h
+       src/plugins/runner/osm/OsmRelation.cpp
+       src/plugins/runner/osm/OsmRelation.h
+       src/plugins/runner/osm/OsmRunner.cpp
+       src/plugins/runner/osm/OsmRunner.h
+       src/plugins/runner/osm/OsmWay.cpp
+       src/plugins/runner/osm/OsmWay.h
+       src/plugins/runner/osm/translators/OsmDocumentTagTranslator.cpp
+       src/plugins/runner/osm/translators/OsmDocumentTagTranslator.h
+       src/plugins/runner/osm/translators/OsmFeatureTagTranslator.cpp
+       src/plugins/runner/osm/translators/OsmFeatureTagTranslator.h
+       src/plugins/runner/osm/translators/OsmPlacemarkTagTranslator.cpp
+       src/plugins/runner/osm/translators/OsmPlacemarkTagTranslator.h
+       src/plugins/runner/osm/writers/OsmNodeTagWriter.cpp
+       src/plugins/runner/osm/writers/OsmNodeTagWriter.h
+       src/plugins/runner/osm/writers/OsmObjectAttributeWriter.cpp
+       src/plugins/runner/osm/writers/OsmObjectAttributeWriter.h
+       src/plugins/runner/osm/writers/OsmRelationTagWriter.cpp
+       src/plugins/runner/osm/writers/OsmRelationTagWriter.h
+       src/plugins/runner/osm/writers/OsmTagTagWriter.cpp
+       src/plugins/runner/osm/writers/OsmTagTagWriter.h
+       src/plugins/runner/osm/writers/OsmTagWriter.cpp
+       src/plugins/runner/osm/writers/OsmTagWriter.h
+       src/plugins/runner/osm/writers/OsmWayTagWriter.cpp
+       src/plugins/runner/osm/writers/OsmWayTagWriter.h
+       src/plugins/runner/pn2/Pn2Plugin.cpp
+       src/plugins/runner/pn2/Pn2Plugin.h
+       src/plugins/runner/pn2/Pn2Runner.cpp
+       src/plugins/runner/pn2/Pn2Runner.h
+       src/plugins/runner/pnt/PntPlugin.cpp
+       src/plugins/runner/pnt/PntPlugin.h
+       src/plugins/runner/pnt/PntRunner.cpp
+       src/plugins/runner/pnt/PntRunner.h
+       src/plugins/runner/routino/RoutinoPlugin.cpp
+       src/plugins/runner/routino/RoutinoPlugin.h
+       src/plugins/runner/routino/RoutinoRunner.cpp
+       src/plugins/runner/routino/RoutinoRunner.h
+       src/plugins/runner/shp/ShpPlugin.cpp
+       src/plugins/runner/shp/ShpPlugin.h
+       src/plugins/runner/shp/ShpRunner.cpp
+       src/plugins/runner/shp/ShpRunner.h
+       src/plugins/runner/traveling-salesman/TravelingSalesmanPlugin.cpp
+       src/plugins/runner/traveling-salesman/TravelingSalesmanPlugin.h
+       src/plugins/runner/traveling-salesman/TravelingSalesmanRunner.cpp
+       src/plugins/runner/traveling-salesman/TravelingSalesmanRunner.h
+       src/plugins/runner/yours/YoursPlugin.cpp
+       src/plugins/runner/yours/YoursPlugin.h
+       src/plugins/runner/yours/YoursRunner.cpp
+       src/plugins/runner/yours/YoursRunner.h
+       src/plugins/templates/floatitem/FITemplateFloatItem.cpp
+       src/plugins/templates/floatitem/FITemplateFloatItem.h
+       tests/AbstractDataPluginModelTest.cpp
+       tests/AbstractDataPluginTest.cpp
+       tests/AbstractFloatItemTest.cpp
+       tests/BillboardGraphicsItemTest.cpp
+       tests/BookmarkManagerTest.cpp
+       tests/FrameGraphicsItemTest.cpp
+       tests/GeoDataLatLonAltBoxTest.cpp
+       tests/GeoDataTreeModelTest.cpp
+       tests/GeoUriParserTest.cpp
+       tests/GnomonicProjectionTest.cpp
+       tests/LocaleTest.cpp
+       tests/MapViewWidgetTest.cpp
+       tests/MarbleMapTest.cpp
+       tests/MarbleRunnerManagerTest.cpp
+       tests/MarbleWidgetSpeedTest.cpp
+       tests/MarbleWidgetTest.cpp
+       tests/MercatorProjectionTest.cpp
+       tests/PlacemarkPositionProviderPluginTest.cpp
+       tests/PluginManagerTest.cpp
+       tests/PositionTrackingTest.cpp
+       tests/QuaternionTest.cpp
+       tests/RenderPluginModelTest.cpp
+       tests/RenderPluginTest.cpp
+       tests/RouteRequestTest.cpp
+       tests/ScreenGraphicsItemTest.cpp
+       tests/StereographicProjectionTest.cpp
+       tests/TestBalloonStyle.cpp
+       tests/TestCamera.cpp
+       tests/TestEquality.cpp
+       tests/TestFeatureDetach.cpp
+       tests/TestGeoData.cpp
+       tests/TestGeoDataCoordinates.cpp
+       tests/TestGeoDataCopy.cpp
+       tests/TestGeoDataGeometry.cpp
+       tests/TestGeoDataLatLonAltBox.cpp
+       tests/TestGeoDataPack.cpp
+       tests/TestGeoDataTrack.cpp
+       tests/TestGeoDataWriter.cpp
+       tests/TestGeoPainter.cpp
+       tests/TestGeoSceneWriter.cpp
+       tests/TestGeometryDetach.cpp
+       tests/TestGroundOverlay.cpp
+       tests/TestGudermannian.cpp
+       tests/TestGxTimeSpan.cpp
+       tests/TestGxTimeStamp.cpp
+       tests/TestLatLonQuad.cpp
+       tests/TestListStyle.cpp
+       tests/TestModel.cpp
+       tests/TestNetworkLink.cpp
+       tests/TestOsmAnnotation.cpp
+       tests/TestTimeSpan.cpp
+       tests/TestTimeStamp.cpp
+       tests/TestToCircumscribedRectangle.cpp
+       tests/TestTour.cpp
+       tests/TestUtils.h
+       tests/TileIdTest.cpp
+       tests/ViewportParamsTest.cpp
+       tools/asc2kml/asc2kml.cpp
+       tools/constellations2kml/constellations2kml.cpp
+       tools/dateline/dateline.cpp
+       tools/dso2kml/dso2kml.cpp
+       tools/gen-sat-catalog/gen-sat-catalog.py
+       tools/gen-sat-catalog/lib/DataDownloader.py
+       tools/gen-sat-catalog/lib/SpaceObjectCatalog.py
+       tools/gen-sat-catalog/to-legacy-msc.xsl
+       tools/iau2kml/iau2kml.cpp
+       tools/kml2cache/kml2cache.cpp
+       tools/kml2kml/kml2kml.cpp
+       tools/maptheme-previewimage/main.cpp
+       tools/osm-addresses/OsmParser.cpp
+       tools/osm-addresses/OsmParser.h
+       tools/osm-addresses/OsmRegion.cpp
+       tools/osm-addresses/OsmRegion.h
+       tools/osm-addresses/OsmRegionTree.cpp
+       tools/osm-addresses/OsmRegionTree.h
+       tools/osm-addresses/SqlWriter.cpp
+       tools/osm-addresses/SqlWriter.h
+       tools/osm-addresses/Writer.cpp
+       tools/osm-addresses/Writer.h
+       tools/osm-addresses/main.cpp
+       tools/osm-addresses/xml/XmlParser.cpp
+       tools/osm-addresses/xml/XmlParser.h
+       tools/osm-sisyphus/crawler.bash
+       tools/osm-sisyphus/job.cpp
+       tools/osm-sisyphus/job.h
+       tools/osm-sisyphus/jobmanager.cpp
+       tools/osm-sisyphus/jobmanager.h
+       tools/osm-sisyphus/jobparameters.cpp
+       tools/osm-sisyphus/jobparameters.h
+       tools/osm-sisyphus/jobqueue.cpp
+       tools/osm-sisyphus/jobqueue.h
+       tools/osm-sisyphus/logger.cpp
+       tools/osm-sisyphus/logger.h
+       tools/osm-sisyphus/main.cpp
+       tools/osm-sisyphus/region.cpp
+       tools/osm-sisyphus/region.h
+       tools/osm-sisyphus/regions.bash
+       tools/osm-sisyphus/upload.cpp
+       tools/osm-sisyphus/upload.h
+       tools/pnt2svg/pnt2svg.cpp
+       tools/pntdel/pntdel.cpp
+       tools/pntreplace/pntreplace.cpp
+       tools/pntreplace/svgxmlhandler.cpp
+       tools/pntreplace/svgxmlhandler.h
+       tools/poly2kml/main.cpp
+       tools/routing-instructions/main.cpp
+       tools/shp2pn2/shp2pn2.cpp
+       tools/stars/stars.cpp
+       tools/svg2pnt/svg2pnt.cpp
+       tools/svg2pnt/svgxmlhandler.cpp
+       tools/svg2pnt/svgxmlhandler.h
+       tools/tilecreator-srtm2/main.cpp
+       tools/tilecreator-srtm2/tccore.cpp
+       tools/tilecreator-srtm2/tccore.h
+       tools/tilecreator/main.cpp
+       tools/tilecreator/tccore.cpp
+       tools/tilecreator/tccore.h
+       tools/vectortilecreator/vectortilecreator.py
+       tools/version/update-version-number.py
+       data/maps/earth/behaim1492/behaim1492.dgml
+       tools/speaker-files/main.cpp
+       data/maps/earth/openstreetmap/openstreetmap.dgml
+       data/maps/earth/vectorosm/vectorosm.dgml
+       src/plugins/render/photo/PhotoPlugin.cpp
+Copyright: 2014-2015, Abhinav Gangwar <abhgang@gmail.com>
+           2014, Adam Dabrowski <adamdbrw@gmail.com>
+           2013, Adrian Draghici <draghici.adrian.b@gmail.com>
+           2015, Alejandro Garcia Montoro <alejandro.garciamontoro@gmail.com>
+           2012-2013, Ander Pijoan <ander.pijoan@deusto.es>
+           2009-2012, Anders Lund <anders@alweb.dk>
+           2013, Andrei Duma <andrei.duma.dorian@gmail.com>
+           2007-2009, Andrew Manson <g.real.ate@gmail.com>
+           2012, Anton Chernov <chernov.anton.mail@gmail.com>
+           2009-2011, Bastian Holst <bastianholst@gmx.de>
+           2010-2014, Bernhard Beschow <bbeschow@cs.tu-berlin.de>
+           2014, Calin Cruceru <calin@rosedu.org>
+           2014, Calin Cruceru <crucerucalincristian@gmail.com>
+           2007, Carlos Licea <carlos <_licea@hotmail.com>
+           2007-2008, Carlos Licea <carlos.licea@kdemail.net>
+           2010-2012, Cezar Mocan <mocancezar@gmail.com>
+           2007, Christian Ehrlicher <ch.ehrlicher@gmx.de>
+           2008, Claudiu Covaci <claudiu.covaci@gmail.com>
+           2015, Constantin Mihalache <mihalache.c94@gmail.com>
+           2010-2011, Daniel Marth <danielmarth@gmx.at>
+           2007-2009, David Roberts <dvdr18@gmail.com>
+           2008-2015, Dennis Nienhüser <nienhueser@kde.org>
+           2009, Eckhart Wörner <ewoerner@kde.org>
+           2011-2012, Florian Eßer <f.esser@rwth-aachen.de>
+           2011, Friedrich W. H. Kossebau <kossebau@kde.org>
+           2009-2010, Gaurav Gupta <1989.gaurav@googlemail.com>
+           2012, Gerhard HOLTKAMP
+           2028, Gerhard HOLTKAMP-JAN-2013
+           2025-2026, Gerhard HOLTKAMP-MAR-2014
+           2014-2015, Gerhard Holtkamp
+           2011, Guillaume Martres <smarter@ubuntu.com>
+           2015, Gábor Péterffy <gabor.peterffy@gmail.com>
+           2014-2015, Gábor Péterffy <peterffy95@gmail.com>
+           2014, Gábor Péterffy <peterffy95@gmail.org>
+           2010, Harshit Jain <hjain.itbhu@gmail.com>
+           2008-2009, Henry de Valence <hdevalence@gmail.com>
+           2012-2015, Ilya Kowalewski <illya.kovalevskyy@gmail.com>
+           2015, Imran Tatriev <itatriev@gmail.com>
+           2007-2008, Inge Wallin <inge@lysator.liu.se>
+           2007-2008, Inge Wallin <ingwa@kde.org>
+           2011, Javier Becerra <javier@auva.es>
+           2008-2010, Jens-Michael Hoffmann <jensmh@gmx.de>
+           2008-2011, Jens-Michael Hoffmann <jmho@c-xx.com>
+           2011, Konrad Enzensberger <e.konrad@mpegcode.com>
+           2011, Konstantin Oblaukhov <oblaukhov.konstantin@gmail.com>
+           2012, LOTES TM" LLC <lotes.sis@gmail.com>
+           2013-2014, Levente Kurusa <levex@linux.com>
+           2013-2014, Marek Hakala <hakala.marek@gmail.com>
+           2015, Marius-Valeriu Stanciu <stanciumarius94@gmail.com>
+           2010, Matias Kallio <matias.kallio@gmail.com>
+           2012-2013, Mayank Madan <maddiemadan@gmail.com>
+           2011, Michael Henning <mikehenning@eclipse.net>
+           2013-2015, Mihail Ivchenko <ematirov@gmail.com>
+           2013, Mihail Ivchenko <ematirov@gmail>
+           2012-2013, Mohammed Nafees <nafees.technocool@gmail.com>
+           2007, Murad Tagirov <tmurad@gmail.com>
+           2010-2011, Niko Sams <niko.sams@gmail.com>
+           2007-2008, Nikolas Zimmermann <zimmermann@kde.org>
+           2008-2009, Patrick Spendrin <ps_ml@gmx.de>
+           2008, Pino Toscano <pino@kde.org>
+           2012, Ralf Habacker <ralf.habacker@freenet.de>
+           2012-2014, Rene Kuettner <rene@bitkanal.net>
+           2013, Roman Karlstetter <roman.karlstetter@googlemail.com>
+           2013-2014, Sanjiban Bairagya <sanjiban22393@gmail.com>
+           2008, Shashan Singh <shashank.personal@gmail.com>
+           2012, Shou Ya <shouyalovelyx@gmail.com>
+           2012, Shou Ya <shouyatf@gmail.com>
+           2010, Siddharth Srivastava <akssps011@gmail.com>
+           2008, Simon Hausmann <hausmann@kde.org>
+           2009-2013, Thibaut Gridel <tgridel@free.fr>
+           2007, Thomas Zander <zander@kde.org>
+           2007, Tim Sutton <tim@linfiniti.com>
+           2007, Tobias Koenig <tokoe@kde.org>
+           2007-2014, Torsten Rahn <rahn@kde.org>
+           2004-2012, Torsten Rahn <tackat@kde.org>
+           2010-2013, Utku Aydın <utkuaydin34@gmail.com>
+           2011, Valery Kharitonov <kharvd@gmail.com>
+           2010, Wes Hardaker <hardaker@users.sourceforge.net>
+           2010, Wes Hardaker <marble@ws6z.com>
+           2013, Yazeed Zoabi <yazeedz.zoabi@gmail.com>
+           2011, Dennis Nienhüser <nienhueser@kde.org>
+           2009, Bastian Holst <bastianholst@gmx.de>
+           2012, Mohammed Nafees <nafees.technocool@gmail.com>
+License: LGPL
+ This program is free software licensed under the GNU LGPL. You can
+ find a copy of this license in LICENSE.txt in the top directory of
+ the source code.
+ .
+ On Debian systems, the full text of the GNU Lesser General Public License
+ version 2.1 can be found in the file `/usr/share/common-licenses/LGPL-2.1'
+Comment: LICENSE.txt is copy of LGPL-2.1
+
+Files: data/bitmaps/osmcarto/patterns/allotments.png
+       data/bitmaps/osmcarto/patterns/beach.png
+       data/bitmaps/osmcarto/patterns/cliff.png
+       data/bitmaps/osmcarto/patterns/cliff2.png
+       data/bitmaps/osmcarto/patterns/danger.png
+       data/bitmaps/osmcarto/patterns/embankment.png
+       data/bitmaps/osmcarto/patterns/forest.png
+       data/bitmaps/osmcarto/patterns/glacier.png
+       data/bitmaps/osmcarto/patterns/grave_yard_christian.png
+       data/bitmaps/osmcarto/patterns/grave_yard_generic.png
+       data/bitmaps/osmcarto/patterns/grave_yard_jewish.png
+       data/bitmaps/osmcarto/patterns/grey_vertical_hatch.png
+       data/bitmaps/osmcarto/patterns/military_red_hatch.png
+       data/bitmaps/osmcarto/patterns/orchard.png
+       data/bitmaps/osmcarto/patterns/quarry.png
+       data/bitmaps/osmcarto/patterns/rock_overlay.png
+       data/bitmaps/osmcarto/patterns/scree_overlay.png
+       data/bitmaps/osmcarto/patterns/scrub.png
+       data/bitmaps/osmcarto/patterns/vineyard.png
+       data/bitmaps/osmcarto/patterns/wetland.png
+       data/bitmaps/osmcarto/patterns/wetland_bog.png
+       data/bitmaps/osmcarto/patterns/wetland_mangrove.png
+       data/bitmaps/osmcarto/patterns/wetland_marsh.png
+       data/bitmaps/osmcarto/patterns/wetland_reed.png
+       data/bitmaps/osmcarto/patterns/wetland_swamp.png
+       data/bitmaps/osmcarto/shields/svg/motorway_10x1.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_10x2.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_10x3.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_10x4.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_11x1.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_11x2.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_11x3.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_11x4.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_1x1.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_1x2.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_1x3.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_1x4.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_2x1.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_2x2.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_2x3.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_2x4.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_3x1.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_3x2.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_3x3.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_3x4.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_4x1.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_4x2.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_4x3.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_4x4.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_5x1.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_5x2.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_5x3.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_5x4.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_6x1.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_6x2.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_6x3.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_6x4.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_7x1.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_7x2.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_7x3.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_7x4.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_8x1.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_8x2.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_8x3.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_8x4.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_9x1.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_9x2.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_9x3.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_9x4.svg
+       data/bitmaps/osmcarto/shields/svg/primary_10x1.svg
+       data/bitmaps/osmcarto/shields/svg/primary_10x2.svg
+       data/bitmaps/osmcarto/shields/svg/primary_10x3.svg
+       data/bitmaps/osmcarto/shields/svg/primary_10x4.svg
+       data/bitmaps/osmcarto/shields/svg/primary_11x1.svg
+       data/bitmaps/osmcarto/shields/svg/primary_11x2.svg
+       data/bitmaps/osmcarto/shields/svg/primary_11x3.svg
+       data/bitmaps/osmcarto/shields/svg/primary_11x4.svg
+       data/bitmaps/osmcarto/shields/svg/primary_1x1.svg
+       data/bitmaps/osmcarto/shields/svg/primary_1x2.svg
+       data/bitmaps/osmcarto/shields/svg/primary_1x3.svg
+       data/bitmaps/osmcarto/shields/svg/primary_1x4.svg
+       data/bitmaps/osmcarto/shields/svg/primary_2x1.svg
+       data/bitmaps/osmcarto/shields/svg/primary_2x2.svg
+       data/bitmaps/osmcarto/shields/svg/primary_2x3.svg
+       data/bitmaps/osmcarto/shields/svg/primary_2x4.svg
+       data/bitmaps/osmcarto/shields/svg/primary_3x1.svg
+       data/bitmaps/osmcarto/shields/svg/primary_3x2.svg
+       data/bitmaps/osmcarto/shields/svg/primary_3x3.svg
+       data/bitmaps/osmcarto/shields/svg/primary_3x4.svg
+       data/bitmaps/osmcarto/shields/svg/primary_4x1.svg
+       data/bitmaps/osmcarto/shields/svg/primary_4x2.svg
+       data/bitmaps/osmcarto/shields/svg/primary_4x3.svg
+       data/bitmaps/osmcarto/shields/svg/primary_4x4.svg
+       data/bitmaps/osmcarto/shields/svg/primary_5x1.svg
+       data/bitmaps/osmcarto/shields/svg/primary_5x2.svg
+       data/bitmaps/osmcarto/shields/svg/primary_5x3.svg
+       data/bitmaps/osmcarto/shields/svg/primary_5x4.svg
+       data/bitmaps/osmcarto/shields/svg/primary_6x1.svg
+       data/bitmaps/osmcarto/shields/svg/primary_6x2.svg
+       data/bitmaps/osmcarto/shields/svg/primary_6x3.svg
+       data/bitmaps/osmcarto/shields/svg/primary_6x4.svg
+       data/bitmaps/osmcarto/shields/svg/primary_7x1.svg
+       data/bitmaps/osmcarto/shields/svg/primary_7x2.svg
+       data/bitmaps/osmcarto/shields/svg/primary_7x3.svg
+       data/bitmaps/osmcarto/shields/svg/primary_7x4.svg
+       data/bitmaps/osmcarto/shields/svg/primary_8x1.svg
+       data/bitmaps/osmcarto/shields/svg/primary_8x2.svg
+       data/bitmaps/osmcarto/shields/svg/primary_8x3.svg
+       data/bitmaps/osmcarto/shields/svg/primary_8x4.svg
+       data/bitmaps/osmcarto/shields/svg/primary_9x1.svg
+       data/bitmaps/osmcarto/shields/svg/primary_9x2.svg
+       data/bitmaps/osmcarto/shields/svg/primary_9x3.svg
+       data/bitmaps/osmcarto/shields/svg/primary_9x4.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_10x1.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_10x2.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_10x3.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_10x4.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_11x1.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_11x2.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_11x3.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_11x4.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_1x1.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_1x2.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_1x3.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_1x4.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_2x1.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_2x2.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_2x3.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_2x4.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_3x1.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_3x2.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_3x3.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_3x4.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_4x1.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_4x2.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_4x3.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_4x4.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_5x1.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_5x2.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_5x3.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_5x4.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_6x1.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_6x2.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_6x3.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_6x4.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_7x1.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_7x2.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_7x3.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_7x4.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_8x1.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_8x2.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_8x3.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_8x4.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_9x1.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_9x2.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_9x3.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_9x4.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_10x1.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_10x2.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_10x3.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_10x4.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_11x1.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_11x2.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_11x3.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_11x4.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_1x1.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_1x2.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_1x3.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_1x4.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_2x1.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_2x2.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_2x3.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_2x4.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_3x1.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_3x2.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_3x3.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_3x4.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_4x1.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_4x2.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_4x3.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_4x4.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_5x1.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_5x2.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_5x3.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_5x4.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_6x1.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_6x2.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_6x3.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_6x4.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_7x1.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_7x2.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_7x3.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_7x4.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_8x1.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_8x2.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_8x3.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_8x4.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_9x1.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_9x2.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_9x3.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_9x4.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_10x1.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_10x2.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_10x3.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_10x4.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_11x1.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_11x2.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_11x3.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_11x4.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_1x1.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_1x2.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_1x3.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_1x4.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_2x1.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_2x2.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_2x3.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_2x4.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_3x1.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_3x2.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_3x3.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_3x4.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_4x1.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_4x2.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_4x3.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_4x4.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_5x1.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_5x2.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_5x3.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_5x4.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_6x1.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_6x2.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_6x3.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_6x4.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_7x1.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_7x2.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_7x3.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_7x4.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_8x1.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_8x2.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_8x3.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_8x4.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_9x1.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_9x2.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_9x3.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_9x4.svg
+       data/bitmaps/osmcarto/symbols/48/airtransport/aerodrome.png
+       data/bitmaps/osmcarto/symbols/48/airtransport/helipad.png
+       data/bitmaps/osmcarto/symbols/48/amenity/archaeological_site.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/atm.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/bank.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/bar.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/biergarten.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/cafe.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/cinema.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/community_centre-14.png
+       data/bitmaps/osmcarto/symbols/48/amenity/courthouse-16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/drinking_water.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/emergency_phone.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/fast_food.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/firestation.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/fountain-14.png
+       data/bitmaps/osmcarto/symbols/48/amenity/information.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/library.20.png
+       data/bitmaps/osmcarto/symbols/48/amenity/monument.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/museum.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/nightclub.18.png
+       data/bitmaps/osmcarto/symbols/48/amenity/picnic.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/playground.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/police.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/post_box-12.png
+       data/bitmaps/osmcarto/symbols/48/amenity/post_office-14.png
+       data/bitmaps/osmcarto/symbols/48/amenity/prison.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/pub.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/recycling.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/restaurant.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/telephone.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/theatre.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/toilets.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/tourist_memorial.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/town_hall.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/viewpoint.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/water_park.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/water_tower.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/windmill.16.png
+       data/bitmaps/osmcarto/symbols/48/black/buddhist.16.png
+       data/bitmaps/osmcarto/symbols/48/black/christian.16.png
+       data/bitmaps/osmcarto/symbols/48/black/hinduist.16.png
+       data/bitmaps/osmcarto/symbols/48/black/jewish.16.png
+       data/bitmaps/osmcarto/symbols/48/black/muslim.16.png
+       data/bitmaps/osmcarto/symbols/48/black/place_of_worship.16.png
+       data/bitmaps/osmcarto/symbols/48/black/power_wind-16.png
+       data/bitmaps/osmcarto/symbols/48/black/shintoist.16.png
+       data/bitmaps/osmcarto/symbols/48/black/sikhist.16.png
+       data/bitmaps/osmcarto/symbols/48/black/taoist.16.png
+       data/bitmaps/osmcarto/symbols/48/health/dentist.16.png
+       data/bitmaps/osmcarto/symbols/48/health/doctors.16.png
+       data/bitmaps/osmcarto/symbols/48/health/hospital.16.png
+       data/bitmaps/osmcarto/symbols/48/health/pharmacy.16.png
+       data/bitmaps/osmcarto/symbols/48/health/veterinary-14.png
+       data/bitmaps/osmcarto/symbols/48/individual/bench.16.png
+       data/bitmaps/osmcarto/symbols/48/individual/entrance.10.png
+       data/bitmaps/osmcarto/symbols/48/individual/gate.png
+       data/bitmaps/osmcarto/symbols/48/individual/level_crossing.png
+       data/bitmaps/osmcarto/symbols/48/individual/level_crossing2.png
+       data/bitmaps/osmcarto/symbols/48/individual/liftgate.png
+       data/bitmaps/osmcarto/symbols/48/individual/mini_roundabout.png
+       data/bitmaps/osmcarto/symbols/48/individual/peak.png
+       data/bitmaps/osmcarto/symbols/48/individual/power_tower.png
+       data/bitmaps/osmcarto/symbols/48/individual/power_tower_small.png
+       data/bitmaps/osmcarto/symbols/48/individual/railway_station.png
+       data/bitmaps/osmcarto/symbols/48/individual/saddle.png
+       data/bitmaps/osmcarto/symbols/48/individual/spring.png
+       data/bitmaps/osmcarto/symbols/48/individual/square.png
+       data/bitmaps/osmcarto/symbols/48/individual/traffic_light.png
+       data/bitmaps/osmcarto/symbols/48/individual/tree-16.png
+       data/bitmaps/osmcarto/symbols/48/individual/tree-29-autumn.png
+       data/bitmaps/osmcarto/symbols/48/individual/tree-29-winter.png
+       data/bitmaps/osmcarto/symbols/48/individual/tree-29.png
+       data/bitmaps/osmcarto/symbols/48/individual/waste_basket.10.png
+       data/bitmaps/osmcarto/symbols/48/manmade/communications.16.png
+       data/bitmaps/osmcarto/symbols/48/manmade/hunting-stand.16.png
+       data/bitmaps/osmcarto/symbols/48/shop/bag-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/beauty-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/beverages-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/butcher-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/car_parts-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/chemist-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/computer-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/confectionery-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/department_store-16.png
+       data/bitmaps/osmcarto/symbols/48/shop/florist.16.png
+       data/bitmaps/osmcarto/symbols/48/shop/garden_centre-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/greengrocer-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/hifi-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/ice-cream-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/kiosk-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/laundry-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/motorcycle-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/musical_instrument-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/newsagent-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/outdoor-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/perfumery-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/photo-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/seafood-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/shop-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/shop_alcohol.16.png
+       data/bitmaps/osmcarto/symbols/48/shop/shop_bakery.16.png
+       data/bitmaps/osmcarto/symbols/48/shop/shop_bicycle.16.png
+       data/bitmaps/osmcarto/symbols/48/shop/shop_books.16.png
+       data/bitmaps/osmcarto/symbols/48/shop/shop_car.png
+       data/bitmaps/osmcarto/symbols/48/shop/shop_clothes.16.png
+       data/bitmaps/osmcarto/symbols/48/shop/shop_convenience.png
+       data/bitmaps/osmcarto/symbols/48/shop/shop_diy.16.png
+       data/bitmaps/osmcarto/symbols/48/shop/shop_electronics.16.png
+       data/bitmaps/osmcarto/symbols/48/shop/shop_furniture.16.png
+       data/bitmaps/osmcarto/symbols/48/shop/shop_gift.16.png
+       data/bitmaps/osmcarto/symbols/48/shop/shop_hairdresser.16.png
+       data/bitmaps/osmcarto/symbols/48/shop/shop_jewelry.16.png
+       data/bitmaps/osmcarto/symbols/48/shop/shop_mobile_phone.16.png
+       data/bitmaps/osmcarto/symbols/48/shop/shop_optician.16.png
+       data/bitmaps/osmcarto/symbols/48/shop/shop_pet.16.png
+       data/bitmaps/osmcarto/symbols/48/shop/shop_shoes.16.png
+       data/bitmaps/osmcarto/symbols/48/shop/shop_supermarket.png
+       data/bitmaps/osmcarto/symbols/48/shop/shopping_car_repair.16.png
+       data/bitmaps/osmcarto/symbols/48/shop/stationery-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/toys-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/travel_agency-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/variety_store-14.png
+       data/bitmaps/osmcarto/symbols/48/transportation/alpinehut.16.png
+       data/bitmaps/osmcarto/symbols/48/transportation/bicycle_parking.16.png
+       data/bitmaps/osmcarto/symbols/48/transportation/bus_station.16.png
+       data/bitmaps/osmcarto/symbols/48/transportation/bus_stop.12.png
+       data/bitmaps/osmcarto/symbols/48/transportation/camping.16.png
+       data/bitmaps/osmcarto/symbols/48/transportation/car_share.16.png
+       data/bitmaps/osmcarto/symbols/48/transportation/caravan_park.16.png
+       data/bitmaps/osmcarto/symbols/48/transportation/elevator-12.png
+       data/bitmaps/osmcarto/symbols/48/transportation/embassy.16.png
+       data/bitmaps/osmcarto/symbols/48/transportation/ford.16.png
+       data/bitmaps/osmcarto/symbols/48/transportation/fuel.16.png
+       data/bitmaps/osmcarto/symbols/48/transportation/guest_house.16.png
+       data/bitmaps/osmcarto/symbols/48/transportation/hostel.16.png
+       data/bitmaps/osmcarto/symbols/48/transportation/hotel.16.png
+       data/bitmaps/osmcarto/symbols/48/transportation/lighthouse.16.png
+       data/bitmaps/osmcarto/symbols/48/transportation/motel.16.png
+       data/bitmaps/osmcarto/symbols/48/transportation/motorcycle_parking.16.png
+       data/bitmaps/osmcarto/symbols/48/transportation/parking.png
+       data/bitmaps/osmcarto/symbols/48/transportation/rental_bicycle.16.png
+       data/bitmaps/osmcarto/symbols/48/transportation/rental_car.16.png
+       data/bitmaps/osmcarto/symbols/48/transportation/subway_entrance.png
+       data/bitmaps/osmcarto/symbols/48/transportation/taxi.16.png
+License: CC0
+Copyright: no copyright claimed
+Comment: No explicit license found, using license(s) from:
+ data/bitmaps/osmcarto/LICENSE.txt
+
+Files: docs/bindings/python/html/common/lgpl-license
+       examples/python/simple_marble.py
+       src/bindings/python/sip/AbstractLayerInterface.sip
+       src/bindings/python/sip/AbstractMarbleGraphicsLayout.sip
+       src/bindings/python/sip/AbstractProjection.sip
+       src/bindings/python/sip/AbstractWorkerThread.sip
+       src/bindings/python/sip/AlternativeRoutesModel.sip
+       src/bindings/python/sip/AutoNavigation.sip
+       src/bindings/python/sip/BillboardGraphicsItem.sip
+       src/bindings/python/sip/BookmarkManager.sip
+       src/bindings/python/sip/CurrentLocationWidget.sip
+       src/bindings/python/sip/CylindricalProjection.sip
+       src/bindings/python/sip/DialogConfigurationInterface.sip
+       src/bindings/python/sip/DownloadRegion.sip
+       src/bindings/python/sip/DownloadRegionDialog.sip
+       src/bindings/python/sip/ElevationModel.sip
+       src/bindings/python/sip/FileViewWidget.sip
+       src/bindings/python/sip/FrameGraphicsItem.sip
+       src/bindings/python/sip/GeoDataAbstractView.sip
+       src/bindings/python/sip/GeoDataBalloonStyle.sip
+       src/bindings/python/sip/GeoDataGroundOverlay.sip
+       src/bindings/python/sip/GeoDataItemIcon.sip
+       src/bindings/python/sip/GeoDataListStyle.sip
+       src/bindings/python/sip/GeoDataLod.sip
+       src/bindings/python/sip/GeoDataLookAt.sip
+       src/bindings/python/sip/GeoDataOverlay.sip
+       src/bindings/python/sip/GeoDataRegion.sip
+       src/bindings/python/sip/GeoDataTimePrimitive.sip
+       src/bindings/python/sip/GeoDataTimeSpan.sip
+       src/bindings/python/sip/GeoDataTimeStamp.sip
+       src/bindings/python/sip/GeoDataTrack.sip
+       src/bindings/python/sip/GeoDataTreeModel.sip
+       src/bindings/python/sip/GeoGraphicsScene.sip
+       src/bindings/python/sip/GeoWriter.sip
+       src/bindings/python/sip/LabelGraphicsItem.sip
+       src/bindings/python/sip/LatLonBoxWidget.sip
+       src/bindings/python/sip/LayerInterface.sip
+       src/bindings/python/sip/LegendWidget.sip
+       src/bindings/python/sip/Maneuver.sip
+       src/bindings/python/sip/MapThemeDownloadDialog.sip
+       src/bindings/python/sip/MapViewWidget.sip
+       src/bindings/python/sip/MapWizard.sip
+       src/bindings/python/sip/MarbleAbstractRunner.sip
+       src/bindings/python/sip/MarbleColors.sip
+       src/bindings/python/sip/MarbleGraphicsGridLayout.sip
+       src/bindings/python/sip/MarbleRunnerManager.sip
+       src/bindings/python/sip/MarbleWebView.sip
+       src/bindings/python/sip/NavigationWidget.sip
+       src/bindings/python/sip/ParseRunnerPlugin.sip
+       src/bindings/python/sip/ParsingRunner.sip
+       src/bindings/python/sip/PluginAboutDialog.sip
+       src/bindings/python/sip/PositionProviderPluginInterface.sip
+       src/bindings/python/sip/PositionTracking.sip
+       src/bindings/python/sip/QtMarbleConfigDialog.sip
+       src/bindings/python/sip/ReverseGeocodingRunner.sip
+       src/bindings/python/sip/ReverseGeocodingRunnerPlugin.sip
+       src/bindings/python/sip/Route.sip
+       src/bindings/python/sip/RouteRequest.sip
+       src/bindings/python/sip/RouteSegment.sip
+       src/bindings/python/sip/RoutingModel.sip
+       src/bindings/python/sip/RoutingProfile.sip
+       src/bindings/python/sip/RoutingRunner.sip
+       src/bindings/python/sip/RoutingRunnerPlugin.sip
+       src/bindings/python/sip/SearchRunner.sip
+       src/bindings/python/sip/SearchRunnerPlugin.sip
+       src/bindings/python/sip/TileCoordsPyramid.sip
+       src/bindings/python/sip/TileId.sip
+       src/bindings/python/sip/TileLevelRangeWidget.sip
+       src/bindings/python/sip/TinyWebBrowser.sip
+       src/bindings/python/sip/WidgetGraphicsItem.sip
+       src/bindings/python/sip/WikipediaService.sip
+       src/bindings/python/sip/marblemod.sip
+       src/lib/marble/MathHelper.cpp
+       src/lib/marble/MathHelper.h
+       src/lib/marble/StackedTileLoader.cpp
+       src/lib/marble/StackedTileLoader.h
+       src/lib/marble/TileLoaderHelper.cpp
+       src/lib/marble/TileLoaderHelper.h
+       src/lib/marble/geodata/data/GeoDataDocument.cpp
+       src/lib/marble/geodata/data/GeoDataDocument.h
+       src/lib/marble/geodata/data/GeoDataFolder.cpp
+       src/lib/marble/geodata/data/GeoDataFolder.h
+       src/lib/marble/geodata/handlers/dgml/DgmlAttributeDictionary.cpp
+       src/lib/marble/geodata/handlers/dgml/DgmlAttributeDictionary.h
+       src/lib/marble/geodata/handlers/dgml/DgmlAuxillaryDictionary.cpp
+       src/lib/marble/geodata/handlers/dgml/DgmlAuxillaryDictionary.h
+       src/lib/marble/geodata/handlers/dgml/DgmlAvailableTagHandler.cpp
+       src/lib/marble/geodata/handlers/dgml/DgmlAvailableTagHandler.h
+       src/lib/marble/geodata/handlers/dgml/DgmlBrushTagHandler.cpp
+       src/lib/marble/geodata/handlers/dgml/DgmlBrushTagHandler.h
+       src/lib/marble/geodata/handlers/dgml/DgmlDescriptionTagHandler.cpp
+       src/lib/marble/geodata/handlers/dgml/DgmlDescriptionTagHandler.h
+       src/lib/marble/geodata/handlers/dgml/DgmlDiscreteTagHandler.cpp
+       src/lib/marble/geodata/handlers/dgml/DgmlDiscreteTagHandler.h
+       src/lib/marble/geodata/handlers/dgml/DgmlDocumentTagHandler.cpp
+       src/lib/marble/geodata/handlers/dgml/DgmlDocumentTagHandler.h
+       src/lib/marble/geodata/handlers/dgml/DgmlDownloadUrlTagHandler.cpp
+       src/lib/marble/geodata/handlers/dgml/DgmlDownloadUrlTagHandler.h
+       src/lib/marble/geodata/handlers/dgml/DgmlElementDictionary.cpp
+       src/lib/marble/geodata/handlers/dgml/DgmlElementDictionary.h
+       src/lib/marble/geodata/handlers/dgml/DgmlFilterTagHandler.cpp
+       src/lib/marble/geodata/handlers/dgml/DgmlFilterTagHandler.h
+       src/lib/marble/geodata/handlers/dgml/DgmlGeodataTagHandler.cpp
+       src/lib/marble/geodata/handlers/dgml/DgmlGeodataTagHandler.h
+       src/lib/marble/geodata/handlers/dgml/DgmlGroupTagHandler.cpp
+       src/lib/marble/geodata/handlers/dgml/DgmlGroupTagHandler.h
+       src/lib/marble/geodata/handlers/dgml/DgmlHeadTagHandler.cpp
+       src/lib/marble/geodata/handlers/dgml/DgmlHeadTagHandler.h
+       src/lib/marble/geodata/handlers/dgml/DgmlHeadingTagHandler.cpp
+       src/lib/marble/geodata/handlers/dgml/DgmlHeadingTagHandler.h
+       src/lib/marble/geodata/handlers/dgml/DgmlIconTagHandler.cpp
+       src/lib/marble/geodata/handlers/dgml/DgmlIconTagHandler.h
+       src/lib/marble/geodata/handlers/dgml/DgmlInstallMapTagHandler.cpp
+       src/lib/marble/geodata/handlers/dgml/DgmlInstallMapTagHandler.h
+       src/lib/marble/geodata/handlers/dgml/DgmlItemTagHandler.cpp
+       src/lib/marble/geodata/handlers/dgml/DgmlItemTagHandler.h
+       src/lib/marble/geodata/handlers/dgml/DgmlLayerTagHandler.cpp
+       src/lib/marble/geodata/handlers/dgml/DgmlLayerTagHandler.h
+       src/lib/marble/geodata/handlers/dgml/DgmlLegendTagHandler.cpp
+       src/lib/marble/geodata/handlers/dgml/DgmlLegendTagHandler.h
+       src/lib/marble/geodata/handlers/dgml/DgmlMapTagHandler.cpp
+       src/lib/marble/geodata/handlers/dgml/DgmlMapTagHandler.h
+       src/lib/marble/geodata/handlers/dgml/DgmlMaximumTagHandler.cpp
+       src/lib/marble/geodata/handlers/dgml/DgmlMaximumTagHandler.h
+       src/lib/marble/geodata/handlers/dgml/DgmlMinimumTagHandler.cpp
+       src/lib/marble/geodata/handlers/dgml/DgmlMinimumTagHandler.h
+       src/lib/marble/geodata/handlers/dgml/DgmlNameTagHandler.cpp
+       src/lib/marble/geodata/handlers/dgml/DgmlNameTagHandler.h
+       src/lib/marble/geodata/handlers/dgml/DgmlPaletteTagHandler.cpp
+       src/lib/marble/geodata/handlers/dgml/DgmlPaletteTagHandler.h
+       src/lib/marble/geodata/handlers/dgml/DgmlPenTagHandler.cpp
+       src/lib/marble/geodata/handlers/dgml/DgmlPenTagHandler.h
+       src/lib/marble/geodata/handlers/dgml/DgmlProjectionTagHandler.cpp
+       src/lib/marble/geodata/handlers/dgml/DgmlProjectionTagHandler.h
+       src/lib/marble/geodata/handlers/dgml/DgmlPropertyTagHandler.cpp
+       src/lib/marble/geodata/handlers/dgml/DgmlPropertyTagHandler.h
+       src/lib/marble/geodata/handlers/dgml/DgmlSectionTagHandler.cpp
+       src/lib/marble/geodata/handlers/dgml/DgmlSectionTagHandler.h
+       src/lib/marble/geodata/handlers/dgml/DgmlSettingsTagHandler.cpp
+       src/lib/marble/geodata/handlers/dgml/DgmlSettingsTagHandler.h
+       src/lib/marble/geodata/handlers/dgml/DgmlSourceDirTagHandler.cpp
+       src/lib/marble/geodata/handlers/dgml/DgmlSourceDirTagHandler.h
+       src/lib/marble/geodata/handlers/dgml/DgmlSourceFileTagHandler.cpp
+       src/lib/marble/geodata/handlers/dgml/DgmlSourceFileTagHandler.h
+       src/lib/marble/geodata/handlers/dgml/DgmlStorageLayoutTagHandler.cpp
+       src/lib/marble/geodata/handlers/dgml/DgmlStorageLayoutTagHandler.h
+       src/lib/marble/geodata/handlers/dgml/DgmlTargetTagHandler.cpp
+       src/lib/marble/geodata/handlers/dgml/DgmlTargetTagHandler.h
+       src/lib/marble/geodata/handlers/dgml/DgmlTextTagHandler.cpp
+       src/lib/marble/geodata/handlers/dgml/DgmlTextTagHandler.h
+       src/lib/marble/geodata/handlers/dgml/DgmlTextureTagHandler.cpp
+       src/lib/marble/geodata/handlers/dgml/DgmlTextureTagHandler.h
+       src/lib/marble/geodata/handlers/dgml/DgmlThemeTagHandler.cpp
+       src/lib/marble/geodata/handlers/dgml/DgmlThemeTagHandler.h
+       src/lib/marble/geodata/handlers/dgml/DgmlValueTagHandler.cpp
+       src/lib/marble/geodata/handlers/dgml/DgmlValueTagHandler.h
+       src/lib/marble/geodata/handlers/dgml/DgmlVectorTagHandler.cpp
+       src/lib/marble/geodata/handlers/dgml/DgmlVectorTagHandler.h
+       src/lib/marble/geodata/handlers/dgml/DgmlVisibleTagHandler.cpp
+       src/lib/marble/geodata/handlers/dgml/DgmlVisibleTagHandler.h
+       src/lib/marble/geodata/handlers/dgml/DgmlZoomTagHandler.cpp
+       src/lib/marble/geodata/handlers/dgml/DgmlZoomTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlAltitudeModeTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlAltitudeModeTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlAreaTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlAreaTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlColorModeTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlColorModeTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlColorTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlColorTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlCoordinatesTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlCoordinatesTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlCountryNameCodeTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlCountryNameCodeTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlCountrycodeTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlCountrycodeTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlDescriptionTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlDescriptionTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlDocumentTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlDocumentTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlElementDictionary.cpp
+       src/lib/marble/geodata/handlers/kml/KmlElementDictionary.h
+       src/lib/marble/geodata/handlers/kml/KmlExtrudeTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlExtrudeTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlFillTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlFillTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlFolderTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlFolderTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlHeadingTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlHeadingTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlHotSpotTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlHotSpotTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlHrefTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlHrefTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlIconStyleTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlIconStyleTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlIconTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlIconTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlInnerBoundaryIsTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlInnerBoundaryIsTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlKeyTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlKeyTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlLabelStyleTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlLabelStyleTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlLineStringTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlLineStringTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlLineStyleTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlLineStyleTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlLinearRingTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlLinearRingTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlMarblePlacemarkTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlMarblePlacemarkTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlMultiGeometryTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlMultiGeometryTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlNameTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlNameTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlOpenTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlOpenTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlOuterBoundaryIsTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlOuterBoundaryIsTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlOutlineTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlOutlineTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlPairTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlPairTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlPlacemarkTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlPlacemarkTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlPointTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlPointTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlPolyStyleTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlPolyStyleTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlPolygonTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlPolygonTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlPopTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlPopTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlRoleTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlRoleTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlSchemaTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlSchemaTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlSimpleFieldTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlSimpleFieldTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlStyleMapTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlStyleMapTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlStyleTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlStyleTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlStyleUrlTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlStyleUrlTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlTessellateTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlTessellateTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlVisibilityTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlVisibilityTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlWidthTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlWidthTagHandler.h
+       src/lib/marble/geodata/handlers/kml/Kml_scaleTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/Kml_scaleTagHandler.h
+       src/lib/marble/geodata/parser/GeoDataParser.cpp
+       src/lib/marble/geodata/parser/GeoDataParser.h
+       src/lib/marble/geodata/parser/GeoDataTypes.cpp
+       src/lib/marble/geodata/parser/GeoDataTypes.h
+       src/lib/marble/geodata/parser/GeoDocument.cpp
+       src/lib/marble/geodata/parser/GeoDocument.h
+       src/lib/marble/geodata/parser/GeoParser.cpp
+       src/lib/marble/geodata/parser/GeoParser.h
+       src/lib/marble/geodata/parser/GeoSceneParser.cpp
+       src/lib/marble/geodata/parser/GeoSceneParser.h
+       src/lib/marble/geodata/parser/GeoTagHandler.cpp
+       src/lib/marble/geodata/parser/GeoTagHandler.h
+       src/lib/marble/geodata/scene/GeoSceneAbstractDataset.cpp
+       src/lib/marble/geodata/scene/GeoSceneAbstractDataset.h
+       src/lib/marble/geodata/scene/GeoSceneDocument.cpp
+       src/lib/marble/geodata/scene/GeoSceneDocument.h
+       src/lib/marble/geodata/scene/GeoSceneFilter.cpp
+       src/lib/marble/geodata/scene/GeoSceneFilter.h
+       src/lib/marble/geodata/scene/GeoSceneGroup.cpp
+       src/lib/marble/geodata/scene/GeoSceneGroup.h
+       src/lib/marble/geodata/scene/GeoSceneHead.cpp
+       src/lib/marble/geodata/scene/GeoSceneHead.h
+       src/lib/marble/geodata/scene/GeoSceneIcon.cpp
+       src/lib/marble/geodata/scene/GeoSceneIcon.h
+       src/lib/marble/geodata/scene/GeoSceneItem.cpp
+       src/lib/marble/geodata/scene/GeoSceneItem.h
+       src/lib/marble/geodata/scene/GeoSceneLayer.cpp
+       src/lib/marble/geodata/scene/GeoSceneLayer.h
+       src/lib/marble/geodata/scene/GeoSceneLegend.cpp
+       src/lib/marble/geodata/scene/GeoSceneLegend.h
+       src/lib/marble/geodata/scene/GeoSceneMap.cpp
+       src/lib/marble/geodata/scene/GeoSceneMap.h
+       src/lib/marble/geodata/scene/GeoScenePalette.cpp
+       src/lib/marble/geodata/scene/GeoScenePalette.h
+       src/lib/marble/geodata/scene/GeoSceneProperty.cpp
+       src/lib/marble/geodata/scene/GeoSceneProperty.h
+       src/lib/marble/geodata/scene/GeoSceneSection.cpp
+       src/lib/marble/geodata/scene/GeoSceneSection.h
+       src/lib/marble/geodata/scene/GeoSceneSettings.cpp
+       src/lib/marble/geodata/scene/GeoSceneSettings.h
+       src/lib/marble/geodata/scene/GeoSceneVector.cpp
+       src/lib/marble/geodata/scene/GeoSceneVector.h
+       src/lib/marble/geodata/scene/GeoSceneZoom.cpp
+       src/lib/marble/geodata/scene/GeoSceneZoom.h
+       src/lib/marble/kbihash_p.h
+       src/lib/marble/kdescendantsproxymodel.cpp
+       src/lib/marble/kdescendantsproxymodel.h
+       src/plugins/runner/gpx/handlers/GPXElementDictionary.cpp
+       src/plugins/runner/gpx/handlers/GPXElementDictionary.h
+       src/plugins/runner/gpx/handlers/GPXgpxTagHandler.cpp
+       src/plugins/runner/gpx/handlers/GPXgpxTagHandler.h
+       tools/add_kml/add_kml_tag.py
+       src/lib/marble/MarbleAboutDialog.cpp
+Copyright: 2018, = kin ("(c) 2008 Simon Edwards")
+           2009, Bastian Holst <bastianholst@gmx.de>
+           2010-2012, Bernhard Beschow <bbeschow@cs.tu-berlin.de>
+           1991-1999, Free Software Foundation, Inc
+           2008, Henry de Valence <hdevalence@gmail.com>
+           2007, Inge Wallin <inge@lysator.liu.se>
+           2007, Inge Wallin <ingwa@kde.org>
+           2008-2010, Jens-Michael Hoffmann <jensmh@gmx.de>
+           2010, Klarälvdalens Datakonsult AB
+           2014, Marek Hakala <hakala.marek@gmail.com>
+           2007, Murad Tagirov <tmurad@gmail.com>
+           2007-2008, Nikolas Zimmermann <zimmermann@kde.org>
+           2008-2009, Patrick Spendrin <ps_ml@gmx.de>
+           2008-2011, Simon Edwards <simon@simonzone.com>
+           2009, Stephen Kelly <steveire@gmail.com>
+           2007-2008, Torsten Rahn <rahn@kde.org>
+           2005-2008, Torsten Rahn <tackat@kde.org>
+           2007, Inge Wallin <ingwa@kde.org>
+           2004-2007, Torsten Rahn <tackat@kde.org>
+License: LGPL-2+
+
+Files: src/3rdparty/zlib/*
+Copyright: 1995-2013, Jean-loup Gailly
+           1995-2013, Jean-loup Gailly and Mark Adler
+           1995-2013, Jean-loup Gailly, Mark Adler
+           1995-2013, Mark Adler
+License: Zlib
+
+Files: data/placemarks/HOWTO-cities.txt
+       data/placemarks/baseplacemarks.cache
+       data/placemarks/baseplacemarks.kml
+       data/placemarks/boundaryplacemarks.cache
+       data/placemarks/boundaryplacemarks.kml
+       data/placemarks/cities.txt
+       data/placemarks/cityplacemarks.cache
+       data/placemarks/cityplacemarks.kml
+       data/placemarks/cityplacemarks_large_population.cache
+       data/placemarks/elevplacemarks.cache
+       data/placemarks/elevplacemarks.kml
+       data/placemarks/moonlandingsites.cache
+       data/placemarks/moonlandingsites.kml
+       data/placemarks/moonterrain.cache
+       data/placemarks/moonterrain.kml
+       data/placemarks/otherplacemarks.cache
+       data/placemarks/otherplacemarks.kml
+       data/placemarks/statecodes.txt
+       data/placemarks/timeZones.txt
+Copyright: No copyright holders listed
+Comment: No explicit license found, using license(s) from:
+ data/placemarks/COPYRIGHT
+License: CC-BY-3.0
+ This work is licensed under a Creative Commons Attribution 3.0 License,
+ see http://creativecommons.org/licenses/by/3.0/
+ The Data is provided "as is" without warranty or any representation of
+ accuracy, timeliness or completeness.
+
+Files: MarbleMacros.cmake
+       src/lib/marble/kineticmodel.cpp
+       src/lib/marble/kineticmodel.h
+       tools/mapreproject/Thread.cpp
+       tools/mapreproject/Thread.h
+Copyright: 2006-2010, Alexander Neundorf <neundorf@kde.org>
+           2010, Ariya Hidayat <ariya.hidayat@gmail.com>
+           2008, Matthias Kretz <kretz@kde.org>
+           2010, Nokia Corporation and/or its subsidiary(-ies)
+License: BSD-3-clause
+
+Files: data/svg/gps.svg
+       docs/bindings/python/html/common/gpl-license
+       docs/bindings/python/html/common/gpl-license.html
+       docs/bindings/python/html/common/kde-default.css
+       docs/bindings/python/html/common/kde-localised.css.template
+Copyright: 2000, Frederik Fouvry
+           1989-1991, Free Software Foundation, Inc
+License: GPL-2+
+
+Files: LICENSE.GPL-3
+       src/plugins/runner/monav/signals.h
+       tools/osm-addresses/pbf/PbfParser.cpp
+       tools/osm-addresses/pbf/PbfParser.h
+Copyright: 2010, Christian Vetter <veaac.fdirct@gmail.com>
+           2011, Dennis Nienhüser <earthwings@gentoo.org>
+           2007, Free Software Foundation, Inc. <http://fsf.org/>
+License: GPL-3+
+
+Files: src/lib/marble/MarbleZip.cpp
+       src/lib/marble/MarbleZipReader.h
+       src/lib/marble/MarbleZipWriter.h
+Copyright: 2015, The Qt Company Ltd
+License: GPL-3_or_LGPL-2.1+3
+ $QT_BEGIN_LICENSE:LGPL$
+ Commercial License Usage
+ Licensees holding valid commercial Qt licenses may use this file in
+ accordance with the commercial license agreement provided with the
+ Software or, alternatively, in accordance with the terms contained in
+ a written agreement between you and The Qt Company. For licensing terms
+ and conditions see http://www.qt.io/terms-conditions. For further
+ information use the contact form at http://www.qt.io/contact-us.
+ .
+ GNU Lesser General Public License Usage
+ Alternatively, this file may be used under the terms of the GNU Lesser
+ General Public License version 2.1 or version 3 as published by the Free
+ Software Foundation and appearing in the file LICENSE.LGPLv21 and
+ LICENSE.LGPLv3 included in the packaging of this file. Please review the
+ following information to ensure the GNU Lesser General Public License
+ requirements will be met: https://www.gnu.org/licenses/lgpl.html and
+ http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html.
+ .
+ As a special exception, The Qt Company gives you certain additional
+ rights. These rights are described in The Qt Company LGPL Exception
+ version 1.1, included in the file LGPL_EXCEPTION.txt in this package.
+ .
+ GNU General Public License Usage
+ Alternatively, this file may be used under the terms of the GNU
+ General Public License version 3.0 as published by the Free Software
+ Foundation and appearing in the file LICENSE.GPL included in the
+ packaging of this file.  Please review the following information to
+ ensure the GNU General Public License version 3.0 requirements will be
+ met: http://www.gnu.org/copyleft/gpl.html.
+ .
+ $QT_END_LICENSE$
+ .
+ The full text of the GNU Lesser General Public License version 2.1 can be
+ found in the file `/usr/share/common-licenses/LGPL-2.1', likewise, the full
+ text of the GNU Lesser General Public version 3 can be found in the file
+ `/usr/share/common-licenses/LGPL-3', also, the full text of the GNU General
+ Public License version 3 can be found in the file
+ `/usr/share/common-licenses/GPL-3'.
+
+Files: tools/osm-addresses/pbf/fileformat.proto
+       tools/osm-addresses/pbf/osmformat.proto
+Copyright: 2010, Scott A. Crosby <scott@sacrosby.com>
+License: LGPL-3+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as
+ published by the Free Software Foundation, either version 3 of the
+ License, or (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU Lesser General Public License for more details.
+ .
+ The full text of the GNU Lesser General Public License version 3 can be found
+ in the file `/usr/share/common-licenses/LGPL-3'.
+
+Files: data/mwdbii/MWDBPOLY.TXT
+       data/mwdbii/contents.txt
+Copyright: no copyright claimed
+License: public-domain
+ The MICRO WORLD DATA BANK II Database was was produced and placed in the
+ Public Domain by Fred Pospeschil and Antonio Rivera.
+
+Files: data/maps/earth/openstreetmap/tour.kml
+       data/placemarks/COPYRIGHT
+License: CC-BY-3.0
+ This work is licensed under a Creative Commons Attribution 3.0 License,
+ see http://creativecommons.org/licenses/by/3.0/
+ The Data is provided "as is" without warranty or any representation of
+ accuracy, timeliness or completeness.
+
+Files: src/lib/marble/htmlfeatures/bootstrap.min.css
+Copyright: 2012, Twitter, Inc
+License: Apache-2.0
+ Licensed under the Apache License v2.0
+ http://www.apache.org/licenses/LICENSE-2.0
+
+Files: debian/*
+Copyright: 2011 Kubuntu Developers <kubuntu-devel@lists.launchpad.net>
+License: LGPL-2.1+
+
+Files: doc/* docs/*
+Copyright: 2005-2007 Torsten Rahn
+           2010 Dennis Nienhüser
+           2000-2002, Free Software Foundation, Inc
+License: GFDL-1.2
+
+Files: src/3rdparty/sgp4/*
+Copyright: 2006-2015, David A. Vallado <dvallado at centerforspace.com>
+           2006-2015, Paul Crawford <pcrawford at dundee0.demon.co.uk>
+           2006-2015, Richard Hujsak <rhujsak at agi.com>
+           2006-2015, T. S. Kelso <tskelso at centerforspace.com>
+License: AIAA_2006-6753
+ From the faq: http://www.celestrak.com/publications/AIAA/2006-6753/faq.asp
+ Are there any Licenses required to use the SGP4 code?
+ There is no license associated with the code and you may use it for any
+ purpose—personal or commercial—as you wish. We ask only that you include
+ citations in your documentation and source code to show the source of the code
+ and provide links to the main page, to facilitate communications regarding any
+ questions on the theory or source code.
+ .
+ The project link is: http://www.celestrak.com/publications/AIAA/2006-6753/
+
+License: CC0
+ This software and associated documentation files (the "Software") is
+ released under the CC0 Public Domain Dedication, version 1.0, as
+ published by Creative Commons. To the extent possible under law, the
+ author(s) have dedicated all copyright and related and neighboring
+ rights to the Software to the public domain worldwide. The Software is
+ distributed WITHOUT ANY WARRANTY.
+ .
+ If you did not receive a copy of the CC0 Public Domain Dedication
+ along with the Software, see
+ <http://creativecommons.org/publicdomain/zero/1.0/>
+
+License: Zlib
+ This software is provided 'as-is', without any express or implied warranty.
+ In no event will the authors be held liable for any damages arising from the use of this software.
+ .
+ Permission is granted to anyone to use this software for any purpose,
+ including commercial applications, and to alter it ; and redistribute
+ it freely, subject to the following restrictions:
+ .
+    1. The origin of this software must not be misrepresented; you must not claim that
+       you wrote the original software. If you use this software in a product, an
+       acknowledgment in the product documentation would be appreciated but is not required.
+ .
+    2. Altered source versions must be plainly marked as such, and must not be
+       misrepresented as being the original software.
+ .
+    3. This notice may not be removed or altered from any source distribution.
+
+License: LGPL-2+
+ This library is free software you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public License
+ aint with this library see the file COPYING.LIB.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the full text of the GNU Library General Public
+ License version 2 can be found in the file
+ `/usr/share/common-licenses/LGPL-2'.
+
+License: LGPL-2.1+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+ .
+ On Debian systems, the full text of the GNU Lesser General Public
+ License version 2.1 can be found in the file
+ `/usr/share/common-licenses/LGPL-2.1'.
+
+License: BSD-3-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the copyright
+ notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the distribution.
+ 3. The name of the author may not be used to endorse or promote products
+ derived from this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+ IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: GPL-2+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+ .
+ On Debian systems, the full text of the GNU General Public License
+ version 2 can be found in the file
+ `/usr/share/common-licenses/GPL-2'.
+
+License: GPL-3+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the full text of the GNU General Public License
+ version 3 can be found in the file
+ `/usr/share/common-licenses/GPL-3'.
+
+License: GFDL-1.2
+ Permission is granted to copy, distribute and/or modify this document
+ under the terms of the GNU Free Documentation License, Version 1.2
+ or any later version published by the Free Software Foundation;
+ with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+ A copy of the license is included in the section entitled "GNU
+ Free Documentation License".
+ .
+ On Debian systems, the full text of the GNU Free Documentation
+ License version 1.2 can be found in the file
+ `/usr/share/common-licenses/GFDL-1.2'.

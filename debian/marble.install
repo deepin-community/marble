@@ -1,0 +1,13 @@
+usr/bin/marble
+usr/lib/*/qt5/plugins/libmarble_part.so
+usr/lib/*/qt5/plugins/marblethumbnail.so
+usr/share/*/org.kde.marble.appdata.xml
+usr/share/applications/marble_geo.desktop
+usr/share/applications/marble_gpx.desktop
+usr/share/applications/marble_kml.desktop
+usr/share/applications/marble_kmz.desktop
+usr/share/applications/marble_shp.desktop
+usr/share/applications/marble_worldwind.desktop
+usr/share/applications/org.kde.marble.desktop
+usr/share/kservices5/marble_part.desktop
+usr/share/kservices5/marble_thumbnail_kmz.desktop

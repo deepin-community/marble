@@ -1,0 +1,1824 @@
+<?xml version="1.0" ?>
+<!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN" "dtd/kdedbx45.dtd" [
+<!ENTITY kappname "&marble;"
+><!-- replace kapp here -->
+ <!ENTITY package "kdeedu">
+ <!ENTITY % addindex "IGNORE">
+ <!ENTITY % Russian "INCLUDE"
+><!-- change language only here -->
+ ]>
+
+ <book lang="&language;">
+
+	 <bookinfo>
+		 <title
+>Руководство пользователя &marble;</title>
+
+		 <authorgroup>
+			 <author
+><firstname
+>Torsten</firstname
+> <surname
+>Rahn</surname
+> <affiliation
+> <address
+>&Torsten.Rahn.mail;</address>
+				 </affiliation>
+			 </author>
+			 <author
+><firstname
+>Dennis</firstname
+> <surname
+>Nienhüser</surname
+> <affiliation
+> <address
+><email
+>earthwings@gentoo.org</email
+></address>
+				 </affiliation
+>				 
+			 </author>
+
+			 <othercredit role="translator"
+> <firstname
+>Максим</firstname
+> <surname
+>Воробьёв</surname
+> <affiliation
+><address
+><email
+>vmax0770@gmail.com</email
+></address
+></affiliation
+> <contrib
+>Перевод на русский</contrib
+> </othercredit
+><othercredit role="translator"
+> <firstname
+>Константин</firstname
+> <surname
+>Богданов</surname
+> <affiliation
+><address
+><email
+>var1able@var1able.ru</email
+></address
+></affiliation
+> <contrib
+>Перевод на русский</contrib
+> </othercredit
+> 
+		 </authorgroup>
+
+		 <copyright>
+			 <year
+>2005</year>
+             <year
+>2006</year>
+             <year
+>2007</year>
+			 <holder
+>&Torsten.Rahn;</holder>
+		 </copyright>
+		 <copyright>
+			 <year
+>2010</year>
+			 <holder
+>Dennis Nienhüser</holder>
+		 </copyright>
+
+		 <legalnotice
+>&FDLNotice;</legalnotice>
+
+		 <date
+>13 ноября 2011</date>
+		 <releaseinfo
+>1.0</releaseinfo>
+
+		 <abstract>
+			<para
+>&marble; — географический атлас и глобус, позволяющий быстро исследовать различные места нашей планеты. &marble; можно использовать для поиска мест, создания карт, измерения расстояний и получения информации об объектах, названия которых вы слышали в новостях или читали в Интернете. Интерфейс Marble очень прост и легко осваиваем. </para>
+		 </abstract>
+
+		 <keywordset>
+			 <keyword
+>KDE</keyword>
+			 <keyword
+>образование</keyword>
+			 <keyword
+>земля</keyword>
+			 <keyword
+>глобус</keyword>
+			 <keyword
+>география</keyword>
+			 <keyword
+>Marble</keyword>
+		 </keywordset>
+
+	 </bookinfo>
+
+	 <chapter id="introduction">
+		 <title
+>Введение</title>
+         <screenshot>
+             <screeninfo
+>Логотип &marble;</screeninfo>
+             <mediaobject>
+                 <imageobject
+><imagedata fileref="logo-1.png" format="PNG"/></imageobject>
+                 <textobject
+><phrase
+>Логотип &marble;</phrase
+></textobject>
+             </mediaobject>
+         </screenshot>
+		 <para
+>Добро пожаловать в &marble;, маленький интерактивный глобус и географический атлас, «помещающий мир на ладони». Как и на настоящей карте/глобусе, &marble; позволяет свободно передвигаться по карте и искать места. Более того, &marble; позволяет масштабировать карту и исследовать Землю с разных позиций. По умолчанию &marble; предлагает 11 вариантов просмотра: <guilabel
+>Атлас</guilabel
+>, <guilabel
+>OpenStreetMap</guilabel
+>, <guilabel
+>Вид со спутника</guilabel
+>, <guilabel
+>Земля ночью</guilabel
+>, <guilabel
+>Историческая карта 1689-го года</guilabel
+>, <guilabel
+>Луна</guilabel
+>, <guilabel
+>Обычная карта</guilabel
+>, <guilabel
+>Осадки (декабрь)</guilabel
+>, <guilabel
+>Осадки (июль)</guilabel
+>, <guilabel
+>Температура (декабрь)</guilabel
+> и <guilabel
+>Температура (июль)</guilabel
+>. </para>
+         <para
+>&marble; поставляется с небольшой базой данных, включающей больше 12,000 локаций (городов, гор, вулканов); по ней можно искать (также доступна интеграция с Википедией). Кроме того, используя &marble;, можно измерять расстояния между несколькими точками. </para>
+         <para
+>&marble; является свободным программным обеспечением и предоставляется на условиях &GNU; Lesser General Public License. </para>
+
+	 </chapter>
+
+	 <chapter id="quick-start">
+		 <title
+>Краткое руководство пользователя &marble;: Навигация</title>
+
+		 <para
+>Запустить &marble; можно, выбрав <menuchoice
+><guimenu
+>Приложения</guimenu
+><guisubmenu
+>Образование</guisubmenu
+><guisubmenu
+>Разное</guisubmenu
+> <guimenuitem
+>Marble (Настольный глобус)</guimenuitem
+></menuchoice
+> из меню KDE или нажав <keycombo action="simul"
+>&Alt;<keycap
+>F2</keycap
+></keycombo
+> и введя <command
+>marble</command
+> в поле команды.</para>
+		 <screenshot>
+			 <screeninfo
+>Главное окно &marble;</screeninfo>
+			 <mediaobject>
+				 <imageobject
+><imagedata fileref="quick-1.png" format="PNG"/></imageobject>
+				 <textobject
+><phrase
+>Главное окно &marble;</phrase
+></textobject>
+			 </mediaobject>
+		 </screenshot>
+
+		 <para
+>Справа находится топографическая карта нашей планеты. Для лучшей ориентации в левом нижнем углу находится линейка масштаба, а в правом верхнем — компас. Для навигации и управления видом можно использовать кнопки на вкладке <guilabel
+>Навигация</guilabel
+> слева. Используйте стрелки <guilabel
+>вправо</guilabel
+> и <guilabel
+>влево</guilabel
+> для вращения Земли вокруг оси и стрелки <guilabel
+>вверх</guilabel
+> и <guilabel
+>вниз</guilabel
+> для наклона оси Земли назад или вперёд. </para>
+         <para
+>Эти же действия можно выполнить так: щёлкнуть левой кнопкой мыши где-нибудь на глобусе и двигать ей, удерживая кнопку. Используя этот метод, настроить угол обзора можно более точно и легко. Также можно использовать клавиши со стрелками на клавиатуре. </para>
+         <para
+>Масштабирование производится перемещением ползунка вверх и вниз. Если на мыши есть колёсико, можно использовать его. Также можно зажать левую и правую кнопки мыши одновременно и перемещать вверх и вниз. Чтобы изменять масштаб шаг за шагом используйте кнопки <guilabel
+>Приблизить</guilabel
+> и <guilabel
+>Отдалить</guilabel
+> (или кнопки <keycap
+>+</keycap
+> и <keycap
+>-</keycap
+> на клавиатуре). </para>
+         <para
+>В зависимости от масштаба будут отображаться различные детали. При приближении появятся мелкие города и станет заметно, что береговая линия отрисована в векторной графике. </para>
+         <para
+>В случае, если вы «потерялись», можно сбросить угол просмотра и вернуться к точке, с которой он начинался. Просто щёлкните на значок <guilabel
+>домика</guilabel
+> (или нажмите кнопку <keycap
+>Домой</keycap
+> на клавиатуре). Для установки домашней локации, щёлкните на карте правой кнопкой мыши и выберите в контекстном меню <guimenuitem
+>Установить домашнее местоположение</guimenuitem
+>. </para>
+	 <para
+>Щелчок правой кнопкой мыши на строке состояния открывает контекстное меню, в котором можно изменить её внешний вид. Вы можете настроить показ расположения, высоты, уровня масштаба клетки и индикатора загрузки карт. </para>
+	 </chapter>
+
+     <chapter id="map-views">
+         <title
+>Выбор различных вариантов просмотра карты &marble;</title>
+         <para
+>&marble; поставляется с 11 вариантами просмотра карты: <guilabel
+>Атлас</guilabel
+>, <guilabel
+>OpenStreetMap</guilabel
+>, <guilabel
+>Вид со спутника</guilabel
+>, <guilabel
+>Земля ночью</guilabel
+>, <guilabel
+>Историческая карта 1689-го года</guilabel
+>, <guilabel
+>Луна</guilabel
+>, <guilabel
+>Обычная карта</guilabel
+>, <guilabel
+>Осадки (декабрь)</guilabel
+>, <guilabel
+>Осадки (июль)</guilabel
+>, <guilabel
+>Температура (декабрь)</guilabel
+> и <guilabel
+>Температура (июль)</guilabel
+>. Вы можете выбирать между ними, открыв вкладку <guilabel
+>Карта</guilabel
+> внизу панели инструментов &marble;: </para>
+
+         <screenshot>
+             <screeninfo
+>Варианты просмотра карты &marble;</screeninfo>
+             <mediaobject>
+                 <imageobject
+><imagedata fileref="mapview-1.png" format="PNG"/></imageobject>
+                 <textobject
+><phrase
+>Варианты просмотра карты &marble;</phrase
+></textobject>
+             </mediaobject>
+         </screenshot>
+
+         <itemizedlist>
+             <listitem>
+                <para
+><guilabel
+>Атлас</guilabel
+>: классическая топографическая карта. Использует векторные линии ( "MicroWorldDataBase II" ) для обозначения береговых линий, границ стран и т.д. и битовые карты ( "SRTM30" ) для рельефа. </para>
+             </listitem>
+              <listitem>
+                <para
+><guilabel
+>OpenStreetMap</guilabel
+>: дорожная карта, созданная проектом OpenStreetMap (OSM). OSM — открытое сообщество, создающее редактируемые карты. Отрисованы с помощью Mapnik. </para>
+             </listitem>
+             <listitem>
+                <para
+><guilabel
+>Вид со спутника</guilabel
+>: вид Земли из космоса. Основана на картинках NASA "Blue Marble Next Generation" (автор: NASA’s Earth Observatory). </para>
+             </listitem>
+             <listitem>
+                <para
+><guilabel
+>Земля ночью</guilabel
+>:  это изображение Земли было создано по данным Defense Meteorological Satellite Program (DMSP), Operational Linescan System (OLS). </para>
+             </listitem>
+             <listitem>
+                <para
+><guilabel
+>Историческая карта 1689-го года</guilabel
+>: карта мира из 1689 года. Создана G. van Schagen из Амстердама. </para>
+             </listitem>
+             <listitem>
+                <para
+><guilabel
+>Луна</guilabel
+>: карта Луны. Эта карта основана на данных Clementine Moon mission (UVVIS Basemap Mosaic) (автор: NASA/SDIO, Courtesy USGS Astrogeology Research Program). </para>
+             </listitem>
+             <listitem>
+                <para
+><guilabel
+>Обычная карта</guilabel
+>: карта, использующая векторные линии для обозначения береговых линий, границ стран и т.д. </para>
+             </listitem>
+             <listitem>
+                <para
+><guilabel
+>Осадки (декабрь)</guilabel
+>: карта, показывающая график осадков в декабре </para>
+             </listitem>
+             <listitem>
+                <para
+><guilabel
+>Осадки (июль)</guilabel
+>: карта, показывающая график осадков в июле </para>
+             </listitem>
+             <listitem>
+                <para
+><guilabel
+>Температура (декабрь)</guilabel
+>: карта, показывающая среднюю температуру в декабре </para>
+             </listitem>
+             <listitem>
+                <para
+><guilabel
+>Температура (июль)</guilabel
+>: карта, показывающая среднюю температуру в июле </para>
+             </listitem>
+         </itemizedlist>
+     </chapter>
+
+     <chapter id="search-places">
+         <title
+>Поиск мест с помощью &marble;</title>
+         <para
+>&marble; поставляется с небольшой базой данных, содержащей больше 12,000 городов (по данным worldgazetteer.com), несколько гор и вулканов. Найти место можно, введя его имя в строку поиска вверху панели инструментов. Если вы не уверены, как пишется название, можно выбрать его из списка. Двойной щелчок на пункте покажет его на карте. </para>
+         <screenshot>
+             <screeninfo
+>Поиск мест с помощью &marble;</screeninfo>
+             <mediaobject>
+                 <imageobject
+><imagedata fileref="search-1.png" format="PNG"/></imageobject>
+                 <textobject
+><phrase
+>Поиск мест с помощью &marble;</phrase
+></textobject>
+             </mediaobject>
+         </screenshot>
+         <para
+>Если город на карте найден, можно щёлкнуть на его метке или названии левой кнопкой. Появится всплывающее меню с информацией о городе. Его также можно использовать для получения координаты любой точки. После щелчка на имени в контекстном меню появится центр информации: </para>
+         <screenshot>
+             <screeninfo
+>Центр информации &marble;</screeninfo>
+             <mediaobject>
+                 <imageobject
+><imagedata fileref="search-2.png" format="PNG"/></imageobject>
+                 <textobject
+><phrase
+>Центр информации &marble;</phrase
+></textobject>
+             </mediaobject>
+         </screenshot>
+         <para
+>На первой вкладке показана основная информация, такая как название, координаты, флаг страны, к которой принадлежит место. Также показываются количество жителей в городах и высоту местности. Если компьютер подключён к Интернету, &marble; покажет информацию о месте из <quote
+>Википедии</quote
+> во второй вкладке. </para>
+     </chapter>
+
+     <chapter id="routing">
+         <title
+>Прокладка маршрутов с помощью &marble;</title>
+         <para
+>Кроме поиска мест &marble; может прокладывать маршруты между двумя или более из них. Если вы, к примеру, планируете велосипедный тур в ближайшем лесу или не знаете, как добраться до какой-то улицы в незнакомом городе, щёлкните на вкладке <guilabel
+>Маршрут</guilabel
+> внизу панели инструментов &marble;. </para>
+         <sect1 id="routing-route-new">
+         <title
+>Создание маршрута</title>
+         <para
+>На вкладке <guilabel
+>Маршрут</guilabel
+> находятся две зелёные кнопки с обозначениями <guilabel
+>A</guilabel
+> и <guilabel
+>B</guilabel
+>. Введите начальный адрес в первое поле. Нажмите &Enter; или щёлкните на кнопке <guilabel
+>Поиск</guilabel
+> для поиска похожих мест. При запросе <quote
+>Weavers Lane, London</quote
+> вы получите примерно это: </para>
+         <screenshot>
+             <screeninfo
+>Поиск адреса &marble;</screeninfo>
+             <mediaobject>
+                 <imageobject
+><imagedata fileref="routing-1.png" format="PNG"/></imageobject>
+                 <textobject
+><phrase
+>&marble; ищет адреса</phrase
+></textobject>
+             </mediaobject>
+         </screenshot>
+         <para
+>Подходящие адреса появятся в списке. Они также будут показаны на карте (отметка со значком <guilabel
+>A</guilabel
+>). Если первый результат не подходит, щёлкните на нужном адресе для выбора новой стартовой позиции. Текущая точка начала маршрута отображается значком <guilabel
+>A</guilabel
+>. </para>
+         <para
+>После выбора начала маршрута нужно также выбрать его конечную точку. Это можно сделать точно так же. </para>
+         <para
+>Теперь кнопка <guilabel
+>Поиск</guilabel
+> поменялась на кнопку <guilabel
+>Получить подсказки</guilabel
+>. &marble; показывает, что вся информация для расчёта маршрута введена правильно. Щёлкните на этой кнопке для получения маршрута. Если конечная точка маршрута <quote
+>Sun Walk, London</quote
+>, результат будет таким, как на изображении: </para>
+         <screenshot>
+             <screeninfo
+>Результат расчёта маршрута &marble;</screeninfo>
+             <mediaobject>
+                 <imageobject
+><imagedata fileref="routing-2.png" format="PNG"/></imageobject>
+                 <textobject
+><phrase
+>&marble; отображает маршрут</phrase
+></textobject>
+             </mediaobject>
+         </screenshot>
+         <para
+>Если начальная или конечная точки уже видны на карте, будет проще выбрать их оттуда. Для этого нажмите значок <guilabel
+>A</guilabel
+> или <guilabel
+>B</guilabel
+> и выберите пункт меню <guilabel
+>Из карты</guilabel
+>. Курсор мыши примет форму перекрестия. Щёлкните на нужной точке на карте. Отменить выбор можно, щёлкнув на кнопке снова или нажав клавишу &Esc;. </para>
+         <para
+>Другой способ выбора: щёлкните на нужных точках правой кнопкой и выберите, соответственно, <guilabel
+>Маршруты отсюда</guilabel
+> для начальной точки и <guilabel
+>Маршруты сюда</guilabel
+> для конечной. </para>
+         </sect1>
+         <sect1 id="routing-profiles">
+         <title
+>Профиль прокладки маршрута</title>
+         <para
+>Профиль нужно выбрать в зависимости от того, на каком транспорте (при его наличии) будет происходить поездка. При первом запуске &marble; создаст профили <guilabel
+>Автомобиль (самый быстрый)</guilabel
+>, <guilabel
+>Автомобиль (кратчайший)</guilabel
+>, <guilabel
+>Велосипед</guilabel
+>, и <guilabel
+>Пешеход</guilabel
+>. </para
+>             
+         <para
+>Примеры в предыдущих главах использовали профиль <guilabel
+>Автомобиль (самый быстрый)</guilabel
+>. Теперь повторим тоже самое с профилем <guilabel
+>Пешеход</guilabel
+>. Выберите его из списка <guilabel
+>Профиль:</guilabel
+>. Теперь маршрут выглядит так: </para
+>                       
+         <screenshot>
+             <screeninfo
+>Маршрут для пешехода в &marble;</screeninfo>
+             <mediaobject>
+                 <imageobject
+><imagedata fileref="routing-5.png" format="PNG"/></imageobject>
+                 <textobject
+><phrase
+>Маршрут для пешехода в &marble;</phrase
+></textobject>
+             </mediaobject>
+         </screenshot>
+         <para
+>Предложенный маршрут стал короче, так как пешеходные дорожки тоже учитываются при расчёте. </para>
+         <para
+>Если вы хотите изменить конфигурацию профиля, выберите его из списка и нажмите <guilabel
+>Настроить</guilabel
+>. Откроется новое окно. </para>
+         <screenshot>
+             <screeninfo
+>Окно изменения параметров профиля прокладки маршрута &marble;</screeninfo>
+             <mediaobject>
+                 <imageobject
+><imagedata fileref="routing-6.png" format="PNG"/></imageobject>
+                 <textobject
+><phrase
+>Окно изменения параметров профиля прокладки маршрута &marble;</phrase
+></textobject>
+             </mediaobject>
+         </screenshot
+>         
+         <para
+>В левой части находится список движков прокладки маршрута (&marble; поддерживает два онлайн-движка и три локальных). Для онлайн-движков требуется активном соединение с Интернетом. Локальным движкам необходимо сначала загрузить карты прокладки маршрутов. Поддерживаемые движки: </para>
+         <itemizedlist>
+             <listitem>
+               <para
+>Gosmore: локальная служба прокладки маршрутов, также работающая как движок для Yours</para>
+             </listitem>
+             <listitem>
+               <para
+>Monav: локальная служба прокладки маршрутов, быстро работающая даже с большими маршрутами</para>
+             </listitem>
+             <listitem>
+               <para
+>OpenRouteService: онлайн-служба, также генерирующая подсказки для водителя (только для Европы)</para>
+             </listitem>
+             <listitem>
+               <para
+>Routino: локальная служба прокладки маршрутов с большим количеством параметров</para>
+             </listitem>
+             <listitem>
+               <para
+>Yours: онлайн-служба прокладки маршрутов по всему миру, но без подсказок для водителя</para>
+             </listitem>
+         </itemizedlist>
+         <para
+>После выбора движка для прокладки маршрута можно настроить его справа. Параметры зависят от движка. </para>
+         <para
+>Кроме конфигурации существующих профилей можно создавать новые и удалять существующие. Для этого используется вкладка <guilabel
+>Маршрут</guilabel
+> в окне параметров &marble;. </para>
+         </sect1>
+         <sect1 id="routing-route-adjustments">
+         <title
+>Настройка маршрутов</title>
+         <para
+>&marble; также позволяет настраивать детали маршрута. К примеру, можно добавить или удалить точки, через которые он будет проходить. </para>
+         <para
+>Вставить точку можно перетаскиванием карты. Если подержать указатель мыши над линией маршрута, появится зеленый значок, извещающий о том, что здесь можно вставить точку. Зажмите левую кнопку мыши и переместите указатель на новое положение. От начальной и конечной точки до новой появятся синие линии: </para>
+         <screenshot>
+             <screeninfo
+>Добавление точки маршрута &marble;</screeninfo>
+             <mediaobject>
+                 <imageobject
+><imagedata fileref="routing-3.png" format="PNG"/></imageobject>
+                 <textobject
+><phrase
+>Добавление точки маршрута &marble;</phrase
+></textobject>
+             </mediaobject>
+         </screenshot>
+         <para
+>После отпускания левой кнопки мыши между соседними появится новая точка. Также, старый маршрут будет отрисован пунктиром. После расчёта, новый заменит его автоматически. </para>
+         <para
+>Также возможно добавлять точки перед начальной или после конечной. Для этого зажмите &Ctrl; и повторите предыдущие действия. Появится синяя линия, обозначающая местоположение новой точки. </para>
+         <para
+>Существующие точки также можно перемещать. Зажмите левую кнопку мыши ивыберите новое местоположение. Маршрут будет рассчитан автоматически. </para>
+         <para
+>Для исключения точек из маршрута, удалите их, либо нажав кнопку <guilabel
+>Удалить</guilabel
+>, либо из контекстного меню точки. Для нового маршрута, удалите все точки. </para>
+         </sect1>
+         <sect1 id="routing-route-export">
+         <title
+>Экспорт маршрутов</title>
+         <para
+>Маршруты, рассчитанные &marble; могут использоваться в других приложениях или устройствах, если они поддерживают <acronym
+>gpx</acronym
+> (GPS eXchange Format) или похожие форматы. Если устройство напрямую не поддерживает <acronym
+>gpx</acronym
+>, можно использовать программу (например, gpsbabel) для преобразования маршрута в необходимый формат. </para>
+         <para
+>Для экспорта маршрута в &marble; щёлкните правой кнопкой на любой точке маршрута и выберите <guilabel
+>Экспорт маршрута...</guilabel
+> в появившемся меню. </para>
+         <screenshot>
+             <screeninfo
+>Экспорт маршрута в &marble;</screeninfo>
+             <mediaobject>
+                 <imageobject
+><imagedata fileref="routing-4.png" format="PNG"/></imageobject>
+                 <textobject
+><phrase
+>&marble; экспортирует маршрут</phrase
+></textobject>
+             </mediaobject>
+         </screenshot>
+         <para
+>Введите желаемое имя файла в открывшемся окне. Расширение файла может быть <filename class="extension"
+>gpx</filename
+> или <filename class="extension"
+>kml</filename
+> (Keyhole Markup Language). </para>
+         </sect1>
+     </chapter>
+
+     <chapter id="measure-distances">
+         <title
+>Измерение расстояний с помощью &marble;</title>
+         <para
+>&marble; использует динамическую строку масштаба (она находится в левом нижнем углу) для оценивания расстояний на карте. Эта строка и компас в правом верхнем углу используются для навигации. Но &marble; также позволяет измерять расстояние между двумя или более точками Земли. Для этого щёлкните на каждой необходимой точке правой кнопкой и выберите <guilabel
+>Добавить точку измерения</guilabel
+>. Удалить все точки можно, выбрав пункт <guilabel
+>Удалить точки измерения</guilabel
+>: </para>
+         <screenshot>
+             <screeninfo
+>&marble; измеряет расстояния</screeninfo>
+             <mediaobject>
+                 <imageobject
+><imagedata fileref="measure-1.png" format="PNG"/></imageobject>
+                 <textobject
+><phrase
+>&marble; измеряет расстояния</phrase
+></textobject>
+             </mediaobject>
+         </screenshot>
+         <para
+>После выбора двух точек измерения &marble; покажет расстояние между ними в верхнем левом углу карты. &marble; считает Землю сферической — этого вполне достаточно для большинства расчётов. </para>
+     </chapter>
+     
+     <chapter id="download-region">
+         <title
+>Загрузка участка карты</title>
+         <para
+>&marble; содержит предустановленные карты. Когда вы масштабируете карту, её участки подгружаются из Интернета в фоновом режиме. Если вы отправляетесь в место, где Интернет недоступен, можно загрузить конкретный участок карты для локального использования. </para>
+         <para
+>Для того, что нужно загрузить, обратимся к концепции клеток, используемой внутри &marble;. Клетка — конкретный участок карты. Они собираются &marble; друг за другом для отображения карты. В зависимости от выбранного режима они могут быть собраны в форме прямоугольника (слева) или сферы (справа). </para>
+         <screenshot>
+             <screeninfo
+>Проекции &marble;</screeninfo>
+             <mediaobject>
+                 <imageobject
+><imagedata fileref="download-region-1.png" format="PNG"/></imageobject>
+                 <textobject
+><phrase
+>Клетки на первом уровне (слева) и проекция глобуса (справа)</phrase
+></textobject>
+             </mediaobject>
+         </screenshot>
+         <para
+>При масштабировании в этом режиме отображается больше информации. Клетки, показанные на двух снимках экрана, неточные. &marble; распознаёт это и изменяет слой клетки для более детального просмотра. Чем больше масштаб, тем больше уровень клетки. Рисунок показывает различные слои для одного и того же участка карты. </para>
+         <screenshot>
+             <screeninfo
+>Слои участка карты &marble;</screeninfo>
+             <mediaobject>
+                 <imageobject
+><imagedata fileref="download-region-2.png" format="PNG"/></imageobject>
+                 <textobject
+><phrase
+>Различные уровни клеток в &marble;</phrase
+></textobject>
+             </mediaobject>
+         </screenshot>
+         <para
+>При загрузке участка карты для локального использования, нужно загрузить все слои карты для этого региона. Уровень клетки и масштаб связаны между собой. </para>
+         <para
+>Для загрузки конкретного участка сделайте так, чтобы этот участок был видим (масштабированием и перемещением). Теперь выберите <guilabel
+>Загрузить регион...</guilabel
+> из меню <guilabel
+>Файл</guilabel
+>. Не изменяйте параметр <guilabel
+>Видимая область</guilabel
+>, чтобы загрузить именно этот участок. Затем выберите диапазон масштабов клетки для загрузки (минимальный и максимальный). &marble; показывает, сколько клеток будет загружено. </para>
+         <screenshot>
+             <screeninfo
+>Окно загрузки региона &marble;</screeninfo>
+             <mediaobject>
+                 <imageobject
+><imagedata fileref="download-region-3.png" format="PNG"/></imageobject>
+                 <textobject
+><phrase
+>Окно загрузки региона &marble;</phrase
+></textobject>
+             </mediaobject>
+         </screenshot>
+         <para
+>Уровень клетки, относящийся к текущему уровню масштабирования, может быть показан внизу статусной строки. Для этого щёлкните правой кнопкой мыши на статусной строки и выберите <guilabel
+>Показать уровень масштаба клетки</guilabel
+>. </para>
+         <para
+>Щёлкните <guilabel
+>ОК</guilabel
+> для начала загрузки. Полоса прогресса &marble; будет показывать ход загрузки. </para>
+         <para
+>Если известны координаты региона карты для загрузки, их можно ввести, выбрав параметр <guilabel
+>Указать область</guilabel
+>. В этом случае видимая область будет проигнорирована. </para>
+         <para
+>&marble; можно продолжать использовать, даже если открыто окно <guilabel
+>Загрузка региона</guilabel
+>. Таким образом, можно ставить в очередь загрузки разные регионы. Просто щёлкните <guilabel
+>Применить</guilabel
+> вместо <guilabel
+>ОК</guilabel
+> для начала. </para>
+     </chapter>
+
+	 <chapter id="commands">
+		 <title
+>Список команд</title>
+
+		 <sect1 id="marble-mainwindow">
+			 <title
+>Меню и комбинации клавиш</title>
+
+			 <sect2>
+				 <title
+>Меню <guimenu
+>Файл</guimenu
+></title>
+
+				 <variablelist>
+                     <varlistentry>
+                         <term
+><menuchoice
+><shortcut
+> <keycombo action="simul"
+>&Ctrl;<keycap
+>O</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Файл</guimenu
+> <guimenuitem
+>Открыть...</guimenuitem
+> </menuchoice
+></term>
+                         <listitem
+><para
+><action
+>Открывает</action
+> файл карты.</para
+></listitem>
+                     </varlistentry>
+                     <varlistentry>
+                         <term
+><menuchoice
+><shortcut
+> <keycombo action="simul"
+>&Ctrl;<keycap
+>N</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Файл</guimenu
+> <guimenuitem
+>Загрузить данные...</guimenuitem
+> </menuchoice
+></term>
+                         <listitem
+><para
+><action
+>Показывает</action
+> окно <guilabel
+>Загрузка материалов из Интернета</guilabel
+> для загрузки дополнительных карт для &marble; (например, карты Марса и Венеры).</para
+></listitem>
+                     </varlistentry>
+                     <varlistentry>
+                         <term
+><menuchoice
+><guimenu
+>Файл</guimenu
+> <guimenuitem
+>Загрузить регион...</guimenuitem
+> </menuchoice
+></term>
+                         <listitem
+><para
+><action
+>Показывает</action
+> окно <guilabel
+>Загрузить регион</guilabel
+>для загрузки карты с разной степенью масштабирования для локального использования. Подробнее <link linkend="download-region"
+>здесь</link
+>.</para
+></listitem>
+                     </varlistentry>
+                     <varlistentry>
+                         <term
+><menuchoice
+><shortcut
+> <keycombo action="simul"
+>&Ctrl;<keycap
+>S</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Файл</guimenu
+> <guimenuitem
+>Экспорт карты...</guimenuitem
+> </menuchoice
+></term>
+                         <listitem
+><para
+><action
+>Экспортирует</action
+> снимок карты &marble; в файл изображения.</para
+></listitem>
+                     </varlistentry>
+                     <varlistentry>
+                         <term
+><menuchoice
+><shortcut
+> <keycombo action="simul"
+>&Ctrl;<keycap
+>P</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Файл</guimenu
+> <guimenuitem
+>Печать...</guimenuitem
+> </menuchoice
+></term>
+                         <listitem
+><para
+><action
+>Печатает</action
+> снимок карты &marble;.</para
+></listitem>
+                     </varlistentry>
+                     <varlistentry>
+                         <term
+><menuchoice
+><guimenu
+>Файл</guimenu
+> <guimenuitem
+>Предварительный просмотр</guimenuitem
+> </menuchoice
+></term>
+                         <listitem
+><para
+>Открывает окно c предпросмотром печатаемой карты.</para
+></listitem>
+                     </varlistentry>
+                     <varlistentry>
+                         <term
+><menuchoice
+><guimenu
+>Файл</guimenu
+> <guimenuitem
+>Работать автономно</guimenuitem
+> </menuchoice
+></term>
+                         <listitem
+><para
+>При выборе этого параметра &marble; не будет соединятся с Интернетом для загрузки информации. Все данные будут извлекаться из локальной базы данных. Новые маршруты не смогут быть рассчитаны.</para
+></listitem>
+                     </varlistentry>
+					 <varlistentry>
+						 <term
+><menuchoice
+><shortcut
+> <keycombo action="simul"
+>&Ctrl;<keycap
+>Q</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Файл</guimenu
+> <guimenuitem
+>Выход</guimenuitem
+> </menuchoice
+></term>
+						 <listitem
+><para
+><action
+>Выходит</action
+> из &marble;.</para
+></listitem>
+					 </varlistentry>
+				 </variablelist>
+
+			 </sect2>
+
+             <sect2>
+                 <title
+>Меню <guimenu
+>Правка</guimenu
+></title>
+
+                 <variablelist>
+                     <varlistentry>
+                         <term
+><menuchoice
+><shortcut
+> <keycombo action="simul"
+>&Ctrl;<keycap
+>C</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Правка</guimenu
+> <guimenuitem
+>Поместить снимок карты в буфер обмена</guimenuitem
+> </menuchoice
+></term>
+                         <listitem
+><para
+><action
+>Копирует</action
+> снимок карты &marble; в буфер обмена.</para
+></listitem>
+                     </varlistentry>
+                     <varlistentry>
+                         <term
+><menuchoice
+><guimenu
+>Правка</guimenu
+> <guimenuitem
+>Скопировать координаты в буфер обмена</guimenuitem
+> </menuchoice
+></term>
+                         <listitem
+><para
+><action
+>Копирует</action
+> текущие координаты в буфер обмена.</para
+></listitem>
+                     </varlistentry>
+                 </variablelist>
+
+             </sect2>
+
+<sect2>
+<title
+>Меню <guimenu
+>Вид</guimenu
+></title>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Вид</guimenu
+> <guimenuitem
+>Текущее расположение</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+><action
+>Переключает</action
+> отображение страницы текущего местоположения на левой панели. Если к вашему компьютеру подключено устройство GPS, там отобразятся ваши текущие координаты. </para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Вид</guimenu
+> <guimenuitem
+>Перекрестие</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+><action
+>Переключает</action
+> отображение перекрестия в центре карты.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+> <keycap
+>F5</keycap
+> </shortcut
+> <guimenu
+>Вид</guimenu
+> <guimenuitem
+>Перепоказать</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Видимый участок карты загружается заново и обновляется.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Вид</guimenu
+> <guisubmenu
+>Информация</guisubmenu
+> </menuchoice
+></term>
+<listitem
+><para
+>В этом меню можно зафиксировать положение информационных окон и переключить показ модулей, настроенных <link linkend="configplugins"
+>в конфигурации &marble;</link
+>.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Вид</guimenu
+> <guimenuitem
+>Сетевые службы</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Модуль <guimenuitem
+>Википедия</guimenuitem
+> показывает ссылки статьи Википедии как значки на карте. Щелчок на значке открывает статью. Информация предоставляется с помощью GeoNames.org. Как и модуль <guimenuitem
+>Фотографии</guimenuitem
+>, он предоставляет просмотр фотографий с FlickR.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Вид</guimenu
+> <guimenuitem
+>Облака</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+><action
+>Показывает</action
+> облака в реальном времени. Информация обновляется каждые три часа. Используются данные со спутников GOES, METEOSAT и GMS, загруженные с галереи на сайте университета Данди. Автор: Hari Nair, Xplanet Project.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Вид</guimenu
+> <guimenuitem
+>Атмосфера</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+><action
+>Показывает</action
+> диффузное отражении атмосферы Земли.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Вид</guimenu
+> <guimenuitem
+>Солнце...</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+><action
+>Показывает</action
+> окно <guilabel
+>Солнце</guilabel
+> с параметрами даты и времени, скорости симуляции, <guilabel
+>тени</guilabel
+> и положения Солнца на карте.</para
+></listitem>
+</varlistentry>
+
+</variablelist>
+
+</sect2>
+
+			 <sect2>
+				 <title
+>Меню <guimenu
+>Настройка</guimenu
+></title>
+
+				 <variablelist>
+					 <varlistentry>
+						 <term
+><menuchoice
+><guimenu
+>Настройка</guimenu
+> <guimenuitem
+>Показать панель инструментов</guimenuitem
+> </menuchoice
+></term>
+						 <listitem
+><para
+><action
+>Переключает</action
+> показ панели инструментов.</para>
+						 </listitem>
+					 </varlistentry>
+					 <varlistentry>
+						 <term
+><menuchoice
+><guimenu
+>Настройка</guimenu
+> <guimenuitem
+>Показать строку состояния</guimenuitem
+> </menuchoice
+></term>
+						 <listitem
+><para
+><action
+>Переключает</action
+> показ строки состояния.</para
+></listitem>
+					 </varlistentry>
+					 <varlistentry>
+						 <term
+><menuchoice
+><shortcut
+> <keycap
+>F9</keycap
+> </shortcut
+> <guimenu
+>Настройка</guimenu
+> <guimenuitem
+>Показать панель навигации</guimenuitem
+> </menuchoice
+></term>
+						 <listitem
+><para
+><action
+>Переключает</action
+> показ панели навигации в левой части окна.</para
+></listitem>
+					 </varlistentry>
+					 <varlistentry>
+						 <term
+><menuchoice
+><shortcut
+> <keycombo action="simul"
+>&Ctrl;&Shift;<keycap
+>F</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Настройка</guimenu
+> <guimenuitem
+>Полноэкранный режим</guimenuitem
+> </menuchoice
+></term>
+						 <listitem
+><para
+><action
+>Переключает вид окна между обычным и полноэкранным.</action
+> В полноэкранном режиме скрывается панель инструментов и заголовок, а окно подгоняется под размер экрана.</para
+></listitem>
+					 </varlistentry>
+					 <varlistentry>
+						 <term
+><menuchoice
+><guimenu
+>Настройка</guimenu
+> <guimenuitem
+>Настроить Виртуальный глобус &marble;...</guimenuitem
+> </menuchoice
+></term>
+						 <listitem
+><para
+><action
+>Показывает</action
+> окно <link linkend="configure"
+>конфигурации &marble;</link
+>.</para
+></listitem>
+					 </varlistentry>
+
+				 </variablelist>
+
+			 </sect2>
+
+			 <sect2>
+				 <title
+>Меню <guimenu
+>Справка</guimenu
+></title>
+&help.menu.documentation; </sect2>
+		 </sect1>
+	 </chapter>
+
+<chapter id="configure">
+<title
+>Настройка &marble;</title>
+
+<sect1 id="configview">
+<title
+>Настройка вида</title>
+<screenshot>
+<screeninfo
+>Окно конфигурации вида</screeninfo>
+<mediaobject>
+<imageobject>
+<imagedata fileref="configure-view.png" format="PNG"/>
+</imageobject>
+<textobject>
+<phrase
+>Окно настройки интерфейса</phrase>
+</textobject>
+</mediaobject>
+</screenshot>
+<variablelist>
+
+<varlistentry>
+<term
+><guilabel
+>Расстояние</guilabel
+></term>
+<listitem>
+<para
+>Единица измерений, используемая при отображении расстояния (&eg; километры, мили, футы).</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guilabel
+>Угол</guilabel
+></term>
+<listitem>
+<para
+>Определяет порядок отображения градусов в координатах. По умолчанию используется порядок градусы-минуты-секунды (&eg; 54°30'00" ). В качестве альтернативы есть десятичные значения (&eg; 54.5°)</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guilabel
+>Качество статичного изображения</guilabel
+></term>
+<listitem>
+<para
+>Определяет качество карты, показываемой при отсутствии действий пользователя. Обычно этот параметр установлен в "высокое качество".</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guilabel
+>Отображение карты</guilabel
+></term>
+<listitem>
+<para
+>Определяет способ отрисовки — <guilabel
+>X11</guilabel
+> или <guilabel
+>программная отрисовка</guilabel
+> — который &Qt; использует для отображения карты. Изменение этой опции может исправить проблемы производительности (если они есть) графических драйверов в системе. </para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guilabel
+>Качество изображения во время анимаций</guilabel
+></term>
+<listitem>
+<para
+>Определяет качество карты, отображаемой во время её движения (&eg; во время перемещения по глобусу). Рекомендуемое значение — <guilabel
+>Низкое качество</guilabel
+>, особенно на медленных компьютерах.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guilabel
+>Названия мест</guilabel
+></term>
+<listitem>
+<para
+>У различных мест на карте есть названия или имена. Они могут быть написаны на языке пользователя, либо содержать оригинальное название.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guilabel
+>Стандартный шрифт карты</guilabel
+></term>
+<listitem>
+<para
+>Стандартный шрифт, используемый на карте.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>
+
+<sect1 id="confignavigation">
+<title
+>Настройка навигации</title>
+<screenshot>
+<screeninfo
+>Диалог настройки навигации</screeninfo>
+<mediaobject>
+<imageobject>
+<imagedata fileref="configure-navigation.png" format="PNG"/>
+</imageobject>
+<textobject>
+<phrase
+>Диалог настройки навигации</phrase>
+</textobject>
+</mediaobject>
+</screenshot>
+
+<variablelist>
+<varlistentry>
+<term
+><guilabel
+>Перемещение по карте</guilabel
+></term>
+<listitem>
+<para
+>Есть два стандартных режима перемещения по карте при перетаскивании её мышкой: точное следование карты за курсором и фиксированное положение северного полюса. При последнем режиме карта может слегка "отделяться" от курсора.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guilabel
+>При запуске</guilabel
+></term>
+<listitem>
+<para
+>По умолчанию Marble будет показывать текущее расположение сразу после запуска приложения. По желанию он может показывать то место, на котором пользователь вышел из программы.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guilabel
+>Анимировать переход</guilabel
+></term>
+<listitem>
+<para
+>При поиске места Marble может либо перемещаться к результату поиска моментально, либо плавно перелетать к новому месту.</para>
+</listitem>
+</varlistentry>
+
+</variablelist>
+</sect1>
+
+<sect1 id="configcacheproxy">
+<title
+>Настройка кеширования и прокси</title>
+<screenshot>
+<screeninfo
+>Диалог настройки кеширования и прокси</screeninfo>
+<mediaobject>
+<imageobject>
+<imagedata fileref="configure-cacheproxy.png" format="PNG"/>
+</imageobject>
+<textobject>
+<phrase
+>Диалог настройки кеширования и прокси</phrase>
+</textobject>
+</mediaobject>
+</screenshot>
+
+<variablelist>
+<varlistentry>
+<term
+><guilabel
+>Кеширование</guilabel
+></term>
+<listitem>
+<para
+>В &marble; есть два типа кеша: оперативная память и жесткий диск. Увеличение выделяемого количества оперативной памяти позволит приложению работать быстрее. Увеличение выделяемого места на жестком диске позволит экономить трафик и меньше обращаться к картам в Интернете. </para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guilabel
+>Прокси</guilabel
+></term>
+<listitem>
+<para
+>Настройки прокси для вашей локальной сети. Оставьте поля пустыми если у вас нет прокси.</para>
+</listitem>
+</varlistentry>
+
+</variablelist>
+</sect1>
+
+<sect1 id="configrouting">
+<title
+>Настройка маршрутов</title>
+<screenshot>
+<screeninfo
+>Диалог настройки маршрутов</screeninfo>
+<mediaobject>
+<imageobject>
+<imagedata fileref="configure-routing.png" format="PNG"/>
+</imageobject>
+<textobject>
+<phrase
+>Диалог настройки маршрутов</phrase>
+</textobject>
+</mediaobject>
+</screenshot>
+
+<variablelist>
+
+<varlistentry>
+<term
+><guilabel
+>Добавить</guilabel
+></term>
+<listitem>
+<para
+>Открывает окно, в котором вы можете добавить новый профиль маршрута.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guilabel
+>Настройки</guilabel
+></term>
+<listitem>
+<para
+>Открывает окно с настройками выбранного профиля маршрута.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guilabel
+>Удалить</guilabel
+></term>
+<listitem>
+<para
+>Удаляет выбранный профиль</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guilabel
+>Переместить вверх</guilabel
+></term>
+<listitem>
+<para
+>Перемещает выбранный профиль на строку вверх. </para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guilabel
+>Переместить вниз</guilabel
+></term>
+<listitem>
+<para
+>Перемещает выбранный профиль на строку вниз. Он появится после строки, которая до этого была до него.</para>
+</listitem>
+</varlistentry>
+
+</variablelist>
+
+</sect1>
+
+<sect1 id="configplugins">
+<title
+>Настройки расширений</title>
+<para
+>Диалог <guilabel
+>Настройки модулей</guilabel
+> &mdash; место, где вы можете включить (или выключить) дополнительные модули, расширяющие функционал &marble;. Активные модули будут показаны в меню <guilabel
+>Вид</guilabel
+>, где вы можете включить или выключить их показ на карте. </para>
+<screenshot>
+<screeninfo
+>Диалог настройки модулей</screeninfo>
+<mediaobject>
+<imageobject>
+<imagedata fileref="configure-plugins.png" format="PNG"/>
+</imageobject>
+<textobject>
+<phrase
+>Диалог настройки расширений</phrase>
+</textobject>
+</mediaobject>
+</screenshot>
+<para
+>Каждый модуль может быть отключен при помощи переключателя слева. Некоторые модули требуют дополнительной настройки, для этого есть значок гаечного ключа справа. </para>
+
+<variablelist>
+
+<varlistentry>
+<term
+><guilabel
+>Модуль Amateur Radio Aprs</guilabel
+></term>
+<listitem>
+<para
+>Получает данные от ARPS через Интернет, из файла или от внешнего устройства. Координаты и статус передающего показываются на карте и обновляются в реальном времени.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guilabel
+>Компас</guilabel
+></term>
+<listitem>
+<para
+>Показывает компас на карте</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guilabel
+>Прицел</guilabel
+></term>
+<listitem>
+<para
+>Показывает небольшое перекрестие в центре карты.</para>
+</listitem>
+</varlistentry>
+
+<!-- Not enabled in released version
+<varlistentry>
+<term
+><guilabel
+>File view</guilabel
+></term>
+<listitem>
+<para
+>Displays a list of currently opened files.</para>
+</listitem>
+</varlistentry
+>-->
+
+<varlistentry>
+<term
+><guilabel
+>Модуль GeoRenderer</guilabel
+></term>
+<listitem>
+<para
+>Этот модуль рисует содержание карты (например, из файла KML)</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guilabel
+>Сетка координат</guilabel
+></term>
+<listitem>
+<para
+>Этот модуль показывает координатную сетку.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guilabel
+>Полоска масштаба</guilabel
+></term>
+<listitem>
+<para
+>Плавающий элемент, показывает масштаб карты.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guilabel
+>Навигация</guilabel
+></term>
+<listitem>
+<para
+>Показывает плавающий элемент для навигации по карте при помощи мыши.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guilabel
+>Обзор карты</guilabel
+></term>
+<listitem>
+<para
+>Плавающий элемент, показывает обзор карты.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guilabel
+>Фотографии</guilabel
+></term>
+<listitem>
+<para
+>Автоматически загружает фотографии по всему миру и показывает их на карте.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guilabel
+>Индикатор процесса загрузки карт</guilabel
+></term>
+<listitem>
+<para
+>Диаграмма, показывающая процесс загрузки карты.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guilabel
+>Модуль звёзд</guilabel
+></term>
+<listitem>
+<para
+>Модуль, показывающий звёздное небо.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guilabel
+>Погода</guilabel
+></term>
+<listitem>
+<para
+>Скачивает текущую информацию о погоде в городах и показывает её на карте.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guilabel
+>Статьи Wikipedia</guilabel
+></term>
+<listitem>
+<para
+>Автоматически скачивает статьи Wikipedia и показывает их на карте.</para>
+</listitem>
+</varlistentry>
+
+</variablelist>
+</sect1>
+
+</chapter>
+
+	 <chapter id="faq">
+		 <title
+>Вопросы и ответы</title>
+
+		 <qandaset id="faqlist">
+             <qandaentry>
+                 <question>
+                     <para
+>Моего дома нет на карте / Зачем мне использовать &marble;, если у меня есть Google Earth?</para>
+                 </question>
+                 <answer>
+                     <para
+>&marble; нацелен на то, чтобы быть быстрым и лёгким образовательным географическим пособием, которое быстро работает на любой платформе, поддерживающей &Qt;. Он не содержит карт высокого разрешения, так как они нужны далеко не всем и не во всех случаях (как например вам не нужен мощный текстовый редактор каждый раз, когда вы хотите написать пару строк). Обращаем внимание, что &marble; &mdash; свободный программный продукт и основан на данных, которые могут свободно распространяться. </para>
+                 </answer>
+             </qandaentry>
+             <qandaentry>
+                 <question>
+                     <para
+>Почему &marble; так быстро работает даже без аппаратного ускорения? / Почему &marble; дергается на моём дорогом 3D адаптере?</para>
+                 </question>
+                 <answer>
+                     <para
+>Несмотря на представление Земли в форме шара, &marble; не использует 3D ускорение. Это позволяет ему быстро работать на любой системе, поддерживающей &Qt;. Это же является и минусом, так как использование OpenGL могло бы сделать перемещение более плавным. &marble; использует простую 2D графику и требует только адаптер, поддерживающий 2D. Мы планируем добавить OpenGL движок в будущем. </para>
+                 </answer>
+             </qandaentry>
+			 <qandaentry>
+				 <question>
+					 <para
+>Должен ли я платить за &marble;?</para>
+				 </question>
+				 <answer>
+					 <para
+>Нет, никогда. Но авторы никогда не против пожертвований. &marble; распространяется под лицензией <ulink url="http://www.gnu.org/licenses/licenses.html#LGPL"
+>LGPL</ulink
+>, так что вам никогда не нужно будет платить за эту программу. </para>
+				 </answer>
+			 </qandaentry>
+             <qandaentry>
+                 <question>
+                     <para
+>Как я могу помочь &marble;?</para>
+                 </question>
+
+                 <answer>
+                     <para
+>&marble; это не только программа, но и свободный программный продукт. Вы можете к нему легко присоединиться: просто напишите в список рассылки kde-edu (kde-edu@kde.org). </para>
+                 </answer>
+             </qandaentry>
+		 </qandaset>
+	 </chapter>
+
+	 <chapter id="credits">
+
+		 <title
+>Авторские права и лицензии</title>
+		 <para
+>&marble;</para>
+		 <para
+>Авторские права на программу 2005-2007 &Torsten.Rahn; &Torsten.Rahn.mail; </para>
+
+		 <para
+>Авторы:</para>
+
+		 <itemizedlist>
+             <listitem
+><para
+>&Torsten.Rahn; &Torsten.Rahn.mail; </para
+></listitem>
+			 <listitem
+><para
+>Inge Wallin <email
+>inge@lysator.liu.se</email
+> </para
+></listitem>
+		 </itemizedlist>
+
+		 <para
+>Перевод на русский: Максим Воробьёв <email
+>vmax0770@gmail.com</email
+></para
+><para
+>Перевод на русский: Константин Богданов <email
+>var1able@var1able.ru</email
+></para
+> 
+&underFDL; &underLGPL; </chapter>
+
+	 <appendix id="installation">
+		 <title
+>Установка</title>
+
+		 <sect1 id="getting-marble">
+			 <title
+>Где можно скачать &marble;</title>
+&install.intro.documentation; </sect1>
+
+		 <sect1 id="requirements">
+			 <title
+>Получение Marble</title>
+
+			 <para
+>&marble; может быть скачан на <ulink url="http://edu.kde.org/marble"
+>домашней странице &marble;</ulink
+> и как часть образовательно проекта &kde;</para>
+
+			 <para
+>Список изменений вы можете найти в файле <filename
+>ChangeLog</filename
+> в дистрибутиве &marble;.</para>
+		 </sect1>
+
+		 <sect1 id="compilation">
+			 <title
+>Сборка и установка</title>
+
+             <para
+>&marble; может быть собран только с &Qt; и &kde; 4 версии. Для сборки &marble; с &Qt; 4 версии скопируйте репозиторий &marble; из &kde; SVN в ~/marble и выполните: <command
+>cmake -DQTONLY=ON ~/marble</command
+> и <command
+>sudo make install</command
+>. Для сборки &marble; с поддержкой &kde; смотрите инструкции по сборке приложений в <ulink url="http://techbase.kde.org/"
+>Технической базе данных &kde;</ulink
+>. </para
+> 
+		 </sect1>
+
+	 </appendix>
+
+	 &documentation.index;
+ </book>
+ <!--
+ Local Variables:
+ mode: sgml
+ sgml-minimize-attributes:nil
+ sgml-general-insert-case:lower
+ sgml-indent-step:0
+ sgml-indent-data:nil
+ End:
+
+ // vim:ts=2:sw=2:tw=78:noet:noai
+ -->

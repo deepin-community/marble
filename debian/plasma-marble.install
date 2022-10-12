@@ -1,0 +1,8 @@
+usr/lib/*/qt5/plugins/kf5/krunner/plasma_runner_marble.so
+usr/lib/*/qt5/qml/org/kde/marble/private/plasma/libmarblequick.so
+usr/lib/*/qt5/qml/org/kde/marble/private/plasma/qmldir
+usr/share/kservices5/plasma-applet-org.kde.plasma.worldclock.desktop
+usr/share/kservices5/plasma-wallpaper-org.kde.plasma.worldmap.desktop
+usr/share/metainfo/org.kde.plasma.worldclock.appdata.xml
+usr/share/metainfo/org.kde.plasma.worldmap.appdata.xml
+usr/share/plasma/
