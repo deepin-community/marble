@@ -1,8 +1,12 @@
-marble (4:21.08.3-1) UNRELEASED; urgency=medium
+marble (4:21.08.3-1deepin0) unstable; urgency=medium
 
+  [ Debian Qt/KDE Maintainers ]
   * update
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 07 Jun 2022 11:35:54 +0800
+  [ Tianyu Chen ]
+  * No source change upload against GCC 12.
+
+ -- Tianyu Chen <sweetyfish@deepin.org>  Fri, 20 Sep 2024 12:13:17 +0800
 
 marble (4:21.08.3-1) unstable; urgency=medium
 
